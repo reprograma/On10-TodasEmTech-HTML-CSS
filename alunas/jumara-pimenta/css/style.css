@@ -22,23 +22,29 @@ elementos:
 }
 
 body {
-    background-color: #f9dbbd;
-    color: rgb(221, 153, 206);
+    background-color: #FDE8E9;
 
 }
 header {
     width: 100%;
     height: 40vh;
-    background-color: #fff;
-    text-align: center;
     margin: auto;
+    background-color: #9F76A7;
+}
 }
 
 h1 {
-    color: rgb(194, 33, 170);
+    color: #5E4064
+    font-family: 'Pacifico', cursive;
+}
 
+h2 {
+    text-align: center;
+    color: #5E4064;
 }
 
 .cabecalho__conteudo {
     padding-top: 75px;
+    text-align: center;
+    color: #FDE8E9;
 }
