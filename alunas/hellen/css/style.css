@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: white;
+    font-family: 'Caveat', cursive;;
+  }
+
+  header {
+    background-image: url(../img/eu.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;  
+    color: rgb(242, 242, 245);
+  }
+
+    header  p { 
+        font-size: 30px;
+    }  
+
+    .cabecalho_inicio {
+    padding: 158px;
+    }
+
+    .titulo {
+    text-align: center;
+    font-size: 36px;
+    padding: 2px;
+  }
+
+  .tituloSobre{
+    background-color: rgb(127 94 121 / 68%);
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+
+  .artigo__sobreMim{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+  }
+
+  .artigo__sobreMim conteudo__sobreMim p {
+    width: 560px;
+    text-align: center;
+    margin-top: 50px;
+    background-size: black;
+    font-size: 400px;
+  }
+
+  .btn{
+    border-radius: 3rem; /*borda do botao*/
+    text-transform: uppercase; /*  */
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+    .btn_branco{
+        color: rgb(80, 23, 66);
+        text-decoration: none;
+    }
+
+    
+    .git {
+        background: url(../img/github.png) center no-repeat;
+        background-color: rgb(175, 20, 136);
+        height: auto;
+        padding-top: 10rem;
+        text-align: center; /*texto centralizado*/
+        width: 48%;
+        margin-left: 1.8%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .linkedin {
+        background: url(../img/in.png) center no-repeat;
+        background-color: rgb(206, 49, 166);
+        height: auto;
+        padding-top: 10rem;
+        text-align: center; /*texto centralizado*/
+        width: 48%;
+        margin-left: 0.3%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .listas h3 {
+        background-color: rgb(127 94 121 / 68%);
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        display: center;
+        font-size: 22px;
+        color: white;
+
+    }
+
+    .jogo {
+        background: url(../img/lol.jpg) center no-repeat;
+        display: flex;
+        padding: 90px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 40px;
+        }
+
+    .musicas h3{
+        background-color: rgb(127 94 121 / 68%);
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        display: center;
+        font-size: 22px;
+        color: white;
+    }
+
+    .listaMusica{
+      margin-top: 35px;  
+      display: flex;
+      justify-content: center;
+      font-size:20px;
+    }
+
+    .imgMusica{ 
+      display: flex;
+      padding: 50px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row-reverse;
+    }
+    
+    .comidas h3{
+      background-color: rgb(127 94 121 / 68%);
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 15px;
+      display: center;
+      font-size: 22px;
+      color: white;
+  }
+
+  .imgComida{ 
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+   
+  .curiosidade h3{
+    background-color: rgb(127 94 121 / 68%);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    display: center;
+    font-size: 22px;
+    color: white;
+  }
+
+  .curiosidade p {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .curiosidade h2{
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .final{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    color: rgb(211, 146, 62);
+    font-size: 17px;
+  }
