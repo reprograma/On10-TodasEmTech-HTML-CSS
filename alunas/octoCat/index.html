@@ -1,13 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OctoCat > Nome </title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>octoCat!</title>
     <link href="./css/style.css" rel="stylesheet" />
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- formas de pôr estilo tag <style>, atributo style="", usando <link> externo -->
+    <style>
+      header p {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="cabecalho__conteudo">
+        <h1 class="cabecalho__titulo titulo">Olá mundo novo</h1>
+        <p>meu nome é octocat e eu vim pra alegrar!</p>
+      </div>
+    </header>
+    <main>
+      <section class="sobreMim section">
+        <h2 class="titulo">Conhecendo mais sobre mim</h2>
+        <article class="artigo__sobreMim">
+          <img
+            style="width: 300px"
+            src="./img/my-octocat.png"
+            alt="uma polva gato com café no tentaculo e com a língua de fora"
+          />
+          <div class="conteudo__sobreMim">
+            <p>
+              Aprendendo a arranhar debaixo d'água é louco Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Assumenda, tempore
+              necessitatibus accusantium consequatur officiis ex aliquam sunt
+              quasi! Ad commodi recusandae itaque dolore sequi, excepturi nam
+              saepe accusamus tempora omnis. Delectus.
+            </p>
+            <a href="https://myoctocat.com/build-your-octocat/"
+              >Faça seu próprio octocat</a
+            >
+          </div>
+        </article>
+      </section>
+      <section class="section">
+        <h2 class="titulo">Listas: Coisas que eu gosto</h2>
+        <section class="listas">
+          <div>
+            <h3>Músicas que gosto:</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=GKfMYbbWEJY"
+                  target="_blank"
+                  >gloria grove</a
+                >
+              </li>
+              <li><a href="https://www.youtube.com/watch?v=t7j7XXAJVlw" target="_blank"> ana vitória</a></li>
+              <li>megadeath</li>
+              <li>u2</li>
+              <li>cicero</li>
+              <li>tiago iorc</li>
+              <li>tori ramos</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Comidas favoritas (da melhor a menor:)</h3>
+            <ol>
+              <li>whiskas sachê</li>
+              <li>banana</li>
+              <li>pão</li>
+            </ol>
+          </div>
+        </section>
+      </section>
+      <section class="displaySection">
+        <h2 class="titulo">Aprendendo os displays!</h2>
+        <div>
+          <div class="exemploDisplay block red">block</div>
+          <div class="exemploDisplay block red">block</div>
+          <div class="exemploDisplay block red">block</div>
+        </div>
+        <div>
+          <div class="exemploDisplay inlineBlock blue">inline-block</div>
+          <div class="exemploDisplay inlineBlock blue">inline-block</div>
+          <div class="exemploDisplay inlineBlock blue">inline-block</div>
+        </div>
+        <div>
+          <div class="exemploDisplay inline green">inline</div>
+          <div class="exemploDisplay inline green">inline</div>
+          <div class="exemploDisplay inline green">inline</div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
