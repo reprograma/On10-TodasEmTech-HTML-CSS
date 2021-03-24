@@ -9,6 +9,16 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.section{
+    padding-top: 50px;
+    color: darkslategray;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
 .containerHeader{
     padding: 75px;
     width: 100%;
@@ -30,11 +40,6 @@ body {
     padding: 10px;
 }
 
-.section{
-    padding-top: 50px;
-    color: darkslategray;
-    text-align: center;
-}
 
 .conteudoSobreMim{
     display: flex;
@@ -54,14 +59,73 @@ body {
     border-radius: 50%;
 }
 
+.sectionMeusHobbies{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50vh;
+}
 
+.divListaHobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
 
+.listaHobbies{
+    list-style:none;
+}
 
+.itemLista{
+    padding-top: 6px;
+}
 
+.sectionMinhasRedesSociais{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
 
+.redesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
 
+.elemetoRedesSociais{
+    margin: 35px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(155, 101, 155);
+    border-radius: 5px;
+}
 
+.redesSociais img{
+    width: 100px;
+    height: 100px;
+}
 
+.redesSociais a{
+    color: white;
+}
 
+.rodape {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: white;
+}
 
+.rodape-span {
+    font-size: 1.1rem;
+}
+
+.rodape-span:hover {
+    font-size: 1.3rem;
+    color: #7E459B;
+}
 
