@@ -21,6 +21,7 @@ ul{
     margin-right: 25px
 }
 
+/* heade */
 header {
     display: flex;
     flex-direction: row;
@@ -43,6 +44,7 @@ header p{
     font-size:15px
 }
 
+/* menu */
 #menu{
     align-items: center;
     display: flex;
@@ -76,6 +78,7 @@ header p{
     border-color: #030405;
  }
 
+ /* Botão para todo */
 .topo a{
     position:fixed;
     font-family: 'Syne Mono', monospace;
@@ -98,6 +101,7 @@ header p{
     color: #fff;
  }
 
+ /* conteúdo da div */
 #conteudo{
     align-items:center;
     display: flex;
@@ -128,6 +132,7 @@ header p{
     margin-right: 25px
 }
 
+/* conteúdo na div com texto no centro */
 #conteudo-center{
     align-items:center;
     display: flex;
@@ -151,6 +156,7 @@ header p{
     
 }
 
+/* rodapé */
 #rodape{
     display: flex;
     flex-direction: row;
@@ -162,16 +168,6 @@ header p{
     align-items: center;
     margin-top:15px;
     padding-bottom: 15px;
-}
-
-#rodape p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#rodape a{
-    text-decoration: none;
-    color:#fff;
 }
 
 #rodape img{
@@ -187,7 +183,9 @@ header p{
 #rodape p{
     font-family: 'Syne Mono', monospace;
     color: rgb(240, 233, 233);
-    font-size:15px
+    font-size:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #rodape .foto{
@@ -198,6 +196,12 @@ header p{
 #rodape .link-rede{
     padding-top: 35px;
     text-align: center;
+}
+
+#rodape a{
+    text-decoration: none;
+    color:#fff;
+
 }
 
 #rodape .link-rede a{
@@ -231,7 +235,6 @@ header p{
 }
  
 #rodape .ex a:hover { 
-    text-decoration:solid; 
     border-style: solid;
     border-width: 1px;
     border-color: #030405;
@@ -249,9 +252,8 @@ header p{
 #rodape .btn a:link, a:visited, a:active {
     text-decoration: none;
     padding: 5px;
-
     font-size: 20px;
-    }
+}
  
 #rodape .btn a:hover { 
     text-decoration:overline; 
@@ -259,7 +261,6 @@ header p{
     border-color: #030405;
     padding: 5px;
     font-size: 20px;
- 
     right: 12px;  
 }
 
