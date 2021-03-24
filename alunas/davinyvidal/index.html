@@ -12,7 +12,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
-</head>
+    <script>
+
+      function showDiv( idName, value ){
+          objDiv = document.getElementById( idName );
+          if( value )
+              objDiv.style.display = "";
+          else
+              objDiv.style.display = "none";
+      }
+      
+      </script>
+
+
+  </head>
 <body>
     <header>
         <div class="foto"><img src="img/Lynn-Conway.png" style="width: 225px;padding: 24px;"></div>
@@ -117,15 +130,35 @@
 </div>
     </section>
 
-
+<div id="d2" style="display: block;">
     <section id="rodape">
-        <div class="foto"><img src="https://reprograma.com.br/assets/img/logo-fundoclaro.png"></div>
+      <div class="foto"><img src="https://reprograma.com.br/assets/img/logo-fundoclaro.png"></div>
+      <div class="cabecalho">
+        <h1 class="cabecalho_-titulo titulo">Gostou do conteúdo? </h1>
+        <div class="ex"><p>Envia o seu feedback <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );">clicando aqui!!!</a></p></div>
+        <div class="ex"><p>Página feito para aula do Reprograma - exercícios 02 - Feito com ❤ por <a href="">Daviny vidal</a></p></div>
+        <div class="link-rede"><a href="https://www.linkedin.com/in/davinyvidal/">Linkedin</a> <a href="https://github.com/davinyvidal/">Github</a> <a href="mailto:daviny@vidal.dev.br">E-mail</a></div>
+      </div>
+  </section>
+</div>
+
+<div id="d1" style="display: none;">
+    <section id="rodape">
+      
         <div class="cabecalho">
-          <h1 class="cabecalho_-titulo titulo">Gostou do conteúdo? </h1>
-          <p>envia o seu feedback</p>
-          <div class="ex"><p>Página feito para aula do Reprograma - exercícios 02 - Feito com ❤ por <a href="">Daviny vidal</a></p></div>
-          <div class="link-rede"><a href="https://www.linkedin.com/in/davinyvidal/">Linkedin</a> <a href="https://github.com/davinyvidal/">Github</a> <a href="mailto:daviny@vidal.dev.br">E-mail</a></div>
+          <h1 class="cabecalho_-titulo titulo center">Envia o seu feedback </h1>
+          <form>
+            <div class="input">
+                <input type="email" name="login" placeholder="Digite seu e-mail">
+                <input type="email" name="login" placeholder="Digite sua mensagem">
+            </div>
+            <div class="btn"
+              ><a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );">Voltar</a> <a href="submit" name="enviar" value="Enviar">Enviar</a> 
+            </div>
+          </form>
+          <div class="ex center"><p>Página feito para aula do Reprograma - exercícios 02 - Feito com ❤ por <a href="">Daviny vidal</a></p></div>
         </div>
     </section>
+</div>
 </body>
 </html>

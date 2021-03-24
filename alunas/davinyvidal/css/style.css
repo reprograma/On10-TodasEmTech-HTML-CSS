@@ -152,7 +152,7 @@ header p{
 }
 
 #rodape p{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 #rodape a{
@@ -226,7 +226,7 @@ header p{
     }
  
 #rodape .ex a:hover { 
-    text-decoration: none; 
+    text-decoration:solid; 
     border-style: solid;
     border-width: 1px;
     border-color: #030405;
@@ -235,7 +235,6 @@ header p{
     
 
 }
-
 
     #sobre-autora{
         align-items:center;
@@ -275,4 +274,43 @@ header p{
         padding-top: 8px;
         padding-bottom: 8px;
         margin-right: 25px
+    }
+
+    #rodape input{
+        margin-bottom: 16px;
+        padding: 5px;
+        width: 405px;
+        height: 40px;
+    }
+
+
+    #rodape .btn a:link, a:visited, a:active {
+        text-decoration: none;
+        padding: 5px;
+
+        font-size: 20px;
+        }
+     
+    #rodape .btn a:hover { 
+        text-decoration:overline; 
+        color:aquamarine;
+        border-color: #030405;
+        padding: 5px;
+        font-size: 20px;
+     
+        right: 12px;
+        
+    }
+
+    #rodape .btn{
+        text-align: center;
+        margin: 26px;
+    }
+
+    #rodape form{
+        margin: 15px;
+    }
+
+    .center{
+        text-align: center;
     }
