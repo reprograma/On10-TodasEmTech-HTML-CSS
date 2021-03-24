@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9dbbd;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.containerHeader{
+    padding: 75px;
+    width: 100%;
+    height: 40vh;
+    color: #e7e7e6;
+    background-image: url(../img/backgroundGeovannaDomingos.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.tituloHeader{
+    color: #fff;
+    font-size: 36px;
+}
+
+.descricaoHeader{
+    color: #fff;
+    padding: 10px;
+}
+
+.section{
+    padding-top: 50px;
+    color: darkslategray;
+    text-align: center;
+}
+
+.conteudoSobreMim{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricaoSobreMim{
+    width: 450px;
+    text-align: start;
+}
+
+.imagemSobreMim{
+    width: 270px;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
