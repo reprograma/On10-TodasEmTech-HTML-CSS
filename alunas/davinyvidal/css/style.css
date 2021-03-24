@@ -52,9 +52,33 @@ header p{
     }
 #menu a:hover { 
     text-decoration: none; 
-    background-color:#030405;  }
+    background-color:#030405; 
+ }
 
 
+.topo a{
+    position:fixed;
+    font-family: 'Syne Mono', monospace;
+    
+    right:40px;
+    bottom: -10px;
+    display: flex;
+  
+    padding: 15px;
+    border-radius: 15px;
+    text-overflow: clip;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+
+}
+.topo a:link, a:visited, a:active {
+    text-decoration: none;
+    }
+.topo a:hover { 
+    text-decoration: none; 
+    background-color:#111213; 
+    color: #fff;
+ }
 
 
 #conteudo{
