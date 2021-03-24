@@ -37,10 +37,12 @@ header p{
     padding-left: 5px;
     font-size: 15px;
     border-radius: 15px;
-    background-color:#505153;
+  
+    border-style:solid;
+        border-width: 1px;
    
     padding: 16px;
-    color:#fff;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     
@@ -49,10 +51,12 @@ header p{
 
 #menu a:link, a:visited, a:active {
     text-decoration: none;
+
     }
 #menu a:hover { 
     text-decoration: none; 
     background-color:#030405; 
+    color:#fff;
  }
 
 
