@@ -1,0 +1,44 @@
+li {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+}
+img {
+    width: 200px;
+    height: 150px;
+    border-radius: 4px;
+}
+section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 1.1rem;
+    background-color: rgb(197, 197, 197);
+}
+.header {
+    background-color: rgb(197, 197, 197);
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-lista {
+    padding: 20px;
+    color: #212529;
+}
+.item-hobbies {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.legenda {
+    padding: 10px;
+}
+.footer {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
