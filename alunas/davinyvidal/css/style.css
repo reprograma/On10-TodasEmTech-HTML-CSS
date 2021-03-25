@@ -229,7 +229,7 @@ header p{
         font-size: 16px;
         margin: 0;
         width: 100%;
-        height: 372px;  
+        height: 402px;  
 }
 
 #sobre-autora .borde{   
@@ -279,7 +279,12 @@ header p{
     color: #fff;
  }
 
+.conteudo-text-sobre{
+    width: 600px;
+    margin-left: 20px;
+    font-size: 15px;
 
+}
 /* btn desativado */
 
 
