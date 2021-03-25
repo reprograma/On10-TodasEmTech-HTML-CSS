@@ -229,6 +229,7 @@ header p{
     background-color:none; 
     color:rgb(219, 212, 212);
     border-color: rgb(219, 212, 212);
+    font-weight: 400;
 }
 
 #rodape .ex a:link, a:visited, a:active {
