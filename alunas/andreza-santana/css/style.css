@@ -1,9 +1,58 @@
-li {
-    list-style-type: none;
-  }
+/*Reset*/
 a {
     text-decoration: none;
 }
+li {
+    list-style-type: none;
+}
+
+/*formatação comum*/
+html {
+    scroll-behavior: smooth;
+    transition-duration: 6s;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Index.html*/
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position:bottom;
+}
+.hello {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+}
+.title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+.button-about {
+    width: 220px;
+    height: 30px;
+    font-size: 20px;
+    color: #67595E;
+    background-color: #EED6D3;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+.button-about:hover{
+    background-color: #E8B4B8;
+}
+
+/*sobre.html*/
 img {
     width: 200px;
     height: 150px;
@@ -11,21 +60,22 @@ img {
 }
 section {
     width: 80%;
+    padding: 10px;
     margin: 0 auto;
-    margin-top: 80px;
-    font-size: 1.1rem;
-    background-color: rgb(197, 197, 197);
-}
-.header {
-    background-color: rgb(197, 197, 197);
-}
-.menu {
+    background-color: rgb(8, 163, 163);
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-2 {
+    width: 50%;
+    height: 50%;
+    background-color: tomato;
 }
 .item-lista {
     padding: 20px;
-    color: #212529;
+    color: white;
 }
 .item-hobbies {
     display: flex;
