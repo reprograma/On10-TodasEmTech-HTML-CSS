@@ -17,7 +17,7 @@ p{
 
 
  /* Botão para todo */
- .topo-btn a{
+ .topo-btn > a{
     position:fixed;
     font-family: 'Syne Mono', monospace;
     right:40px;
@@ -119,8 +119,7 @@ header p{
 
 .conteudo-text{
     width: 600px;
-    margin-left: 20px;
-    
+    margin-left: 20px;  
 }
 
 .conteudo-text h3{
@@ -199,7 +198,7 @@ header p{
 }
 
 #rodape .link-rede{
-    padding-top: 35px;
+    margin-top: 35px;
     text-align: center;
 }
 
@@ -213,7 +212,6 @@ header p{
     margin-left: 25px;
     border-radius: 16px;
     margin: 20px;
-    padding-left: 5px;
     border-radius: 15px;
     border-style:solid;
     border-width: 1px;
@@ -223,18 +221,7 @@ header p{
 }
 
  
-#rodape > a:visited{
-    margin-left: 25px;
-    border-radius: 16px;
-    text-decoration: none; 
-    background-color:none; 
-    color:rgb(219, 212, 212);
-    border-color: rgb(219, 212, 212);
-    padding: 16px;
 
-}
-
-    
 #rodape .link-rede a:hover { 
     text-decoration: none; 
     background-color:none; 
@@ -263,6 +250,8 @@ header p{
     height: 40px;
 }
 
+
+/*
 #rodape .btn a:link, a:visited, a:active {
     text-decoration: none;
     padding: 5px;
@@ -283,9 +272,13 @@ header p{
     margin: 26px;
 }
 
+
+
 #rodape form{
     margin: 15px;
 }
+
+*/
 
 #sobre-autora{
         align-items:center;
