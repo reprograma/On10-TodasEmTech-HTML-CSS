@@ -16,29 +16,6 @@ p{
 }
 
 
- /* Botão para todo */
- .topo-btn > a{
-    position:fixed;
-    font-family: 'Syne Mono', monospace;
-    right:40px;
-    bottom: 0;
-    padding: 12px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color:rgb(0, 0, 0);
-}
-.topo-btn > a:link, a:visited{
-    text-decoration: none;
-    background-color:#ffffff; 
-    color: rgb(0, 0, 0);
-}
-
-.topo-btn > a:hover{ 
-    text-decoration: none; 
-    background-color:#3b3f42; 
-    color: #fff;
- }
- 
 
 ul{
     font-family: 'Open Sans', sans-serif;
@@ -243,42 +220,6 @@ header p{
     color:aquamarine
 }
 
-#rodape input{
-    margin-bottom: 16px;
-    padding: 5px;
-    width: 405px;
-    height: 40px;
-}
-
-
-/*
-#rodape .btn a:link, a:visited, a:active {
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-}
- 
-#rodape .btn a:hover { 
-    text-decoration:overline; 
-    color:aquamarine;
-    border-color: #030405;
-    padding: 5px;
-    font-size: 20px;
-    right: 12px;  
-}
-
-#rodape .btn{
-    text-align: center;
-    margin: 26px;
-}
-
-
-
-#rodape form{
-    margin: 15px;
-}
-
-*/
 
 #sobre-autora{
         align-items:center;
@@ -311,3 +252,70 @@ header p{
 .center{
         text-align: center;
 }
+
+
+/* Botão para todo */
+.topo-btn > a{
+    position:fixed;
+    font-family: 'Syne Mono', monospace;
+    right:40px;
+    bottom: 0;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:rgb(0, 0, 0);
+
+
+}
+.topo-btn > a:link, a:visited{
+    text-decoration: none;
+    background-color:#ffffff; 
+    color: rgb(0, 0, 0);
+}
+
+.topo-btn > a:hover{ 
+    text-decoration: none; 
+    background-color:#3b3f42; 
+    color: #fff;
+ }
+
+
+/* btn desativado */
+
+#rodape input{
+    margin-bottom: 16px;
+    padding: 5px;
+    width: 405px;
+    height: 40px;
+}
+
+
+
+#rodape .btn a:link, a:visited, a:active {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+ 
+#rodape .btn a:hover { 
+    text-decoration:overline; 
+    color:aquamarine;
+    border-color: #030405;
+    padding: 5px;
+    font-size: 20px;
+    right: 12px;  
+}
+
+#rodape .btn{
+    text-align: center;
+    margin: 26px;
+}
+
+
+
+#rodape form{
+    margin: 15px;
+}
+
+
+
