@@ -282,40 +282,7 @@ header p{
 
 /* btn desativado */
 
-#rodape input{
-    margin-bottom: 16px;
-    padding: 5px;
-    width: 405px;
-    height: 40px;
-}
 
-
-
-#rodape .btn a:link, a:visited, a:active {
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-}
- 
-#rodape .btn a:hover { 
-    text-decoration:overline; 
-    color:aquamarine;
-    border-color: #030405;
-    padding: 5px;
-    font-size: 20px;
-    right: 12px;  
-}
-
-#rodape .btn{
-    text-align: center;
-    margin: 26px;
-}
-
-
-
-#rodape form{
-    margin: 15px;
-}
 
 
 
