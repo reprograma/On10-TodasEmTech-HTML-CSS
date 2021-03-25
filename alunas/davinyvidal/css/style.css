@@ -219,14 +219,16 @@ header p{
     border-width: 1px;
     padding: 16px;
     color:#000;
-    text-decoration: none;
+    
 }
 
 #rodape .link-rede a:link, {
-    text-decoration: none;
+   
 }
  
 #rodape > a:visited{
+    margin-left: 25px;
+    border-radius: 16px;
     text-decoration: none; 
     background-color:none; 
     color:rgb(219, 212, 212);
