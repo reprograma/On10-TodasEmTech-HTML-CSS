@@ -15,6 +15,31 @@ p{
    
 }
 
+
+ /* Botão para todo */
+ .topo-btn a{
+    position:fixed;
+    font-family: 'Syne Mono', monospace;
+    right:40px;
+    bottom: 0;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:rgb(0, 0, 0);
+}
+.topo-btn > a:link, a:visited{
+    text-decoration: none;
+    background-color:#ffffff; 
+    color: rgb(0, 0, 0);
+}
+
+.topo-btn > a:hover{ 
+    text-decoration: none; 
+    background-color:#3b3f42; 
+    color: #fff;
+ }
+ 
+
 ul{
     font-family: 'Open Sans', sans-serif;
     padding-top: 8px;
@@ -77,29 +102,6 @@ header p{
     background-color:#030405; 
     color:#fff;
     border-color: #030405;
- }
-
- /* Botão para todo */
-.topo a{
-    position:fixed;
-    font-family: 'Syne Mono', monospace;
-    right:40px;
-    bottom: 0;
-    padding: 12px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.topo a:link, a:visited, a:active {
-    text-decoration: none;
-}
-
-.topo a:hover { 
-    text-decoration: none; 
-    background-color:#111213; 
-    color: #fff;
  }
 
  /* conteúdo da div */
@@ -220,10 +222,20 @@ header p{
     text-decoration: none;
 }
 
-#rodape .link-rede a:link, a:visited, a:active {
+#rodape .link-rede a:link, {
     text-decoration: none;
 }
  
+#rodape > a:visited{
+    text-decoration: none; 
+    background-color:none; 
+    color:rgb(219, 212, 212);
+    border-color: rgb(219, 212, 212);
+    padding: 16px;
+
+}
+
+    
 #rodape .link-rede a:hover { 
     text-decoration: none; 
     background-color:none; 
