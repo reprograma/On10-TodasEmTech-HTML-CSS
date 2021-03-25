@@ -2,9 +2,6 @@
 a {
     text-decoration: none;
 }
-li {
-    list-style-type: none;
-}
 
 /*formatação comum*/
 html {
@@ -15,7 +12,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*Index.html*/
+/*Header*/
 .container {
     height: 100vh;
     display: flex;
@@ -41,50 +38,90 @@ body {
 .button-about {
     width: 220px;
     height: 30px;
-    font-size: 20px;
-    color: #67595E;
-    background-color: #EED6D3;
+    font-size: 18px;
     border-radius: 8px;
     padding: 8px;
+    color: #5C4E4E;
+    background-color: #EED6D3;
     text-align: center;
+    font-weight: bold;
 }
 .button-about:hover{
     background-color: #E8B4B8;
 }
 
-/*sobre.html*/
-img {
-    width: 200px;
-    height: 150px;
-    border-radius: 4px;
-}
+/*Main*/
 section {
     width: 80%;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgb(8, 163, 163);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #F9F1F0;
+}
+.title-section {
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 4px;
+    color: #5C4E4E;
+    border-style: dashed;
+    border-color: #E8B4B8;
+    text-align: center;
 }
 
-.title-2 {
-    width: 50%;
-    height: 50%;
-    background-color: tomato;
+/*Sobre*/
+.text-sobre {
+    font-size: 20px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
 }
-.item-lista {
-    padding: 20px;
-    color: white;
+
+/*Hobbies*/
+.hobbies {
+    display: flex; 
 }
-.item-hobbies {
+.img-hobbies {
+    width: 300px;
+    height: 220px;
+    border-radius: 6px;
+}
+.title-hobbies {
+    font-size: 20px;
+    color: #67595E;
+    text-align: center;
+}
+.text-hobbies {
+    font-size: 18px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
+}
+.hobbie-gato {
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
-.legenda {
-    padding: 10px;
+.hobbie-bolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.hobbie-croche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Carreira */
+.text-carreira {
+    font-size: 20px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
+}
+
+/* Footer */
 .footer {
     text-align: center;
     width: 80%;
