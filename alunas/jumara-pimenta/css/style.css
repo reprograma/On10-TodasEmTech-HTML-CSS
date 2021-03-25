@@ -25,16 +25,30 @@ body {
     background-color: #FDE8E9; 
 
 }
-header {
+
+.caixa-header {
+display: flex;
+justify-content: center;
+background-image: url('../img/Background.png');
+background-size: cover;
+background-repeat: no-repeat;
+color: #FDE8E9;
+height: 47vh;
+position: relative;
+}
+
+.caixa-header .bg-opacity{
+    background: rgba(122, 61, 122, 0.4);
     width: 100%;
-    height: 35vh;
-    margin: auto;
-    background-color: #9F76A7;
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
 
 h1 {
     text-align: center;
-    color: #5E4064
+    color: #5E4064;
+    padding: 10px;
 }
 
 .titulo {
@@ -51,19 +65,33 @@ h2 {
 
 .foto__de__perfil{
     border-radius: 100px;
-    border-color: #5E4064;
+    float:right;
+    margin: 2px 4px 0 0;
+    padding: 4px;
+    background-color:#5E4064;
+    border: 1px solid #dbdbdb;
+
 }
 
 .cabecalho__conteudo {
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
     color: #FDE8E9;
     font-family:'Mali', cursive;
     font-size: 25px;
 }
 
-.section {
-    padding: 50px;
+.main{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.sobreMim section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
 
 .artigo__sobreMim {
@@ -77,4 +105,105 @@ h2 {
     width: 500px;
     padding-left: 5%;
     text-align: justify;
+    color: #77507b;
+}
+
+.listas{
+    margin:auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mali', cursive;
+    color: #5E4064;
+    padding: 30px;
   }
+
+  .listas ul{
+      list-style-type: none;
+      padding-left: 0;
+  }
+
+  .listas ul li{
+      margin-top: 7px;
+
+  }
+
+  .listas ol{
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .listas ol li{
+      margin-top: 7px;
+  }
+
+  .caixa-mae-rede-social{
+      padding: 20px;
+
+  }
+  .caixa-item-rede-social{
+    padding: 20px;
+    text-align: center;
+    background-color:#5E4064;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+  }
+
+  .linkedin{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/in.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.facebook{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/facebook.png');
+    background-size: 54%;
+    background-repeat: no-repeat;
+    background-position: center;
+   margin: 0 auto;
+}
+
+.github{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/github.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+  .instagram{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/instagram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+  
+  .link-rede-social{
+    color: white;
+  }
+  
+  .caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: -40px;
+  }
+  
+  footer{
+    text-align: center;
+    color: #9d72a1;
+    padding: 30px;
+  }
+  
