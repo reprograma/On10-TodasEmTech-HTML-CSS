@@ -11,7 +11,8 @@ p{
     color:#000;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-right: 25px
+    margin-right: 25px;
+   
 }
 
 ul{
@@ -129,7 +130,8 @@ header p{
     color:#000;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-right: 25px
+    margin-right: 25px;
+  
 }
 
 /* conteúdo na div com texto no centro */
@@ -139,21 +141,21 @@ header p{
     flex-direction: row;
     justify-content:center;
     margin-top: 15px;
-    font-size: 16px;
     margin: 0;
     width: 100%;
-    height: 270px;
+    height: 250px; 
 }
 
 #conteudo-center p{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
+    color:#4B39B5;
+    text-align: center;
 }
 
 .conteudo-text-center{
-    width: 600px;
+    width: 450px;
     margin-left: 20px;
-    
 }
 
 /* rodapé */
