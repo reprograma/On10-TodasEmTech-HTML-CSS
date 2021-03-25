@@ -1,0 +1,202 @@
+
+
+/*imagem da criança digitando*/
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+  /*texto criança digitando*/
+body {
+    background-color: #f8edeb;
+    color: #0a0a0a;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: justify;
+  
+}
+  
+ul > li {
+    list-style: none;
+}
+  
+header {
+      background-image: url(../img/annie-spratt-4-4WPFLVhAY-unsplash\ \(1\).jpg);
+      background-position: 50%;
+      background-size: 78%;
+      width: 100%;
+      height: 70vh;
+      background-color: #ffbe0b;
+      text-align:left;    
+}
+  
+.titulo {
+    text-align: center;
+    color: rgb(18, 82, 60);
+    font-size: 36px;
+    padding: 10px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+  
+.cabecalho__titulo {
+    color: #eed7d4;
+    text-align: left;
+    font-size: 68px;
+}
+
+.subtitulo {
+    color: #f3eee3;
+    text-align: left;
+    margin-left:10px;
+    font-size: 50px;
+}
+  
+  
+.cabecalho__conteudo {
+    padding: 75px;
+}
+  
+.section {
+    padding: 50px;
+}
+  
+/*Artigo*/
+
+.titulo_artigo{
+    text-align: center;
+    font-size: 36px;
+    color:rgb(18, 82, 60)
+
+}
+
+.artigo__sobreMim{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    margin: 0%;
+       
+}
+  
+.conteudo__sobreMim {
+    width:40%;
+    padding: 2%;
+}
+  
+ /* Display Section*/ 
+ 
+.displaySection {
+    margin: 0 20%;
+}
+
+.exemploDisplay {
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    margin: 5px 5px 0 0 ;
+}
+
+.livros_link {
+    display: inline-block;
+    width: 20%;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: rgb(15, 14, 14)
+}
+/* Listas*/ 
+
+.textolista {
+    text-align: center;
+}
+
+
+.listas {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 20%;
+    
+  }
+
+.titulo2 {
+    text-align: left;
+    font-size: 24px;
+   
+}
+  
+  /* Sobre mim*/
+
+.mais_sobremim {
+    text-align:right;
+    margin-top: 5%;
+    
+
+}
+.redes-sociais{
+    display:list-item;
+    text-align: left;
+    color: rgb(12, 12, 12)
+     
+   
+}
+/* FOOTER*/
+
+.Footer {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* TABLET PAISAGEM */
+@media (max-width: 1024px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+    }
+}
+
+/* TABLET PAISAGEM / CELULAR */
+@media (max-width: 768px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+    }
+    .sobre-descricao, .sobre-habilidades {
+        width: 100%;
+    }
+    .sobre-habilidades {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    .redes-sociais__link {
+        width: 80%;
+        max-width: 200px;
+        padding: 2rem 0;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 5rem;
+    }
+}
