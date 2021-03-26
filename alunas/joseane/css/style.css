@@ -1,0 +1,116 @@
+body {
+  background: #e0e0db;
+}
+
+h1 {
+  color: rgb(145, 108, 200);
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(145, 108, 200);
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(145, 108, 200);
+  text-align: left;
+  font-size: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2 {
+  color: rgb(145, 108, 200);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#menu-h {
+  background-color: rgb(145, 108, 200);
+}
+
+#menu-h ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none !important;
+  transition: background 0.4s;
+  font-size: 1.3rem;
+}
+
+#menu-h ul li a:hover {
+  background-color: #e0e0db;
+  color: rgb(145, 108, 200);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400;
+  height: 400;
+  }
+
+.australia {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600;
+  height: 370;
+}
+
+.novazelandia {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 370px;
+}
+
+
+.none {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(145, 108, 200);
+  color: white;
+}
+
+.site-footer {
+  background-color: rgb(145, 108, 200);
+  color: white;
+}
+
+.site-footer a {
+  color: white;
+  padding: auto;
+}
