@@ -2,6 +2,12 @@
 a {
     text-decoration: none;
 }
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
 
 /*formatação comum*/
 html {
@@ -120,6 +126,19 @@ section {
     text-align: justify;
     color: #67595E;
 }
+
+/* Quer saber mais */
+.redes-sociais {
+    text-align: center;
+}
+.redes-sociais-link { 
+    display: inline-flex;   
+    border-radius: 8px;
+    padding: 14px;
+    margin: 0 1rem;
+    background-color: #E8B4B8;
+}
+
 
 /* Footer */
 .footer {
