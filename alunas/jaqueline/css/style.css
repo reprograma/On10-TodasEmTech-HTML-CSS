@@ -1,0 +1,184 @@
+/* formas de valores para cor: 
+   1- nome da cor em inglês;
+   2- hexadecimal #00000 - preto #fffff -branco 
+   3- rgb () - rgb (0,0,0) - preto rgb (255,255, 255) - branco
+   */
+
+   /* especificidade:
+     id #
+     classes
+     elementos
+     header > p
+     tags da filha pra mae
+     p
+     body
+     * . seletor universar - resert
+     */
+     /* atalhos
+     alt + cima ou baixo - movimentos a linha
+
+     */
+
+     * {
+         box-sizing: border-box;
+         margin: 0;
+         padding-top: 0;
+    }
+body {
+    background-color:rgb(179, 138, 56);
+    font-family:'Quicksand' 
+}
+
+.minhafoto {
+    margin: 50px;
+    text-align: center;
+
+}
+
+#img_circular {
+    border-radius: 800px;
+    align-items: center;
+   
+}
+.container
+{
+    max-width: 1080px;
+    margin:0;
+}
+
+.botao>a {
+    text-decoration: none; 
+    color:rgb(255, 255, 253);
+    font-size: 1,9rem;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    font-weight: bold; 
+}
+
+.botao {
+    margin-top: 25px;
+    background-color: rgb(63, 189, 176);
+    border:  rgb(57, 250, 231), solid 0,5px;
+    padding: 30px 25px 30px 25px;
+    border-radius: 25px;
+    
+}
+
+header {
+background-image:url(../img/mar.jpg); 
+background-position: 50%;
+width: 100%;
+height: 40vh;
+background-color:rgb(244, 244, 245);
+margin: 0 auto; 
+
+}
+
+h1 {
+    color: rgb(42, 209, 192);
+    font-size: 40px;
+    text-align: center
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+
+.section {
+    padding: 60px;
+}
+
+
+h2 {
+    color:hsl(0, 0%, 100%);
+    font-size: 90px;
+    font-family:'Indie'; 
+    text-align:center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(221, 213, 141);
+    text-align:justify
+
+}
+
+.midias-sociais__container-paragrafo
+{
+font-size: 15px;
+color: rgb(164, 214, 209) ;
+align-items: center;
+display: flex;
+align-items: center;
+}
+
+.rodape__paragrafo {
+    font-size: 14px;
+    color: lightyellow;
+    text-align: center;
+    margin-top: 200px ;
+}
+
+li {
+    color: rgb(235, 220, 14);
+    font-size: 20px
+}
+a {
+    color:white;
+
+}
+
+h4 {
+    color:rgb(42, 209, 192);
+    font-size: 30px;
+    margin-bottom:30px;
+}
+
+.midias-sociais__container {
+    text-align:center;
+    width: 20px;
+    height: 10px
+
+}
+.midias-sociais__img {
+    margin-bottom: 30px;
+}
+
+.midias-sociais__container {
+    margin-bottom: 40px;
+}
+.midias-sociais__paragrafo {
+    margin-top: 40px;
+    font-size: 10rem;
+}
+
+.midias-sociais__container-link,
+ .midias-sociais__paragrafo {
+     color: white;
+     text-align: center;
+    
+}
+
+}
+.artigo__sobreMim > p {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.conteudosobreMIm {
+    width: 400px;
+}
+
+.listas {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
