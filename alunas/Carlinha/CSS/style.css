@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@keyframes exemplo{
+    0%{color: #FF34B3;left:100;}
+    25%{color:skyblue;left:500px;}
+    50%{color:plum; left:1000px;}
+    75%{color:#FFFACD;left:400px;}
+    100%{color:#FF6EB4;left:0px}
+  }
+
+body {
+    font-family: 'Raleway', sans-serif;
+  background-color:rgb(17, 9, 9);
+  
+}
+
+.cabecalho{
+    background-color: ;
+    margin-bottom:30px ;
+    width:1000px;
+    left:500px ;
+}
+
+.octocat{
+    width="400" 
+    height="305"
+}
+
+span {
+    font-weight: 700;
+    color:  #db469d;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1.cabecalho__titulo{
+    font-size: 5rem;
+    position: static;
+    animation-name:exemplo;
+    animation-duration:6s;
+    animation-delay: 2s;
+   animation-iteration-count:01; 
+    }
+
+h2.sobre-mim__titulo {
+    padding-top:150px ;
+    color: #eb599d;
+    margin-bottom:20px ;
+    text-align: center;
+    margin:auto;
+}
+
+.filhas{
+    margin-left:20px ;
+    width:150px;
+    height:100px;
+    
+}
+.sobre-mim_habilidades{
+    color:#ebbfd6;
+    
+}
+
+.sobre-mim_habilidades-titulo_destaque{
+    color: #e736cf;
+    margin-bottom:30px ;
+   
+}
+
+
+.sobre-mim_descricao-texto-destaque {
+    color: #ebbfd6;
+    margin:30px ;
+}
+
+.sobre-mim_descricao-texto{
+    color: #ebbfd6;  
+    margin:30px ;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+    text-decoration: none;
+    color: #cf59c0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 20px;
+    background-color: white;
+    border: #7E459B solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+.botao:hover{
+    background-color:#eecfdf;
+    width:300px;
+   
+}
+
+section.cabecalho{
+    margin:0 auto 0 auto;
+    width:auto;
+    height:500px;
+    }
+
+
+
+.cabecalho {
+    text-align: center;
+    background-image: url('../imagem/banner.png');
+    background-size:cover;
+    background-position:center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    width:100%;
+    margin:0 auto 0 auto;
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.cabecalho__texto {
+    font-size: 1.6rem;
+}
+
+.destaque {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.sobre-mim,
+.midias-sociais {
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:auto;
+    height: auto;
+}
+
+.sobre-mim__titulo {
+    font-size: 3rem;
+    color: #C4C4C4;
+    margin-bottom: 55px;
+}
+
+
+.sobre-mim__descricao, 
+.sobre-mim__habilidades {
+    width: 40%;
+    line-height: 1.5;
+    text-align: justify ;
+    margin-left:5% ;
+}
+
+ul{
+    list-style-type: square;
+  }
+
+.midias-sociais__container {
+    text-align: center;
+    width: 160px;
+    height:150px;
+    background-color: #dd2484;
+    padding: 20px;
+    margin-left:95px ;
+    margin-top:200px ;
+}
+
+.midias-sociais__container-img {
+    margin-bottom: 20px;
+    width: 60px;
+    transition: all 1s linear
+}
+
+.midias-sociais__container-img:hover {
+    width: 100px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+    color: white;
+    font-size:80px;
+    font-style: italic bold;
+    margin-bottom:20px;
+}
+
+.midias-sociais__container-paragrafo {
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+.rodape__paragrafo {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #cca1b7;
+    height: 70px;
+  }
+
+  @media only screen and (min-with:350px) and (max-with:500px) {
+
+    section.cabecalho {
+          width:50%;
+      
+      }
+
+      
+  }
