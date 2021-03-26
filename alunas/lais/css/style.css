@@ -1,0 +1,54 @@
+#banner {
+  width: 100%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.principal {
+  background: #293039;
+  padding: 10px;
+}
+
+.texto {
+  background-color: #293039;
+  margin: 0%;
+}
+
+.titulo-centralizado {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.motivos {
+  background-color: #eb6c8e;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+  color: white;
+}
+
+.motivos2 {
+  width: 80%;
+  margin-left: 110px;
+}
+
+.representatividade {
+  background-color: white;
+  padding: 70px;
+}
