@@ -1,0 +1,105 @@
+*{
+    margin: 6px; 
+    padding: -20px;
+    box-sizing: border-box;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 20px
+    padding: 20px;
+    border-left: 50%;
+    border-right: 90%;
+}
+
+body {
+    background-color: rgb(96, 245, 67);
+    /* hexadecimal */
+}
+
+header {
+    background-image: url (../);
+    background-repeat: 50%;
+    background-color:red;
+    width: 100%;
+    height: 40vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+hl {
+    color: rgb(96, 245, 67);
+    /* rgb */
+}
+.intro {
+    width: 1000px;
+    height: 35px;
+    display: flex;
+    padding: 250px;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: justify;
+    margin: auto;
+}
+
+.presentation {
+    font-family: 'Permanent Marker', cursive;
+    border-right: 50%;
+    border-left: 70%;
+    font-size: 50px;
+    align-content: center;
+    padding: 90px;
+    color: pink;
+}
+.cabeçalho__conteúdo {
+    background-origin: border-box;
+    box-sizing: border-box;
+    border-left: 50%;
+    border-right: 70%;
+    padding: 0px 6rem;
+    height: 10px;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.myoctocat {
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 15px;
+    text-align: right;
+    margin: auto;
+}
+.título {
+    font-family: 'Permanent Marker', cursive;
+    align-items: center;
+    display: flex;
+    padding: 55px;
+    justify-content: space-around;
+}
+.listas {
+    padding: 30px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.example {
+    width: 1000px;
+    height: -15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: right;
+    margin: auto;
+}
+
