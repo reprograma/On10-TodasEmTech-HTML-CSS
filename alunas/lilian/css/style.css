@@ -1,0 +1,124 @@
+*
+{ box-sizing:
+  border-box;
+  margin: 0 auto;
+}
+
+body {
+    background-image: url(https://www.atribuna.com.br/image/contentid/policy:1.99054:1588238667/Star-Wars-A-Ascens-o-Skywalker.jpeg?f=2x1&$p$f=6f75715&q=0.8&w=1500&$w=f075b93);
+  }
+  
+ul > li {
+    list-style: none;
+  }
+  
+header {
+     
+      text-align: center; 
+      font-size: 30px;   
+  }
+.conteudo__sobreMimTexto{
+  text-align: left;
+  font-size: 18px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+  }
+  
+.cabecalho__titulo {
+  font-size: 50px;
+    color: rgb(85, 15, 15);
+  }
+  
+  
+.cabecalho__conteudo {
+      padding: 30px;
+  }
+  
+.section {
+    padding: 80px;
+  }
+  
+.artigo__sobreMim{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+.conteudo__sobreMim {
+    width: 800px;
+    height: 75px;
+    font-size: 12px;
+  
+  }
+  
+.listas {
+    padding: 0,5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.displaySection {
+    margin: 0 20%;
+  }
+
+.botao > a,
+
+.midias-sociais__container-link {
+      text-decoration: none;
+      color: #b30b59;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+
+     
+  }
+
+.botao {
+    margin-top: 8px;
+    background-color: white;
+    border: #7E459B solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+
+   
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.midias-sociais__container {
+  text-align: center;
+  width: 20%;
+  background-color: #100d11;
+  padding: 15px;
+}
+
+.midias-sociais__container-img {
+  margin-bottom: 20px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+  color: white;
+}
+
+.midias-sociais__container-paragrafo {
+  margin-top: 10px;
+  font-size: 0.8rem; 	
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
