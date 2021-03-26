@@ -1,0 +1,166 @@
+body{
+    text-align:center;
+    font-family:Open Sans,sans-serif;
+    background-color:#8A71C9;
+    color: #FFFFFF;
+    margin: 0px 0px 30px 0px;
+    }
+span{
+    font-weight: 700;
+    color: black;
+}
+
+h1{
+    font-size:60px;
+    font-weight:200;
+    }
+
+h2{
+    margin: auto;
+    font-size:40px;
+    color:#2A0074;
+    }
+
+h3{
+    font-size:22px;
+    font-style: italic;
+   }
+
+h4{
+  text-align: center;
+  color: black;
+}
+
+.cabecalho-titulo{
+    font-size: 3rem;
+}
+
+.cabecalho-texto{
+    font-size: 1.6rem;
+}
+
+.breve-historico{
+ color:#04ff9f
+}
+
+.quem-e{
+ color:#FF9E9E;
+}
+
+.dias-atuais{
+ color:#FFE36D;
+}
+
+p{
+  font-size:20px;
+  line-height: 1,5;
+    }
+ 
+img{
+    width: 50%;
+}
+
+section {
+    width: 60%; 
+    margin: 0 auto;
+}
+
+section section{
+    width: 100%;
+}
+
+.cabecalho{
+    text-align: center;
+    background-size: auto;
+    width: 100%;
+    height: 600px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    }
+
+.principal{
+    background-color: black;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+ul{  
+  margin: 0px;
+  padding: 0px;
+}
+
+.principal a{
+  
+  text-decoration:underline;
+  font-weight: normal;
+  color: inherit;
+  display: inline;
+   
+}
+
+.principal ul li{
+  display: inline-block;
+  margin: 100px 100px 0px 100px;
+  line-height: 2.5;
+  float: left;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    flex-direction: inherit;
+}
+
+ol li{
+    list-style-type: decimal;
+    align-items: center;
+    padding: 5px;
+}
+
+
+ul{
+    display: inline-flex;
+    padding: 2rem; 
+}
+
+ol{
+    
+}
+
+li a{
+    width: 60px;
+}
+   
+li a:hover {
+  background-color: #555;
+  color:white;
+  font-weight: normal;
+}
+
+.secundaria{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.listas{
+    display: flex;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+}
+
+footer{
+    color: #868586;
+    margin-bottom: 10px;
+    height: 100px;
+    text-align: center;
+    padding: 3px;
+    justify-content: center;
+}
