@@ -1,0 +1,23 @@
+.recursos {
+    margin: 90px 0;
+}
+
+.recursos-descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.recursos-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.recursos-conteudo {
+    margin-left: 20px;
+}
+
+.recursos-conteudo h5 {
+    font-weight: bold;
+}
