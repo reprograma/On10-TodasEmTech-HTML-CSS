@@ -19,6 +19,16 @@
     </style>
   </head>
   <body>
+    <nav class="navegacao">
+      <a href="/index.html">
+        <img src="../../img-home/logo-reprograma.png" alt="reprograma" />
+      </a>
+      <ul class="navegacao__lista">
+        <li><a href="#sobreMim"> Sobre mim </a></li>
+        <li><a href="#comidas"> Comidas </a></li>
+        <li><a href="#faleConosco"> Fale Conosco </a></li>
+      </ul>
+    </nav>
     <header>
       <div class="cabecalho__conteudo">
         <h1 class="cabecalho__titulo titulo">Olá mundo novo</h1>
@@ -27,7 +37,7 @@
     </header>
     <main>
       <section class="sobreMim section">
-        <h2 class="titulo">Conhecendo mais sobre mim</h2>
+        <h2 class="titulo" id="sobreMim">Conhecendo mais sobre mim</h2>
         <article class="artigo__sobreMim">
           <img
             style="width: 300px"
@@ -50,27 +60,57 @@
       </section>
       <section class="section">
         <h2 class="titulo">Listas: Coisas que eu gosto</h2>
-        <section class="listas">
+        <section >
           <div>
-            <h3>Músicas que gosto:</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=GKfMYbbWEJY"
-                  target="_blank"
-                  >gloria grove</a
-                >
+            <h3 class="titulo--secundario">Músicas que gosto:</h3>
+            <ul class="listaMusicas">
+              <li class="listaMusicas__item">
+                <img src="./img/gloria-groove.jpeg" alt="gloria groove" />
+                <p>
+                  <a
+                    href="https://www.youtube.com/watch?v=GKfMYbbWEJY"
+                    target="_blank"
+                    >gloria grove</a
+                  >
+                </p>
               </li>
-              <li><a href="https://www.youtube.com/watch?v=t7j7XXAJVlw" target="_blank"> ana vitória</a></li>
-              <li>megadeath</li>
-              <li>u2</li>
-              <li>cicero</li>
-              <li>tiago iorc</li>
-              <li>tori ramos</li>
+              <li class="listaMusicas__item">
+                <img src="./img/anavitoria.jpeg" alt="ana e vitoria rindo" />
+                <p>
+                  <a
+                    href="https://www.youtube.com/watch?v=t7j7XXAJVlw"
+                    target="_blank"
+                  >
+                    ana vitória</a
+                  >
+                </p>
+              </li>
+              <li class="listaMusicas__item">
+                <img src="./img/megadeath.jpg" alt="imagem da banda">
+                <p>
+                  <a
+                    href="https://www.youtube.com/watch?v=aOnKCcjP8Qs"
+                    target="_blank"
+                  >
+                    megadeath
+                  </a>
+                </p>
+              </li>
+              <li class="listaMusicas__item">
+                <img src="./img/u2.jpeg" alt="banda aperece com todos fazendo cara de mal">
+                <p>
+                  <a
+                    href="https://www.youtube.com/watch?v=ftjEcrrf7r0"
+                    target="_blank"
+                  >
+                    u2
+                  </a>
+                </p>
+              </li>
             </ul>
           </div>
-          <div>
-            <h3>Comidas favoritas (da melhor a menor:)</h3>
+          <div id="comidas">
+            <h3 class="titulo--secundario"> Comidas favoritas (da melhor a menor:)</h3>
             <ol>
               <li>whiskas sachê</li>
               <li>banana</li>
@@ -80,7 +120,7 @@
         </section>
       </section>
       <section class="displaySection">
-        <h2 class="titulo">Aprendendo os displays!</h2>
+        <h2 class="titulo--secundario">>Aprendendo os displays!</h2>
         <div>
           <div class="exemploDisplay block red">block</div>
           <div class="exemploDisplay block red">block</div>
@@ -97,6 +137,48 @@
           <div class="exemploDisplay inline green">inline</div>
         </div>
       </section>
+      <section>
+        <form id="faleConosco" class="formulario">
+          <h2 class="titulo--secundario">Fale comigo humana</h2>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="inputNome" placeholder="nome" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" required />
+          </div>
+          <div>
+            <label class="rotulo--block" for="preferencia"
+              >Você gosta mais de gatas ou de polvas?</label
+            >
+            <input type="radio" id="gatas" name="preferencia" value="gatas" />
+            <label for="gatas">Gatas</label>
+            <input type="radio" id="polvas" name="preferencia" value="polvas" />
+            <label for="polvas">Polvas</label>
+            <input
+              type="radio"
+              id="nenhuma"
+              name="preferencia"
+              value="nenhuma"
+            />
+            <label for="nenhuma">Nenhuma</label>
+          </div>
+          <div>
+            <label class="rotulo--block" for="textarea"
+              >Deixe uma mensagem para mim :)</label
+            >
+            <textarea></textarea>
+          </div>
+          <div>
+            <button type="submit" class="green">Enviar</button>
+            <button type="reset" class="red">Reset</button>
+          </div>
+        </form>
+      </section>
     </main>
+    <footer>
+      <p>Feito por na turma 10 online :)</p>
+    </footer>
   </body>
 </html>

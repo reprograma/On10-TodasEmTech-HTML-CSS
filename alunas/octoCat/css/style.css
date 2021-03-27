@@ -25,6 +25,7 @@ alt + cima ou baixo - movimenta a linha
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 body {
@@ -33,8 +34,31 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+main a {
+  color: #333;
+}
+
+a:hover , button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+li {
+  font-size: 1.6rem;
+}
+
 ul > li {
   list-style: none;
+ 
 }
 
 header {
@@ -46,46 +70,104 @@ header {
     text-align: center;    
 }
 
-h1 {
-  
-  color:rgb(100, 50, 255);
-  color: chartreuse;
+label {
+  font-size: 1.6rem;
 }
+
+textarea {
+  max-width: 300px;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 150px;
+  font-size: 1.6rem;
+
+}
+
+footer {
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.navegacao {
+  background-color: #7e459b;
+  padding-left: 50px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  
+}
+
+.navegacao__lista {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
 .titulo {
   text-align: center;
-  font-size: 36px;
+  font-size: 3.6rem;
   padding: 10px;
 }
 
-.cabecalho__titulo {
+.titulo--secundario {
+  font-size: 2.4rem;
+}
+
+.cabecalho__titulo, .navegacao{
   color: #fff;
 }
 
 
 .cabecalho__conteudo {
-    padding: 75px;
+    padding: 7.5rem;
 }
 
 .section {
-  padding: 50px;
+  padding: 5rem;
 }
 
 .artigo__sobreMim{
   display: flex;
-  padding: 30px;
+  padding: 3rem;
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .conteudo__sobreMim {
   width: 450px;
 }
 
-.listas {
-  padding: 50px;
+.listaMusicas {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.listaMusicas__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.listaMusicas__item > img {
+  max-width: 250px;
+  width: 100%;
 }
 
 .displaySection {
@@ -116,4 +198,46 @@ h1 {
 }
 .green{
   background-color: green;
+}
+
+.formulario {
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.formulario > div {
+  padding: 2rem;
+}
+
+.rotulo--block {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+/* tamanho de tela até 650px faça isso - do computador > pro celular */
+@media (max-width: 650px) {
+  * {
+    font-size: 8px;
+  }
+
+  .listaMusicas {
+    justify-content: center;
+  }
+
+  .formulario {
+    padding: 10%;
+  }
+}
+
+
+
+
+/* tamanho de tela com no minimo 650 px faça isso - do celular > pro computador */
+@media (min-width: 650px) {
+
 }
