@@ -89,10 +89,11 @@
         display: flex;
         line-height: 2;
         color: rgb(44, 30, 12);
+        align-items: center;
     }
     
     .sobre_mim h1 {
-        text-align: aligh;
+        text-align: center;
     }
     
     .sobre_mim img {
