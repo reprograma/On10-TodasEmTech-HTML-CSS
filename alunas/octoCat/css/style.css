@@ -1,119 +1,51 @@
-/* formas de valores para cor: 
-   1 - nome da cor em inglês;
-   2 - hexadecimal #000000 - preto #ffffff -branco 
-   3 - rgb() - rgb(0,0,0) - preto rgb(255,255,255) - branco  
-   */
-
-
-/* especificidade: 
-  id #
-  classes . 
-  elementos:
-    header > p
-    tags da filha pra mae 
-    p
-    body
-    * - seletor universal - reset da página
-*/ 
-/* atalhos 
-alt + cima ou baixo - movimenta a linha
-
-*/ 
-
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lexend', sans-serif;
 }
 
-body {
-  background-color: #f9dbbd;
-  color: darkslategray;
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-ul > li {
-  list-style: none;
-}
-
-header {
-    background-image: url(../img/praia-roxa.jpg);
-    background-size: contain;
-    width: 100%;
-    height: 40vh;
-    background-color: #fff;
-    text-align: center;    
-}
-
-h1 {
-  
-  color:rgb(100, 50, 255);
-  color: chartreuse;
-}
-.titulo {
-  text-align: center;
-  font-size: 36px;
-  padding: 10px;
-}
-
-.cabecalho__titulo {
-  color: #fff;
-}
-
-
-.cabecalho__conteudo {
-    padding: 75px;
-}
-
-.section {
-  padding: 50px;
-}
-
-.artigo__sobreMim{
+.app {
   display: flex;
-  padding: 30px;
+  flex-direction: column;
+}
+
+.header__content {
+  background-image: url("../img/girassol.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
 }
 
-.conteudo__sobreMim {
-  width: 450px;
-}
-
-.listas {
-  padding: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.displaySection {
-  margin: 0 20%;
-}
-
-.exemploDisplay {
-  width: 75px;
-  height: 75px;
+.header__content h1 {
+  right: 10;
+  margin-right: 1em;
   color: #fff;
-  margin: 5px 5px 0 0 ;
-}
-.inlineBlock {
-  display: inline-block;
-}
-.inline {
-  display: inline;
-}
-.block {
-  display: block;
+  font-size: 70px;
+  font-weight: 400;
 }
 
-.red{
-  background-color: red;
+.section-content {
+  text-align: center;
+  margin: 5em 10em;
 }
-.blue {
-  background-color: blue;
+
+.section-content h2 {
+  font-size: 50px;
 }
-.green{
-  background-color: green;
+
+.section-content h3 {
+  font-size: 30px;
+}
+
+.section-content h4 {
+  font-size: 20px;
+}
+
+.section-content p {
+  margin: .8em 1em
 }
