@@ -1,0 +1,139 @@
+:root{
+    --preta: #141414;
+    --amarela: #FFFF00;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times new roman', 'Times New Roman', Times, serif;
+     color: var(--preta);
+     background: var(--amarela);
+}
+.banner{
+    background: url(../img/natureza.png) center no-repeat;
+    height: 90vh;
+    text-align: center; 
+    padding-top: 10rem;
+    background-size: cover;
+}
+
+.banner-titulo{
+    font-size: 5rem;
+    width: 100%;
+    color: rgb(248, 245, 245);    
+}
+
+.banner-subtitulo {
+    font-size: 2.3rem;
+    color: rgb(252, 250, 250);
+}
+
+
+.btn{
+    border-radius: 3ren;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-verde{
+    color: seagreen;
+    background-color: seashell;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.sobre-titulo{
+    font-size: 4rem;
+    color: sienna;
+}
+
+.sobre-decrição,
+.sobre-destaque{
+    width: 40%;
+    display: inline-block;
+    list-style: 1.5;
+}
+
+.sobre-descrição-destaque,
+.sobre-descrição-texto,
+.sobre-destaque-titulo{
+    font-size: 2rem;
+}
+    
+.u-margin-bottom-peq{
+    margin-bottom: 2rem;
+}
+
+.btm-verde{
+    color: skyblue;
+    border: 1px solid #272727;    
+}
+
+.sobre-o queeugosto{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;   
+}
+
+html{
+    font-size: 10px;
+    /* faz o reset do rem */
+
+}
+
+
+h3{
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.container{
+    max-width: 540px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.sobre-padding-left{
+    padding-left: 10rem;
+}
+
+.footer{
+    text-align:center;
+}
+
+/* .redes-sociais{
+
+} */
+
+.redes-sociais-link{
+    display: inline-block;
+    width: 150px;
+    background-color: #272727;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align:center;
+    color: white;
+}
+
+.footer-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-destaque{
+    padding-left: 10rem;
+
+}
