@@ -1,0 +1,44 @@
+body {
+    background: #e2d5d5; 
+      font-family: 'Coda', sans-serif;
+      font-size: 18px;
+  }
+  h1 {
+      text-align: center;
+      padding: 32px;
+      margin: 0 0 3em;
+      color: rgb(15, 78, 43);
+  }
+  h2 {
+    text-align: center;
+    color: rgb(33, 82, 55);
+ }
+  p {
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(15, 78, 43);
+ }
+ li {
+     font-family:sans-serif;
+     color:rgb(199, 93, 17)
+ }
+  .center-text {
+    text-align: center;
+}
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+.caixa-header {
+  align-items: center;
+  background-image: url('../img/mandala5.png');
+  font-size: 23px; 
+  min-height: 200px;
+}
+
+
+
+    
+
