@@ -82,7 +82,9 @@ section section{
 .principal{
     background-color: black;
     margin-top: 0px;
-    margin: 0px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
 }
 
 ul{  
@@ -123,7 +125,8 @@ ul{
 
 ul{
     display: inline-flex;
-}body{
+}
+body{
     text-align:center;
     font-family:Open Sans,sans-serif;
     background-color:#8A71C9;
@@ -254,12 +257,6 @@ ol li{
 li a{
     width: 60px;
 }
-   
-li a:hover {
-  background-color: #555;
-  color:white;
-  font-weight: normal;
-}
 
 .secundaria{
     margin: auto;
@@ -288,7 +285,7 @@ li a:hover {
 
 .listas{
     display: flex;
-    padding: 40px;
+    padding: 10px;
     justify-content: space-around;
     margin: auto;
     max-width: 600px;
@@ -311,6 +308,6 @@ footer{
     margin-bottom: 30px;
     height: 1.5px;
     }
-@media screen {max-width: 700px;
+@media screen {max-width: 320px;)
     
 }
