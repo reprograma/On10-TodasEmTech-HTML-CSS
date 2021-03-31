@@ -1,5 +1,12 @@
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-    #rodape, #menu{
+#menu-mobile{
+    padding: 12px;
+}
+    #rodape, #menu, #sobre-autora{
         display: none;
     }
 
@@ -10,41 +17,46 @@
         background-color: rgb(191, 217, 218);
         padding: 2rem;
     }
+    #menu-mobile a{
 
-    #sobre-autora{
-        display: none;
+        margin: 12px;
+    }
+    header h1 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 10px;
+        text-align: center;
     }
 
     #conteudo, #menu, header{
         flex-direction: column ;
-
     }
     
     .conteudo-img{
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 12px;
+        margin-top: 12px;
     }
 
     #conteudo-center p {
-        font-size: 23px;
+        font-size: 13px;
     }
 
-    #conteudo{
-        height: 300px;
-        display:inline-block;
-    }
-
-    header{
-        height: none;
-    }
-
-    #conteudo .conteudo-text {
-        width: none;
-
+    #conteudo .conteudo-text-mobile{
+        margin-left: 20px;  
     }
 
     .conteudo-text h3{
-
         text-align:center ;
+        margin-top: 12px;
+    }
+
+    .conteudo-text-center{
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
