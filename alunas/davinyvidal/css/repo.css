@@ -25,8 +25,22 @@
     border-color: #000;
     border-width: 1px;
     border-radius: 9px;
-    padding: 12px;
-    }
+    padding: 12px;  
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;  }
+
+    #menu-mobile a:link, a:visited, a:active {
+        text-decoration: none;
+        padding: 12px;
+    
+        }
+    #menu-mobile a:hover { 
+        text-decoration: none; 
+        background-color:#030405; 
+        color:#fff;
+        border-color: #030405;
+     }
     header h1 {
         font-size: 20px;
         text-align: center;
