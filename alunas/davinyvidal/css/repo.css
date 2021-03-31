@@ -1,0 +1,50 @@
+
+    #rodape, #menu{
+        display: none;
+    }
+
+    #menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(191, 217, 218);
+        padding: 2rem;
+    }
+
+    #sobre-autora{
+        display: none;
+    }
+
+    #conteudo, #menu, header{
+        flex-direction: column ;
+
+    }
+    
+    .conteudo-img{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #conteudo-center p {
+        font-size: 23px;
+    }
+
+    #conteudo{
+        height: 300px;
+        display:inline-block;
+    }
+
+    header{
+        height: none;
+    }
+
+    #conteudo .conteudo-text {
+        width: none;
+
+    }
+
+    .conteudo-text h3{
+
+        text-align:center ;
+    }
+
