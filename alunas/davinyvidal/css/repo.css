@@ -3,9 +3,7 @@
     margin-right: 5%;
 }
 
-#menu-mobile{
-    padding: 12px;
-}
+
     #rodape, #menu {
         display: none;
     }
@@ -17,7 +15,15 @@
         background-color: rgb(191, 217, 218);
         padding: 2rem;
     }
-    #menu-mobile a{
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(191, 217, 218);
+        padding: 2rem;
+    }
+
+    .link{
 
         margin: 12px;
 
