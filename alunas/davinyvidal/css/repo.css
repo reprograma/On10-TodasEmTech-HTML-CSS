@@ -14,6 +14,7 @@
         justify-content: center;
         background-color: rgb(191, 217, 218);
         padding: 2rem;
+        z-index: 2;
     }
     .menu-mobile{
         display: flex;
@@ -23,7 +24,7 @@
         padding: 2rem;
     }
 
-    .link{
+    .menu-mobile a{
 
         margin: 12px;
 
@@ -36,12 +37,12 @@
     text-decoration: none;
     font-weight: bold;  }
 
-    #menu-mobile a:link, a:visited, a:active {
+    .menu-mobile a:link, a:visited, a:active {
         text-decoration: none;
         padding: 12px;
     
         }
-    #menu-mobile a:hover { 
+    .menu-mobile a:hover { 
         text-decoration: none; 
         background-color:#030405; 
         color:#fff;
