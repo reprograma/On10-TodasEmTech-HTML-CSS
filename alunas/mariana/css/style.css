@@ -268,21 +268,6 @@ li a:hover {
     display: flex;
     justify-content: center;
 }
-
-footer{
-    color: #868586;
-    margin-bottom: 10px;
-    height: 100px;
-    text-align: center;
-    padding: 3px;
-    justify-content: center;
-}
-
-
-.listas ul{
-
-}
-
 li a{
     width: 60px;
 }
@@ -304,7 +289,6 @@ li a:hover {
 .listas{
     display: flex;
     padding: 40px;
-    align-items: center;
     justify-content: space-around;
     margin: auto;
     max-width: 600px;
@@ -316,11 +300,17 @@ li a:hover {
     padding: 5px;
 }
 
+.musicas{
+    flex-direction: column;
+    font-size: 15px;
+}
+
 footer{
-    color: #868586;
-    margin-bottom: 10px;
-    height: 100px;
-    text-align: center;
-    padding: 3px;
-    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    margin-bottom: 30px;
+    height: 1.5px;
+    }
+@media screen {max-width: 700px;
+    
 }
