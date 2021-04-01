@@ -66,9 +66,6 @@ a{
 }
 
 .divListaHobbies{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 40px;
 }
 
@@ -129,3 +126,34 @@ a{
     color: #7E459B;
 }
 
+/*tablet*/
+@media screen and (max-width: 768px) {
+    .section{
+        padding-top: 60px;
+    } 
+
+    .conteudoSobreMim{
+        padding-bottom: 60px;
+    }
+
+    .descricaoSobreMim{
+        width: 320px;
+    }
+
+    .sectionMeusHobbies{
+        padding-bottom: 80px;
+        height: 60vh;
+    }
+
+    .divListaHobbies{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80% ;
+    }
+
+}
+
+/*celular*/
+@media screen and (max-width: 320px) {
+    
+}
