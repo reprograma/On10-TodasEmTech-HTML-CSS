@@ -21,8 +21,8 @@ p {
   text-indent: 50px;
   text-align: justify;
   text-justify: inter-word;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h2 {
@@ -103,6 +103,7 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  object-fit:scale-down;
 }
 
 .australia {
@@ -112,7 +113,7 @@ img {
   margin-right: auto;
   width: 600px;
   height: 370px;
- 
+  object-fit:scale-down;
 }
 
 .novazelandia {
@@ -122,6 +123,7 @@ img {
   margin-right: auto;
   width: 600px;
   height: 370px;
+  object-fit:scale-down;
 }
 
 
