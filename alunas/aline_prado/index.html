@@ -10,10 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
-
-    <!--READER BANNER-->
   </head>
+    
+<!--READER BANNER-->
+  
   <body>
+    <nav class="navegacao">
+      <img  src="../aline_prado/img/logo-reprograma.png" href="https://reprograma.com.br/" target="_blank" alt="reprograma"/>
+      <ul class="navegacao__lista">
+        <li><a href="#sobremim"> Sobre Mim </a></li>
+        <li><a href="#conteudo"> Conteúdo </a></li>
+        <li><a href="#faleconosco"> Fale Conosco </a></li>
+      </ul>
+
+
+    </nav>
+   
     <header>
       <div class="cabecalho__conteudo">
         <h1 class="cabecalho__titulo titulo">Programação: A Nova Alfabetização</h1>
@@ -21,17 +33,17 @@
       </div>
     </header>
 
-    <!--SEÇÃO SOBRE-->
+<!--SEÇÃO SOBRE-->
     <main>
         <section class="sobreMim section">
-        <h2 class="titulo_artigo">Crianças codando, como assim?!</h2>
-        <article class="artigo__sobreMim">
+        <h2 id="conteudo" class="titulo_artigo">Crianças codando, como assim?!</h2>
+        <article class="artigo__site">
           <img
             style="width: 300px"
             src="./img/criançadigitando.gif"
             alt="uma criança digitando fervorosamente"
           />
-          <div class="conteudo__sobreMim">
+          <div class="conteudo__site">
             <p>
               Cada vez mais cedo as crianças estão se apropriando da tecnologia. 
               Especialistas consideram a alfabetização digital, como a habilidade do século XI. Paises como Inglaterra, Austrália e Japão já tem inserido em seu currículo escolar a informática para crianças, onde as mesmas desde pequenas, já tem contato com fundamentos de codificação. Aqui vocês vão encontrar dicas sobre livros, jogos, cursos e sites que inserem as crianças de maneira leve e lúdica neste mundo da programação.
@@ -144,17 +156,15 @@
         
         </div>
           </section>
-          
- <!--Footer-->
- <section class="Footer">
+    <section class="info">
     <img 
     style="width: 500px;"
      src="img/babytipyng.gif" 
     alt="uma criança digitando fervorosamente" 
     />
     <p> “Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.” Paulo Freire  </p>
-    <div class="mais_sobremim">
-    <h2 >Sobre mim...</h2>
+    <div class="sobremim">
+    <h2 id="sobremim">Sobre mim...</h2>
     <img 
     style="width: 100px" 
     src="./img/aline_profile.jpg" 
@@ -170,13 +180,45 @@
         <li><a href="https://github.com/linieprado" target="_blank" >Github</h3></a></li> 
     </ul>   
     </div>
-
+ </section>
+ 
+ <!--Footer-->
+ 
+  <section>
+   <form id="faleconosco" action="" class="formulário">
+    <h7>Um pouco sobre vocês!!</h7>
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" id="inputNome" placeholder="nome" required />
+      <label for="email">Email</label>
+      <input type="email" required />
+   </div>
+   <div>
+      <label for="preferencia">Você quer mais conteúdos sobre esse assunto?</label>
+      <input type="radio" id="sim" name="preferencia" value="sim"/>
+      <label for="sim">SIM</label>
+      <input type="radio" id="não" name="preferencia" value="não"/>
+      <label for="não">Não</label>
+   </div>
+   <div>
+      <label for="textarea">Deixe um cometário ou sugestão para mim :)</label>
+      <textarea></textarea>
+   </div>
+   <div>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+   </div>
+   </form>
+  </section>
+      </section>
+      <section>
     <div class="footer_copyright">
         <p class="footer_copy-texto"><i> &copy; Copyright </p
-           <p></p> Aline do Prado 2021</i></p>
+           <p></p> Aline do Prado 2021- Turma On10 - TodasEmTech - Reprograma </i></p>
     </div>
+      </section>
     </section>
     </section>
-      
+  </div>    
   </body>
 </html>
