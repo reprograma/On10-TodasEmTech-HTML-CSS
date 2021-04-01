@@ -14,31 +14,31 @@ Online-10 | Front-end | 2021 | Fundamentos de HTML e CSS
 
 ## CONTEÚDO AULA MANHÃ 9h - 12h
 
-- [] **Apresentação**
-- [] **Combinados**
-- [] **Preparando estrutura de desenvolvimento juntas**
-  - [] Criando pastas e arquivos
-- [] **Introdução e revisão - HTML**
-  - [] Cliente e Servidor
-  - [] O que é linguagem de marcação de hipertexto? `<!DOCTYPE html>`
-  - [] HTML vs. HTML5 | CSS vs CSS3
-  - [] Elementos `<head>` e `<body>`
-- [] **Intervalo** - 15min
-  - [] Elementos HTML: tags (etiquetas) e atributos
-    - [] Exemplo com imagens `<img>` e seus atributos `src` e `alt` e parágrafos `<p>`
-  - [] Tags semânticas, como e porque usá-las! (:
-    - [] `<header>` `<nav>` `<footer>` `<main>` `<section>` `<article>` `<ul>` `<ol>` `<li>` `<figure>` `<aside>` `<button>` `<h1>` `<h2>` `<h3>` ...
-  - [] `<a>` - links em âncora, e seu atributo `href`
-- [] **Introdução CSS**
-  - [] CSS - Folha de estilo em cascata
-    - [] Diferentes formas de adicionar estilo à página
-      - [] A tag e atributo `<style>`
-      - [] Importar arquivo style.css através da tag `<link>`
-      - [] Importando fontes externas (ex.: Google Fonts) - um outro uso da tag `<link>`
-  - [] Estilizando o CSS juntas - propriedades básicas `color` `bg-color` `font-size` `font-family`
-  - [] Seletores CSS - `.class` `#id` `elemento` `atributo`
-  - [] Especificidade com seletores, propriedades CSS e efeito cascata
-  - [] Pseudo-seletores, ex: - `:hover`
+- [x] **Apresentação**
+- [x] **Combinados**
+- [x] **Preparando estrutura de desenvolvimento juntas**
+  - [x] Criando pastas e arquivos
+- [x] **Introdução e revisão - HTML**
+  - [x] Cliente e Servidor
+  - [x] O que é linguagem de marcação de hipertexto? `<!DOCTYPE html>`
+  - [x] HTML vs. HTML5 | CSS vs CSS3
+  - [x] Elementos `<head>` e `<body>`
+- [x] **Intervalo** - 15min
+  - [x] Elementos HTML: tags (etiquetas) e atributos
+    - [x] Exemplo com imagens `<img>` e seus atributos `src` e `alt` e parágrafos `<p>`
+  - [x] Tags semânticas, como e porque usá-las! (:
+    - [x] `<header>` `<nav>` `<footer>` `<main>` `<section>` `<article>` `<ul>` `<ol>` `<li>` `<figure>` `<aside>` `<button>` `<h1>` `<h2>` `<h3>` ...
+  - [x] `<a>` - links em âncora, e seu atributo `href`
+- [x] **Introdução CSS**
+  - [x] CSS - Folha de estilo em cascata
+    - [x] Diferentes formas de adicionar estilo à página
+      - [x] A tag e atributo `<style>`
+      - [x] Importar arquivo style.css através da tag `<link>`
+      - [x] Importando fontes externas (ex.: Google Fonts) - um outro uso da tag `<link>`
+  - [x] Estilizando o CSS juntas - propriedades básicas `color` `bg-color` `font-size` `font-family`
+  - [x] Seletores CSS - `.class` `#id` `elemento` `atributo`
+  - [x] Especificidade com seletores, propriedades CSS e efeito cascata
+  - [x] Pseudo-seletores, ex: - `:hover`
 
 ---
 
@@ -49,26 +49,26 @@ _css é o estilo por cima_
 
 ## CONTEÚDO AULA TARDE 13h - 17h
 
-- [] **Dúvidas da manhã**
-- [] **Box-sizings (tamanho das caixas) e displays**
-  - [] Blocos `<div>` e elementos em linha `<span>`, `<img>`
-  - [] Displays block, inline, inline-block
-  - [] Mexendo em bordas, margens, preenchimentos e conteúdo  
-         - [] `border` `margin` `padding` `width` `height`  
-         - [] border-box vs content-box
-- [] **Reset básico - mexendo nos estilos padrão de página**
-      [] - elemento `*`, padrões de `li` `a`
-- [] **Display flex - o famoso Flexbox**
-  - [] Mães `<div>`as e filhas `<div>`inhas. Display na mãe, mexe as filhas.
-  - [] Algumas propiedades e seus valores: `justify-content` `align-items` `align-content` `flex-direction` 
-- [] **Intervalo** - 15min
-- [] **Codando juntas**
-  - [] Endentar o código :)
-  - [] Usando o inspetor de código - ctrl + shift + i (:
-  - [] Criando navBar
-    - [] Nomeando classes pra não se perder, introdução ao método BEM
-  - [] criando uma section
-- [] **Retirar dúvidas, deixar o exercício para concluir até sexta e falar sobre materiais e jogos disponíveis :)**
+- [x] **Dúvidas da manhã**
+- [x] **Box-sizings (tamanho das caixas) e displays**
+  - [x] Blocos `<div>` e elementos em linha `<span>`, `<img>`
+  - [x] Displays block, inline, inline-block
+  - [x] Mexendo em bordas, margens, preenchimentos e conteúdo  
+         - [x] `border` `margin` `padding` `width` `height`  
+         - [x] border-box vs content-box
+- [x] **Reset básico - mexendo nos estilos padrão de página**
+      [x] - elemento `*`, padrões de `li` `a`
+- [x] **Display flex - o famoso Flexbox**
+  - [x] Mães `<div>`as e filhas `<div>`inhas. Display na mãe, mexe as filhas.
+  - [x] Algumas propiedades e seus valores: `justify-content` `align-items` `align-content` `flex-direction` 
+- [x] **Intervalo** - 15min
+- [x] **Codando juntas**
+  - [x] Identar o código :)
+  - [x] Usando o inspetor de código - ctrl + shift + i (:
+  - [x] Criando navBar
+    - [x] Nomeando classes pra não se perder, introdução ao método BEM
+  - [x] criando uma section
+- [x] **Retirar dúvidas, deixar o exercício para concluir até sexta e falar sobre materiais e jogos disponíveis :)**
 
 ---
 
@@ -78,14 +78,14 @@ _css é o estilo por cima_
 
 ## AULA 24 MARÇO, QUARTA, 20h-22h
 
-- [] **Meu primeiro formulário**
-  - [] Elementos `<form>` `<input>` `<label>` `<textarea>` `<select>` `<option>` `<button>`
-  - [] atributos `type` `for` `name` `placeholder`
-- [] **Mais algumas dicas importantes**
+- [x] **Meu primeiro formulário**
+  - [x] Elementos `<form>` `<input>` `<label>` `<textarea>` `<select>` `<option>` `<button>`
+  - [x] atributos `type` `for` `name` `placeholder`
+- [x] **Mais algumas dicas importantes**
 
 
-  - [] `background-image`
-- [] **Tirar dúvidas da semana**
+  - [x] `background-image`
+- [x] **Tirar dúvidas da semana**
 
 
 ---

@@ -61,6 +61,11 @@ ul > li {
  
 }
 
+ol > li {
+  text-align: center;
+  padding: 1rem;
+}
+
 header {
     background-image: url(../img/praia-roxa.jpg);
     background-size: contain;
@@ -68,6 +73,9 @@ header {
     height: 40vh;
     background-color: #fff;
     text-align: center;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 label {
@@ -115,6 +123,16 @@ footer {
   width: 50%;
 }
 
+.imagemMenu {
+  width: 50px;
+  margin-right: 20px;
+  display: none;
+}
+
+.navegacao__lista--menu {
+  display: none;
+}
+
 .titulo {
   text-align: center;
   font-size: 3.6rem;
@@ -123,16 +141,17 @@ footer {
 
 .titulo--secundario {
   font-size: 2.4rem;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  border: 2px solid black
 }
 
 .cabecalho__titulo, .navegacao{
   color: #fff;
 }
 
-
-.cabecalho__conteudo {
-    padding: 7.5rem;
-}
 
 .section {
   padding: 5rem;
@@ -163,11 +182,14 @@ footer {
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  border: 2px solid black; 
+  border-radius: 5%;
 }
 
 .listaMusicas__item > img {
   max-width: 250px;
   width: 100%;
+  height: 200px ;
 }
 
 .displaySection {
@@ -214,13 +236,22 @@ footer {
   padding: 2rem;
 }
 
+.formularioRotulos {
+  width: 450px;
+
+}
+
+.formularioRotulos > div {
+  margin-right: 2px;
+}
+
 .rotulo--block {
   display: block;
   padding-bottom: 1rem;
 }
 
 /* tamanho de tela até 650px faça isso - do computador > pro celular */
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   * {
     font-size: 8px;
   }
@@ -232,6 +263,31 @@ footer {
   .formulario {
     padding: 10%;
   }
+  .navegacao__lista {
+    display: none;
+  }
+
+  .maeDoMenu {
+    position: relative;
+  }
+
+  .imagemMenu {
+    cursor: pointer;
+    display: block;
+  }
+  .imagemMenu:hover {
+    display: block;
+  }
+
+  .navegacao__lista--menu {
+    position: absolute;
+  }
+
+  .navegacao__lista--menu > li {
+    width:  100%;
+    background-color: black;
+  }
+
 }
 
 
