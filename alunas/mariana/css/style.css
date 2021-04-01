@@ -54,6 +54,7 @@ h4{
 p{
   font-size:20px;
   line-height: 1,5;
+  text-align: center;
     }
  
 img{
@@ -98,7 +99,7 @@ ul{
   font-weight: normal;
   color: inherit;
   display: inline;
-   
+
 }
 
 .principal ul li{
@@ -182,7 +183,8 @@ h4{
 p{
   font-size:20px;
   line-height: 1,5;
-    }
+
+}
  
 img{
     width: 50%;
@@ -302,12 +304,32 @@ li a:hover {
     font-size: 15px;
 }
 
+.imagensAlinhadas{
+  display: flex;
+  margin: auto;  
+  width: 50%;
+}
+
+
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: wheat;
     margin-bottom: 30px;
     height: 1.5px;
     }
-@media screen {max-width: 320px;)
+
+footer p{
+    background-color: black;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 768px){
+    p{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 320px){
     
+    
+   
 }
