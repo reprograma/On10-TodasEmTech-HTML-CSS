@@ -237,6 +237,11 @@ footer{
     }
 }
 
-@media (min-width: 650px){
+@media (min-width: 480px) and (max-width: 650px){
+    .redes-sociais__link{
+        justify-content: space-around; 
+        padding: 5rem 5rem;
+        margin: 6rem 3rem 6rem auto;
+    }
 
 }
