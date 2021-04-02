@@ -12,7 +12,6 @@ li {
 /*formatação comum*/
 html {
     scroll-behavior: smooth;
-    transition-duration: 6s;
 }
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -147,4 +146,91 @@ section {
     margin: 0 auto;
     margin-top: 80px;
     font-size: 1.1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+        height: 50vh;
+    }
+    .img-hobbies {
+        width: 200px;
+        height: 120px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+        height: 50vh;
+    }
+    .button-about {
+        max-height: 20px;
+    }
+    .redes-sociais-link {
+        width: 60px;
+        height: 60px;
+        display: inline-flex;  
+    }
+    .title-section {
+        font-size: 24px;
+        text-align: center;
+    }
+    .text-sobre {
+        font-size: 16px;
+    }
+    .img-hobbies {
+        max-width: 180px;
+        max-height: 120px;
+    }
+    .text-hobbies {
+        font-size: 16px;
+        text-align: left;
+    }
+    .text-carreira {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        height: 50vh;
+    }
+    .title {
+       font-size: 20px;
+    }
+    .button-about {
+        font-size: 16px;
+        padding: 0;
+    }
+    .title-section {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text-sobre {
+        font-size: 14px;
+    }
+    .img-hobbies {
+        display: none;
+    }
+    .text-hobbies {
+        font-size: 14px;
+        text-align: left;
+    }
+    .text-carreira {
+        font-size: 14px;
+    }
+    .redes-sociais-link {
+        max-width: 30px;
+        max-height: 30px;
+        padding: 6px;
+    }
 }
