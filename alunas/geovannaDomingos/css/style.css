@@ -55,7 +55,7 @@ a{
 
 .imagemSobreMim{
     width: 270px;
-    padding-left: 40px;
+    padding: 20px;
     border-radius: 50%;
 }
 
@@ -66,7 +66,7 @@ a{
 }
 
 .divListaHobbies{
-    padding-top: 40px;
+    padding-top: 55px;
 }
 
 .listaHobbies{
@@ -87,10 +87,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
 }
 
-.elemetoRedesSociais{
+.divRedeSocial{
     margin: 35px;
     padding: 10px;
     width: 150px;
@@ -134,10 +134,15 @@ a{
 
     .conteudoSobreMim{
         padding-bottom: 60px;
+        padding: 40px;
     }
 
     .descricaoSobreMim{
         width: 320px;
+    }
+
+    .imagemSobreMim{
+        padding: 15px;
     }
 
     .sectionMeusHobbies{
@@ -149,11 +154,71 @@ a{
         margin-left: auto;
         margin-right: auto;
         width: 80% ;
+        padding-top: 40px;
+    }
+
+    .sectionMinhasRedesSociais{
+        height: 65vh;
+    }
+
+    .redesSociais{
+        padding: 10px;
+    }
+
+    .rodape{
+        height: 60px;
     }
 
 }
 
 /*celular*/
 @media screen and (max-width: 320px) {
+
+    .containerHeader{
+        padding-top: 30px;
+        height: 30vh;
+    }
+    .section{
+        padding-top: 35px;
+    }
+    .section h2{
+        padding: 15px;
+    }
+
+    .conteudoSobreMim{
+        display: block;
+        padding-bottom: 0; 
+        padding: 10px;
+    }
+    .descricaoSobreMim {
+        width: 100%;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .imagemSobreMim{
+        padding: 30px;
+    }
+    .divListaHobbies{
+        padding-top: 5px;
+    }
+    .sectionMeusHobbies{
+        height: 455px;
+        padding-bottom: 10px;
+    }
+    
+    .sectionMinhasRedesSociais{
+        height: 125vh;
+    }
+    .redesSociais{
+        display: block;
+        padding: 0px;
+        padding-left: 50px;
+    }
+
+    .rodape{
+        height: 141px;
+        padding: 30px;
+    }
     
 }
