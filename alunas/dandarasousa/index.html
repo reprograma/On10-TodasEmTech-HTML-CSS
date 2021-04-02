@@ -10,6 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navegacao">
+        <img src=".//img/book.png" alt="icone de um livro"/>
+        <ul class="navegacao__lista">
+            <li><a href=""> Home </a></li>
+            <li><a href="#sobreMim">Sobre Mim</a></li>
+            <li><a href="#favoritos">Favoritos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <img class="imagemMenu" src="./img/meu.png" alt="menu"/>
+    </nav>
+
     <header>
         <section class="cabecalho__conteudo">
             <div>
@@ -26,7 +37,7 @@
     <main>
         <section class="sobremim">
             <div class="conteudo__sobremim">
-                <h2 class="titulo">Minha História com a Leitura</h2>
+                <h2 class="titulo" id="sobreMim">Minha História com a Leitura</h2>
                     <p> Para começar, nem todos leêm desde de sempre. Na infância eu odiava ler, até mesmo as revistinhas da Turma Mônica era um tormento, não gostava de ficar parada. Não venho de uma família de leitores, então o incentivo a leitura não era algo que existia em casa e meu gosto por ler veio meio que do nada. </p><br>
                     <p> Tudo mudou quando na 6º série houve uma peça de Os Miseráveis na escola e claro eu iludida queria ser Cosette. Todos os ATORES da peça ganharam um exemplar de Os Miseráveis em paradidático para saber exatamente qual sua fala e momento na história.Como queria ser Cosette decidi que iria decorar toda as falas e assim fiz. Mas como eu não era nada popular e muito tímida então o máximo que ganhei foi o papel de senhora que trabalha em uma estalagem (com apenas 1 fala de 3 palavras).</p><br>
                     <p>Me lembro bem do processo de leitura para decorar as falas, eu ia pro quintal de casa depois do almoço que era quando todos estavam dormindo pra poder ler o livro escondido. Por algum motivo eu tinha medo de alguém criticar o fato de eu estar lendo, vai entender?<br>
@@ -42,7 +53,7 @@
                    
             </div>
         </section>
-        <section class="listas">
+        <section id="favoritos" class="listas">
             <div class="listas__favoritos">
                 <h3>Livros Favoritos</h3>
                     <ol>
@@ -78,31 +89,56 @@
 
         <section>
             <div class="contato">
-                <h2 class="titulo">Onde Me Encontar</h2>
+                <h2 id="contato" class="titulo">Onde Me Encontar</h2>
                 <p >Além de ler também cosntumo compartilhar com outros leitores minhas ideias e percepções.<br>Caso tenha interesse é só me encontrar em um dos canais abaixo:</p>
             </div>
             
             <div class="redessociais">
-                <div class="display-flex">
-                    <div class="instagram">
-                        <img class="logo" src="../dandarasousa/img/instagram.png" alt="logotipo do instagram">
+                <div class="instagram">
+                    <img class="logo" src="../dandarasousa/img/instagram.png" alt="logotipo do instagram">
                                  
-                        <a class= "link" href="https://www.instagram.com/adandarasousa/" target="_blank">Instagram</a>
-                
-                    </div>
+                     <a class= "link" href="https://www.instagram.com/adandarasousa/" target="_blank">Instagram</a>
                 </div>
+                
 
-                <div class="display-flex">
-                    <div class="skoob">
-                        <img class="logo" src=".//img/skoob.png" alt="logotipo do skoob" alt="logotipo do skoob">
+                 <div class="skoob">
+                    <img class="logo" src=".//img/skoob.png" alt="logotipo do skoob" alt="logotipo do skoob">
                                  
-                        <a class= "link" href="https://www.skoob.com.br/usuario/6216936" target="_blank">Skoob</a>
-                
-                    </div>
+                    <a class= "link" href="https://www.skoob.com.br/usuario/6216936" target="_blank">Skoob</a>
                 </div>
-                
+               
             </div>
        
+        </section>
+
+        <section>
+            
+          <form action="" class="formulario">
+            <h2 class="titulo">Então o que achou?</h2>
+            <div>
+                <label class="rotulo_block" for="preferencia">Este coneúdo foi interessante?</label>
+                <input type="radio" id="sim" name="preferencia" value="sim">
+                <label for="sim">Sim</label>
+                
+                <input type="radio" id="não" name="preferencia" value="não">
+                <label for="não">Não</label>
+            </div>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input  type="text" id="inputNome" placeholder="nome" required/>
+            </div>
+
+            <div>
+                <label class="rotulo_block" for="texarea">Deixe seu Comentário:</label>
+                <textarea ></textarea>
+            </div>
+
+            <div>
+                <button class="botao" type="submit">Enviar</button>
+                <button class="botao" type="reset">Reset</button>
+            </div>
+         </form>
         </section>
       
     </main>

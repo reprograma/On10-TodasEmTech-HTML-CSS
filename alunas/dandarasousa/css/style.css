@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 10px;
   }
 
   body{
@@ -10,6 +11,46 @@
     color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
    
+  }
+
+  .navegacao{
+    background-color: rgb(133, 82, 113);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+
+    
+    
+  }
+
+  .navegacao > img{
+    width: 40px;
+
+  }
+
+  .navegacao__lista{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+   
+      
+  }
+
+  a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 1.6rem;
+  }
+
+  .imagemMenu{
+    display: none;
+
   }
 
   header{
@@ -27,7 +68,7 @@
 
   .titulo {
     text-align: center;
-    font-size: 36px;
+    font-size: 3.6rem;
     padding-bottom: 20px;
     
   }
@@ -37,12 +78,13 @@
     /*text-align: left;*/
     align-items: center;
     justify-content:center;
+    flex-wrap: wrap;
      
   }
   
  .cabecalho__titulo {
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
     color: rgb(133, 82, 113);
     
   }
@@ -51,18 +93,21 @@
     background-color: rgb(133, 82, 113);
     padding: 0 10px;
     border-radius: 10px;
+    font-size: 1.6rem;
   }
   
   img{
       width: 200px;
      }
      
- .conteudo__sobremim {
+ .conteudo__sobremim, b{
       text-align: center;
       margin:auto;
       padding: 40px;
+      font-size: 1.6rem;
      
   }
+
 
  .conteudo__sobremim p{
     font-size: 18px;
@@ -78,11 +123,22 @@
   .listas {
     background-color: rgb(250, 240, 227);
     color: rgb(133, 82, 113);
+    font-size: 2.0rem;
     text-align: left;
     padding: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+  }
+
+  li{
+    font-size: 1.6rem;
+  }
   
+  h3{
+    font-size: 2.0rem;
   }
 
   .contato {
@@ -91,8 +147,8 @@
     padding:  30px 10px;
   }
 
-  .contato p{
-    font-size: 18px;
+  .contato > p{
+    font-size: 1.8rem;
     line-height: 1.2;
     width: 80%;
     margin: 0 auto;
@@ -105,25 +161,29 @@
     max-width: 1080px;
     margin: 0px auto;
     margin-block-end: 20px;
+    flex-wrap: wrap;
 
   }
 
-  .display-flex{
+  /*.display-flex{
     align-items: center;
     margin: 0 10px;
-  }
+    border: red solid;*/
+  
 
 .instagram{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    width: 35vh;
+    width: 29vh;
     height: 100%;
     background-color: rgb(250, 240, 227);
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
+
+    
 }
   
 .skoob{
@@ -132,11 +192,12 @@
     text-align: center;
     align-items: center;
     width: 29vh;
-    height: 100;
+    height: 100%;
     background-color: rgb(250, 240, 227);
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
+
 }
 
 .logo{
@@ -147,7 +208,7 @@
 .link{
     text-decoration: none;
     color:  rgb(133, 82, 113);
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -156,11 +217,86 @@
 }
 
 
+
+.formulario{
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.formulario > div{
+  padding: 10px;
+}
+
+label{
+  font-size: 1.6rem;
+}
+
+.rotulo_block{
+  display: block;
+}
+
+textarea{
+  max-width:300px;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.botao{
+  background-color: rgb(250, 240, 227);
+  color: rgb(133, 82, 113);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  min-width: 150px;
+  font-size: 1.6rem;
+  
+
+}
+
 .rodape__paragrafo {
   background-color: rgb(250, 240, 227);
   text-align: center;
   color: rgb(133, 82, 113);
   margin-bottom: 30px;
+  font-size: 1.6rem;
+}
+
+@media screen (max-width:650px){
+
+  *{
+    font-size: 8px;
+  }
+
+  .navegacao__lista{
+    display: none;
+  }
+
+  .imagemMenu{
+    display: block;
+  }
+
+
+  .listas {
+  justify-content: center;
+  }
+
+  .redessociais{
+  justify-content: center;
+  }
+
+  .rodape__paragrafo{
+    font-size: 6px;
+  }
+
+
+
+
+
 }
 
 
