@@ -25,8 +25,6 @@
     margin-bottom: 15px;
 }
 
-
-
 .content {
     margin: 55px 0;
 }
@@ -46,57 +44,12 @@
 
 .disturbios-item {
     width: 65%;
-    height: 200px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
-.disturbios-item:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-}
-
-.miopia {
-    background: url("../img/miopia.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    
-}
-
-.miopia:hover {
-    background-size: 800px;
-    
-}
-
-.astigmatismo {
-    background: url("../img/astigmatismo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-
-}
-
-.astigmatismo:hover {
-    background-size: 800px;
-}
-
-.hipermetropia {
-    background: url("../img/hipermetropia.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-}
-
-.hipermetropia:hover {
-    background-size: 800px;
-}
-
-.disturbios-item-content {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(126, 123, 123, 0.5); 
-    color: white;
+.disturbios-img {
+    width: 90%;
 }
 
 .doencas {
@@ -166,6 +119,7 @@ border-radius: 10px;
     flex-direction: row;
     justify-content: space-around;
     padding: 0px;
+    flex-wrap: wrap;
 }
 
 .mdi-youtube {
@@ -182,4 +136,34 @@ border-radius: 10px;
     color:rgb(7, 158, 7);
     font-size: 32px;
     margin-right: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .hero {
+        clip-path: none;
+        width: 100%;
+        padding-left: 10px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .banner {
+        background-size: auto;
+    }
+    .hero {
+        clip-path: none;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .disturbios-item {
+        width: 100%;
+    }
+
+    .doencas-descricao {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+
 }
