@@ -14,6 +14,14 @@
     <link href="./css/style.css" rel="stylesheet" />
 </head>
 <body>
+    <nav class="navegacao">
+        <a href="/index.html"> <img src="../samdra/img/logo-reprograma.png" alt="Reprograma" /></a>
+        <ul class="navegacao__lista">
+            <li><a href="#sobreMim">Sobre Mim</a></li>
+            <li><a href="#Listas">Listas</a></li>
+            <li><a href="#Faleconosco">Fale Conosco</a></li>
+        </ul>
+    </nav>
     <header>
         <div class="cabeçalho__conteúdo">
             <img style="width: 700px;" src="./img/cosmic.jpg"; alt="imagem de banner glitch" />
@@ -25,8 +33,8 @@
         
     </header>
     <main>
-        <section>
-            <ul class="intro">
+        <section class="sobreMim">
+            <ul class="intro" id="sobreMim">
             <p>Meu nome é Samdra e quero ser programadora. Sou professora de Educação Digital no Município de São Paulo e quero passar o conteúdo de programação para meus alunis. Confesso que com a pandemia tenho cada vez mais pensando na oportunidade de mudar de carreira. A possibilidade de trabalhar em casa já é uma nova realidade para mim. Tenho valorizado esta experiência e repensando bastante sobre o que eu quero para o meu futuro. </p>
             </ul>
         </section>
@@ -43,7 +51,8 @@
             </ul>
         </section>
         <section>
-            <h2 class="título">Listas de coisas que gosto:</h2>
+            <h2 class="título" id="Listas">Listas de coisas que gosto:</h2>
+            <ul class="listaMusicas" /></ul>
             <section class="listas">
                 <div>
                 <h3>Músicas que gosto:</h3>
@@ -84,6 +93,35 @@
                 </ul>
             </section>
         </section>
+        <section>
+            <form action="" class="formulario" id="Faleconosco">
+                <h2>Quero conhecer você!</h2>
+                <div>
+                    <label for="nome":>Nome:</label> 
+                    <input type="text" id="inputNome" placeholder="Nome" required/>
+                </div>
+                <div>
+                    <label for="email":>Email:</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="preferencia": >Você gosta mais de html ou css?</label>
+                    <input type="radio"; id="html" name="preferencia" value="htmal" />
+                    <label for="html">html</label>
+                    <input type="radio"; id="css" name="preferencia" value="css" />
+                    <label for="css">css</label></br>
+                </div>
+                <div> 
+                     <label for="textarea">Deixe um comentário aqui!</label>
+                    <textarea></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>Feito durante o curso Reprograma.</p>
+    </footer>
 </body>
 </html>

@@ -20,12 +20,20 @@ body {
 
 header {
     background-image: url (../);
-    background-repeat: 50%;
-    background-color:red;
+    background-repeat: 10%;
     width: 100%;
     height: 40vh;
-    background-color: aquamarine;
     text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+    
+}
+
+a:hover , button:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 hl {
@@ -35,24 +43,47 @@ hl {
 .intro {
     width: 1000px;
     height: 35px;
-    display: flex;
-    padding: 250px;
+    display: 15px;
+    padding: 50px;
     align-items: center;
     font-family: 'Permanent Marker', cursive;
-    justify-content: space-around;
-    font-size: 25px;
+    justify-content:space-between;
+    font-size: 22px;
     text-align: justify;
-    margin: auto;
+    margin: 15px;
+    flex-wrap: wrap;
+    border-right: 50%;
+    border-left: 50%;
+}
+
+.fotos {
+    flex-wrap: wrap;
+    margin-top: 125px;
+    justify-content:center;
+    display: flex;
+    padding: 15px;
+
 }
 
 .presentation {
     font-family: 'Permanent Marker', cursive;
-    border-right: 50%;
-    border-left: 70%;
     font-size: 50px;
     align-content: center;
-    padding: 90px;
-    color: pink;
+    padding: 50px;
+    color: turquoise;
+    flex-wrap: wrap;
+
+}
+
+.sobreMim {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 5px;
+
 }
 .cabeçalho__conteúdo {
     background-origin: border-box;
@@ -62,7 +93,9 @@ hl {
     padding: 0px 6rem;
     height: 10px;
     display: flexbox;
-    justify-content: space-around;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+
 }
 
 .myoctocat {
@@ -70,8 +103,11 @@ hl {
     padding: 10px;
     justify-content: space-around;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     margin: auto;
+    flex-wrap: wrap;
+
+
 }
 .título {
     font-family: 'Permanent Marker', cursive;
@@ -79,6 +115,8 @@ hl {
     display: flex;
     padding: 55px;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 .listas {
     padding: 30px;
@@ -86,9 +124,13 @@ hl {
     justify-content: space-around;
     align-items: center;
     font-family: 'Permanent Marker', cursive;
+    flex-wrap: wrap;
 }
 
-
+.listaMusicas {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .example {
     width: 1000px;
@@ -101,5 +143,95 @@ hl {
     font-size: 25px;
     text-align: right;
     margin: auto;
+    flex-wrap: wrap;
+
 }
 
+.formulario {
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+
+}
+
+textarea {
+    max-width: 300px;
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 150px;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    height: 40px;
+    background-color: darkmagenta;
+    color: whitesmoke;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.navegacao {
+    background-color: darkmagenta;
+    display: flex;
+    align-itens: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+
+}
+
+.navegacao__lista {
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+}
+.título {
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+li {
+    list-style: 2rem;
+    font-size: 1.1rem;
+
+}
+
+ul {
+    list-style: 2rem;
+    font-size: 1.1rem;
+
+}
+
+/*até 650px faça isso */
+@media (max-width: 900px){
+    * {
+        font-size: 8px;
+    }
+
+    .listaMusicas {
+        justify-content:center;
+    }
+
+    .formulario {
+        padding: 10%;
+    }
+
+    @media (min-width: 650px)
