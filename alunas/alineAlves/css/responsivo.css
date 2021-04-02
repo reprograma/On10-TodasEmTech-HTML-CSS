@@ -1,0 +1,24 @@
+@media(max-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 400px) {
+    header{
+        background-image: none;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .apresentacao, .rodape {
+        padding-right: 5px;
+        padding-left: 2px;
+    }
+
+    img {
+      margin-top: 10px;
+    }
+}
