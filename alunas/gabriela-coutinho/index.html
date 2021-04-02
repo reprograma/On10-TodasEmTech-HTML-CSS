@@ -17,6 +17,14 @@
 </head>
 
 <body>
+    <nav class="navegacao">
+        <a href="/index.html"><img src="../../img-home/logo-reprograma.png" alt="reprograma"/></a>
+        <ul class="navegacao__lista">
+            <li><a href="#Sobremim">Sobre mim</a></li>
+            <li><a href="#Musica">Músicas</a></li>
+            <li><a href="#Faleconosco">Fale conosco</a></li>
+        </ul>
+    </nav>
     <header>
         <div class="cabecalho__conteudo">
             <h1 class="cabecalho__titulo titulo"></h1>
@@ -25,9 +33,9 @@
     </header>
     <main>
         <section class="section1">
-            <h2 class="titulo">Permita que eu fale, não as minhas cicatrizes</h2>
+            <h2 id="Sobremim" class="titulo">Permita que eu fale, não as minhas cicatrizes</h2>
             <article class="artigo__sobremim">
-                <img style="width: 500px;" src="img/WhatsApp Image 2021-03-26 at 21.19.47.png"
+                <img style="width: 600px;" src="img/fotogabriela.png"
                     alt="foto da aluna gabriela" />
                 <div class="conteudo__sobremim">
                     <p> Olá, meu nome é Gabriela Coutinho, tenho 25 anos e moro em Brasília. Desde criança eu sentia que
@@ -78,26 +86,60 @@
 
         <section>
             <h2 class="titulo">FAVORITOS</h2>
-            <section class="listas">
+            <section class="caixa__musicas">
                 <div>
-                    <h3>MÚSICAS</h3>
-                    <ul>
-                        <li><a href="https://www.youtube.com/watch?v=fnPn6At3v28" target="_blank">lady gaga</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=43n1wghXRGM" target="_blank">
-                        <li>king princess</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=6ROKvShM5Xs" target="_blank">
-                        <li>urias</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI" target="_blank">the weeknd</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=4fk0YGYsSNA" target="_blank">
-                        <li>tove lo</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=NcgFZNlB5lM" target="_blank">
-                        <li>dua lipa</li></a>
-                        <li><a href="https://www.youtube.com/watch?v=O8B72HzTuww" target="_blank">
-                        <li>pabllo vittar</li></a>
+                    <h3 class="titulo--secundario" id="Musica">MÚSICAS</h3>
+                    <ul class="listaMusicas">
+                        <div class="listas__Musicaitem">
+                            <img src="img/gaga.jpg" alt="lady gaga"/>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=fnPn6At3v28" target="_blank">Lady Gaga</a>                            
+                            </p>
+                        </div>
+
+                        
+                        <div class="listas__Musicaitem">
+                            <img src="img/kingprincess.jpg" alt="king princess"/>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=43n1wghXRGM" target="_blank">
+                                King Princess</a>
+                            </p>                           
+
+                        </div>
+
+                        <div class="listas__Musicaitem">
+                            <img src="img/urias.jpg" alt="urias"/>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=6ROKvShM5Xs" target="_blank">
+                                Urias</a>
+                            </p>
+                        </div>
+
+                        <div class="listas__Musicaitem">
+                            <img src="img/the weeknd.jpg" alt="the weeknd"/>
+                            <p>
+                             <a href="https://www.youtube.com/watch?v=XXYlFuWEuKI" target="_blank">The Weeknd</a>
+                            </p>                            
+                        </div>
+
+                        <div class="listas__Musicaitem">
+                            <img src="img/tove lo.jpg" alt="tove lo"/>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=4fk0YGYsSNA" target="_blank">Tove Lo</a>
+                            </p>                            
+                        </div>                     
+                    
+                        <div class="listas__Musicaitem">
+                            <img src="img/pabllo-vittar.jpg" alt="pabllo vittar"/>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=O8B72HzTuww" target="_blank">
+                                 Pabllo Vittar</a>
+                            </p>                            
+                        </div>
                     </ul>
                 </div>
                 <div>
-                    <h3>FILMES</h3>
+                    <h3 class="titulo--secundario">FILMES</h3>
                     <ol>
                         <li>Shrek</li>
                         <li>Matrix</li>
@@ -107,28 +149,67 @@
                     </ol>
                 </div>
             </section>
-            
+
             <section class="redes">
-                <div class="footer">
+                <div class="redeslink">
                     <div class="redes-sociais">
-                        <a href="https://www.facebook.com/gabriela.coutinho.sales/" target="_blank" class="redes-sociais__link">
+                        <a href="https://www.facebook.com/gabriela.coutinho.sales/" target="_blank"
+                            class="redes-sociais__link">
                             <img class="redes-sociais__img" src="img/logo-do-facebook.png" alt="Ícone do Facebook">
-                            <h4 class="redes-sociais__titulo">Facebook</h4>                            
+                            <h4 class="redes-sociais__titulo">Facebook</h4>
                         </a>
                         <a href="https://www.linkedin.com/in/gabriela-coutinho-sales-2ab982184/" target="_blank"
                             class="redes-sociais__link">
                             <img class="redes-sociais__img" src="img/cartas-do-linkedin.png" alt="Ícone do Linkedin">
-                            <h4 class="redes-sociais__titulo">Linkedin</h4>                            
+                            <h4 class="redes-sociais__titulo">Linkedin</h4>
                         </a>
                         <a href="https://github.com/gabrielacsalesc" target="_blank" class="redes-sociais__link">
                             <img class="redes-sociais__img" src="img/placa-do-github.png" alt="Ícone do GitHub">
-                            <h4 class="redes-sociais__titulo">GitHub</h4>                            
+                            <h4 class="redes-sociais__titulo">GitHub</h4>
                         </a>
                     </div>
                 </div>
             </section>
         </section>
+        <section>
+            <h2 class="titulo--secundario" id="Faleconosco">Fale comigo!</h2>
+            <form action="" class="formulario">
+                <div>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="inputNome" placeholder="nome" required />
+
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" required />
+                </div>
+
+                <div>
+                    <label class="rotulo--block" for="preferencia">Você gosta mais de gatas ou polvas?</label>
+                    <input type="radio" id="gatas" name="preferencia" value="gatas" />
+                    <label for="gatas">Gatas</label><br>
+                    <input type="radio" id="polvas" name="preferencia" value="polvas" />
+                    <label for="polvas">Polvas</label><br>
+                    <input type="radio" id="nenhuma" name="preferencia" value="nenhuma" />
+                    <label for="nenhuma">Nenhuma</label><br>
+                </div>
+
+                <div>
+                    <label for="textarea">Deixe uma mensagem para mim</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>Feito em aula na turma 10 online</p>
+    </footer>
 </body>
 
 </html>
