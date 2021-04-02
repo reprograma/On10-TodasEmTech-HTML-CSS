@@ -17,6 +17,24 @@ body {
   
 }
 
+@
+
+@media (max-width: 600px){
+
+    body {
+        background-color: #cca1b7;
+        font-size: 15px;
+    }
+    
+    .cabecalho__titulo {
+        font-size: 30px;
+    }
+
+    .sobre-mim__descricao {
+        font-size: 30px;
+    }
+}
+
 .cabecalho{
     background-color: ;
     margin-bottom:30px ;
@@ -40,7 +58,7 @@ span {
 }
 
 h1.cabecalho__titulo{
-    font-size: 5rem;
+    font-size:80px;
     position: static;
     animation-name:exemplo;
     animation-duration:6s;
@@ -49,11 +67,12 @@ h1.cabecalho__titulo{
     }
 
 h2.sobre-mim__titulo {
-    padding-top:150px ;
+    padding-top:30px ;
     color: #eb599d;
     margin-bottom:20px ;
     text-align: center;
     margin:auto;
+    font-size:60px ;
 }
 
 .filhas{
@@ -64,6 +83,8 @@ h2.sobre-mim__titulo {
 }
 .sobre-mim_habilidades{
     color:#ebbfd6;
+    display: inline-block;
+    margin-left:20px ;
     
 }
 
@@ -73,15 +94,26 @@ h2.sobre-mim__titulo {
    
 }
 
+section.sobre-mim{
+    width:80%;
+    margin-left:10%;
+    display: flex;
+}
 
 .sobre-mim_descricao-texto-destaque {
     color: #ebbfd6;
-    margin:30px ;
+    margin:30px;
+    font-size:20px ;
 }
 
 .sobre-mim_descricao-texto{
     color: #ebbfd6;  
     margin:30px ;
+    font-size:20px;
+}
+
+button.botao{
+    margin-left:40% ;
 }
 
 .botao > a,
@@ -92,6 +124,7 @@ h2.sobre-mim__titulo {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+  
 }
 
 .botao {
@@ -99,7 +132,8 @@ h2.sobre-mim__titulo {
     background-color: white;
     border: #7E459B solid 1px;
     padding: 10px 25px 10px 25px;
-    border-radius: 50px;
+    border-radius: 30px;
+    margin-right:250px ;
 }
 
 .botao:hover{
@@ -145,11 +179,17 @@ section.cabecalho{
     margin-bottom: 15px;
 }
 
-.sobre-mim,
+.sobre-mim{
+    display:inline-block;
+    margin:50px;
+    width:;
+}
+
 .midias-sociais {
     height: 450px;
     display: flex;
     align-items: center;
+    display: block;
 }
 
 .display-flex {
@@ -167,9 +207,9 @@ section.cabecalho{
 }
 
 
-.sobre-mim__descricao, 
-.sobre-mim__habilidades {
-    width: 40%;
+.sobre-mim__descricao
+ {
+    width: 100%;
     line-height: 1.5;
     text-align: justify ;
     margin-left:5% ;
@@ -213,14 +253,18 @@ ul{
 }
 
 .rodape__paragrafo {
-    text-align: center;
+    text-align:center;
     color: black;
     margin-bottom: 30px;
+
+    
 }
 
 footer{
     background-color: #cca1b7;
     height: 70px;
+    justify-content: center;
+    text-align: center;
   }
 
   @media only screen and (min-with:350px) and (max-with:500px) {
