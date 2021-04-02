@@ -103,8 +103,7 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  object-fit:scale-down;
-}
+ }
 
 .australia {
   display: block;
@@ -129,7 +128,7 @@ img {
 
 /* condição até 600px */
 @media (max-width: 600px) { 
-  body.responsive {
-    color: red; 
+  body {
+    background-color: lightblue; 
   }
 }
