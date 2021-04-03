@@ -12,6 +12,16 @@
 
 <body>
     <header>
+        <nav class="navegacao">
+            <a href="/index.html">
+                <img src="../../img-home/logo-reprograma.png" alt="reprograma" />
+            </a>
+            <ul class="navegacao__lista">
+                <li><a href="#sobre_mim_titulo"> Sobre mim </a></li>
+                <li><a href="#trajetoria"> trajetoria </a></li>
+                <li><a href="#faleConosco"> Fale Conosco </a></li>
+            </ul>
+        </nav>
         <div class="cabecalho">
             <div class="cabecalho_img">
                 <img class="img_juliane" src="./img/Minha_foto.jpg" onmouseover="this.src='./img/juli.jpg'" onmouseout="this.src='./img/Minha_foto.jpg'">
@@ -24,8 +34,8 @@
         </div>
     </header>
     <main>
-        <section class="section_sobremim_titulo">
-            <h1 class="sobre_mim_titulo"> Quem sou eu?</h1>
+        <section class="section_sobremim">
+            <h1 id="sobre_mim_titulo"> Quem sou eu?</h1>
             <article class="article_sobre_mim ">
                 <div class="sobre_mim">
 
@@ -35,7 +45,7 @@
                 </div>
             </article>
         </section>
-        <section class="trajetoria">
+        <section id="trajetoria">
             <h2> Minha trajetória</h2>
             <article>
                 <p class="minha_trajetoria">Aos 19 anos de idade, passei no vestibular no curso de Ciências contábeis na UFPB, então me mudei para João Pessoa para morar e estudar lá. Foi nessa cidade onde morei durante 6 anos.</p>
@@ -87,6 +97,49 @@
                 </div>
             </div>
         </section>
+        <section class="form">
+            <form id="faleConosco" class="formulario">
+                <h1 class="formTitulo">Tem alguma dúvida ou pergunta sobre mim? Me envia!!</h1>
+                <img src="./img/message.png">
+                <div class="formCampos">
+                    <label for="nome"> Seu nome completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui" required>
+                </div>
+                <div class="formCampos">
+                    <label for="idade">Qual a sua idade?</label>
+                    <input type="number" id="idade" name="idade" min="0" placeholder="Informe a sua idade" required>
+                </div>
+                <div class="formCampos">
+                    <label for="email">Qual o seu e-mail?</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui" required>
+                </div>
+                <div class="formCampos">
+                    <label for="telefone">Qual o seu telefone?</label>
+                    <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div class="container-preferencia formCampos">
+                    <label for="preferencia">Você prefere me contactar via e-mail ou whatsapp?</label>
+                    <div class="preferencia">
+                        <div class="opcao_preferencia">
+                            <input type="radio" id="whatsapp" name="preferencia" value="whatsapp">
+                            <label for="whatsapp">Whatsapp</label>
+                        </div>
+                        <div class="opcao_preferencia">
+                            <input type="radio" id="email1" name="preferencia" value="email1">
+                            <label for="email1">E-mail</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-area">
+                    <label for="textarea">Me envie sua dúvida ou pergunta</label>
+                    <textarea></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit" class="green">Enviar</button>
+                    <button type="reset" class="red">Cancelar</button>
+                </div>
+        </section>
+
     </main>
     <footer class="footer">
         <div class="redes_sociais">

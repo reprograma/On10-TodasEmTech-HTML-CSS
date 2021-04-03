@@ -1,19 +1,35 @@
     * {
         padding: 0;
-        margin: 0 auto;
+        margin: 0;
         box-sizing: border-box;
         font-family: sans-serif;
         font-size: 14px;
-    }
-    
-    html {
-        font-size: 10px;
     }
     
     body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin: 0 auto;
         background-color: rgb(240, 215, 236);
+    }
+    
+    .navegacao {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(53, 29, 48);
+    }
+    
+    .navegacao__lista {
+        display: flex;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: aliceblue;
     }
     
     header {
@@ -24,7 +40,6 @@
         text-align: center;
         background: linear-gradient(rgba(153, 86, 138, .40), rgba(153, 86, 138, .40)150%), url('/alunas/juliane/img/Imagens\ de\ fundo.jpg');
         background-size: cover;
-        height: 70vh;
         background-position: bottom center;
     }
     
@@ -34,18 +49,22 @@
         align-items: center;
         margin: 0 auto;
         width: 100%;
+        height: auto;
     }
     
     .img_juliane {
-        width: 300px;
+        width: 80%;
         border-radius: 50%;
         opacity: 0.7;
         border: 2px solid white;
-        height: 350px;
+        height: 266.53px;
     }
     
     .cabecalho_img {
         width: 30%;
+        height: 300px;
+        min-height: 250px;
+        min-width: 200px;
     }
     
     h1,
@@ -76,7 +95,7 @@
         width: 100%;
     }
     
-    .section_sobremim_titulo {
+    .section_sobremim {
         height: auto;
         width: 100%;
         display: flex;
@@ -87,6 +106,7 @@
     
     .sobre_mim {
         display: flex;
+        flex-wrap: wrap;
         line-height: 2;
         color: rgb(44, 30, 12);
         align-items: center;
@@ -94,15 +114,17 @@
     
     .sobre_mim h1 {
         text-align: center;
+        opacity: 0.7;
     }
     
     .sobre_mim img {
         width: 30%;
+        min-width: 260px;
         text-align: center;
     }
     
     .sobre_mim p,
-    .trajetoria p {
+    #trajetoria p {
         width: 60%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: center;
@@ -111,18 +133,19 @@
         justify-content: center;
     }
     
-    .trajetoria p {
+    #trajetoria p {
         width: 70%;
         color: rgb(50, 71, 26);
         line-height: 1.7;
+        font-size: 1.5rem;
     }
     
-    .trajetoria h2 {
+    #trajetoria h2 {
         color: rgb(168, 130, 73);
         padding-bottom: 3rem;
     }
     
-    .trajetoria {
+    #trajetoria {
         height: auto;
         width: 100%;
         margin: 0 auto;
@@ -132,7 +155,7 @@
     }
     
     .mais_sobre_mim {
-        padding: 5rem 15rem;
+        padding: 4rem 15%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -143,11 +166,13 @@
     .mais_sobre_mim h2 {
         color: gray;
         padding-bottom: 3rem;
+        opacity: 0.7;
     }
     
     .sonhos_gostos {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     
     .sonhos_gostos h2,
@@ -161,11 +186,12 @@
     .musicas,
     .comidas {
         display: inline-block;
-        width: 30%;
+        width: 33%;
         height: 300px;
         border-radius: 20%;
         margin: 0 auto;
         border: 3px solid rgb(248, 244, 245);
+        min-width: 250px;
     }
     
     .sonhos {
@@ -187,7 +213,7 @@
         padding: 5px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: aliceblue;
-        font-size: 15px;
+        font-size: 1.1rem;
         list-style: none;
         text-align: justify;
         line-height: 1.3;
@@ -197,10 +223,119 @@
         margin-bottom: 5px;
     }
     
-    li::before {
+    .mais_sobre_mim li::before {
         content: "\2764";
         color: rgb(255, 255, 255);
         margin-right: 20px;
+    }
+    
+    .form {
+        text-align: center;
+    }
+    
+    form {
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+        background: rgba(255, 136, 209, 0.562);
+        border: 2px solid rosybrown;
+        border-radius: 30%;
+        margin-bottom: 3rem;
+        color: rgb(192, 69, 151);
+        padding: 4rem 1rem 1rem 2rem;
+    }
+    
+    form h1 {
+        font-size: 1.4rem;
+        margin: 0 1rem;
+    }
+    
+    form img {
+        width: 20%;
+        padding: 1rem;
+    }
+    
+    label {
+        font-size: 1.2rem;
+    }
+    
+    input {
+        border-radius: 20%;
+        border: 2px solid rgb(192, 69, 151);
+        margin-bottom: 1rem;
+        width: 50%;
+        height: 25px;
+    }
+    
+    .preferencia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .opcao_preferencia {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    
+    #whatsapp,
+    #email1 {
+        width: 4rem;
+    }
+    
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    textarea {
+        height: 5rem;
+        width: 60%;
+        border-radius: 10%;
+        border: 2px solid rgb(192, 69, 151);
+        margin: 1rem 0 1rem 0;
+        min-width: 200px;
+    }
+    
+    .button {
+        text-align: center;
+        width: 100%;
+    }
+    
+    button {
+        color: aliceblue;
+        width: 10rem - 60px;
+        border-radius: 10%;
+        border: none;
+        transition-duration: 0.4s;
+        width: 30%;
+        padding: 1rem 2rem;
+        margin: 1px;
+    }
+    
+    .green {
+        background: rgb(118, 128, 118);
+    }
+    
+    .red {
+        background: rgb(203, 204, 155);
+    }
+    
+    .green:hover {
+        background: green;
+    }
+    
+    .red:hover {
+        background: red;
+    }
+    
+    button:hover {
+        color: black;
     }
     
     footer {
@@ -225,6 +360,7 @@
     
     .redes_sociais_img {
         display: flex;
+        flex-wrap: wrap;
     }
     
     .redes-sociais__link {
@@ -237,22 +373,60 @@
         padding: 1rem;
     }
     
-    @media (max-width: 790px) {
+    @media screen and (max-width: 920px) {
+        nav {
+            display: none;
+        }
         .cabecalho {
             flex-direction: column-reverse;
             background-color: rgb(66, 17, 59);
-            padding-top: 20rem;
+        }
+        .cabecalho_saudacao {
+            width: 60%;
+            margin-top: 6rem;
         }
         .cabecalho_img {
-            width: 50%;
-            padding: 2rem;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 2rem;
         }
-        .img_juliane {
-            width: 190px;
-            height: 220px;
-            opacity: 100px;
+        h1 {
+            font-size: 1.7rem;
         }
-        .sonhos_gostos {
+        .sobre_mim p {
+            font-size: 1.2rem;
+        }
+        #trajetoria p {
+            font-size: 1.2rem;
+        }
+        .cabecalho_saudacao h2 {
+            font-size: 1.5rem;
+            padding: 0;
+        }
+        .cabecalho_saudacao h3 {
+            font-size: 1rem;
+            padding: 1rem 0;
+        }
+        form {
+            width: 70%;
+        }
+        .formCampos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            width: 70%;
+        }
+        .button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 718px) {
+        .sobre_mim {
             flex-direction: column;
         }
         .sonhos,
@@ -261,21 +435,31 @@
             width: 70%;
             margin-bottom: 2rem;
         }
-        .mais_sobre_mim {
-            padding: 0;
+        label {
+            font-size: 1rem;
         }
-        .sobre_mim {
-            flex-direction: column;
-            text-align: center;
+        .redes_sociais h2 {
+            font-size: 1.5rem;
+            width: 80%;
         }
-        p {
-            font-size: 15.1px;
-        }
-        .img_meu_octocat {
-            width: 200px;
-            height: 250px;
-        }
+    }
+    
+    @media screen and (max-width: 504px) {
         .redes_sociais_img {
+            display: flex;
             flex-direction: column;
+        }
+        button {
+            width: 70%;
+            margin: 0.2rem 2rem;
+        }
+        form {
+            width: 80%;
+        }
+    }
+    
+    @media screen and (min-width: 921px) {
+        header {
+            height: 70vh;
         }
     }
