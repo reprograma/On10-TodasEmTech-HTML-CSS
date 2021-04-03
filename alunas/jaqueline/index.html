@@ -7,33 +7,53 @@
     <title>Página Jaqueline de Almeida</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap|Indie+Flower&display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap", 
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+
     <!--formas de por estilo tag <style>, atributo -->
     <style>
     </style>
 </head>
 
 <body>
+    <nav class="navegacao">
+    <a href="./index.html">
+    <img src="../jaqueline/img/sea.png" alt="concha"></a>
+    <ul class="navegacao__lista">
+    <li><a href="#sobreMim">Sobre Mim</a></li>
+    <li><a href="https://apptuts.bio/mahuwacomunicaoecuidado">Minhas Criações</a>
+        <li><a href="#oqueaprecio">O que Aprecio</a></li>
+    <li><a href="#vamosconversar">Vamos Conversar</a>
+    </li>
+</ul>
+</nav>
     <header>
-     </div>
-    </header>
-    <main>
-
-      <section class="sobreMim" section>
-        <h1 class="cabeçalho__titulo">Vim das aguás para firmar meus pés aquáticas nesta Terra.</h1>
-       
+    <section class="cabecalho">
+    <div class="cabecalho__conteudo">
+        <h1 class="cabeçalho__titulo">Vim das Águas para firmar os Pés nesta Terra</h1>
+        
+    
+    </div>
+    </section>
+   
+        <main>
+      <section class="sobreMim">
+       <section class="sobreMim">
+        <h1 class= "sobremim_descrição-texto-destaque"></h1>
+        <p> Sobre Esta Existência</p>
        <div class="minhafoto">
-        <img style="width: 400px; border: 3px solid; color: rgb(30, 229, 255);" 
+
+        <img style="width: 400px; border: 3px solid; color: rgb(30, 229, 255)"
         src="./img/Jaqueline.png" id="img_circular" 
         alt="foto de jaqueline de almeida mulher negra de pele clara 
         vestido azul e cabelo preso"
         />
-       <div class= "conteudo__sobreMim"> 
+      <div class= "container">
 
-       <p class= "sobremim_descrição-texto-destaque">
-           <h1>Sobre esta existência</h1>
-
+       <div class= "conteudo__sobreMim">
+       
         <h2 class="titulo">Jaqueline de Almeida 
         </h2>
         <article>
@@ -44,7 +64,7 @@
            Adulta, busquei o autoconhecimento, tive uma filha e 
            cheguei ao autocuidado. 
            Hoje, navego entre códigos no mundo TI. 
-           Escorpiana com ascendente em Peixes, olha para a vida com profundidade
+           Escorpiana com ascendente em Gêmeos, olha para a vida com profundidade
            sempre as possibilidades de saber mais.
            Rodopiante entre mundos, resolvi fazer de mim um mistério para os olhos desatentos
            mas um achado para olhos abertos. 
@@ -52,15 +72,14 @@
     </article>
        <button class="botao">
     <a href="https://apptuts.bio/mahuwacomunicaoecuidado/">
-        Conheça mais  o que tenho feito nesta passagem</a>
+        Conheça minhas criações</a>
     </button>
-
     </div>
 </section>
-    <section class="section">
-        <h2 class= "titulo">O que aprecio nesta vida ?</h2>
-        <section class="listas">
-        <div>
+
+    <section class="favoritos">
+        <h2 class= "favoritos">O Que Aprecio Nesta Vida ?</h2>
+        <div class="musica_item"> <img src="./img/arquivos-de-musica.png" alt="musica"></div>
          <h4>MÚSICA:</h4>
         <ul>
           <li>
@@ -81,7 +100,7 @@
         </ul>
         </div>
 
-        <div> <p style="border:rgb(244, 247, 217)"></p>
+        <div class="filme_item"> <img src="./img/camera-de-video.png" alt="filme"></div>
          <h4>CINEMA:</h4>
          <ul> 
             <li> <a href="https://www.youtube.com/watch?v=VX-TnKoivR8"
@@ -106,7 +125,7 @@
          </ul>    
         </div>
 
-        <div>
+        <div class="filme_item"> <img src="./img/lendo-um-livro.png" alt="livro"></div>
         <h4>LIVROS:</h4>  
          <ul>
             <li>
@@ -134,11 +153,48 @@
          </ul>    
         </div>
         </section>
+
+        <section>
+            <form id="vamosconverar" class="formulario">
+             <h2 class="titulo--secundario">O que mais você quer saber?</h2>
+          <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="inputNome" placeholder="nome" required/>
+              </div>
+
+              <div>
+                  <label for="email">E-mail</label>
+                  <input type="email" requerid />
+              </div>
+              
+              <div>
+                  <label class="rotulo--block" for= "preferencia"
+                  >Você prefere Mar ou Areia?</label>
+                  <input type="radio" id= "Mar" name="preferencia" value="Mar" />
+                  <label for="mar">Mar</label>
+                  <input type="radio" id= "Areia" name= "preferencia" value="Areia"/>
+                  <label for="Areia">Areia</label>
+                 <input type="radio"
+              id="nenhuma" name="preferencia"value="nenhuma"/>
+            <label for="nenhuma">Nenhuma</label>
+               <div>
+                   <label class="rotulo--block" for="textarea"
+                   >Escreva-me. Compartilhe suas andanças.</label>
+               <textarea></textarea>
+               </div>
+               <div> 
+                   <button type="submit" class="blue">Enviar</button>
+                   <button type="reset"  class="purple">Reset</button>
+               </div>
+               <div> 
+               </form>
+        </section>
+    
         <section classs="midias-sociais">
+            <h2 class="midias-sociais__titulo">Navegando na Rede</h2>
             <div class="container">
 
             <div class="display-flex">
-        
             <div class="midias-sociais__container">
             <img class="midias-sociais__container-img"
             src="./img/linkedin.png"
@@ -147,9 +203,8 @@
             href="https://www.linkedin.com/in/jaqueline-de-almeida">
         Linkedin</a>
         <p
-    class="midias-sociais__container-paragrafo">/Jaqueline de Almeida </p>
+            class="midias-sociais__container-paragrafo">/Jaqueline de Almeida </p>
         </div>
-
         <div class="midias-sociais__container">
             <img class="midias-sociais__container-img"
             src="./img/instagram.png"
@@ -163,7 +218,7 @@
 
         <div classs="midias-sociais__container">
             <img class="midias-sociais__container-img"
-            src="./img/youtube (1).png"
+            src="./img/youtube.png"
             alt="logotipo colorido do Youtube">
             <a class="midias-sociais__container-link"
             href="https://www.youtube.com/channel/UCiCwLqIUCn0PMIO8AOiSfuA/videos">
@@ -174,24 +229,21 @@
         <div class="midias-sociais__container">
             <img class="midias-sociais__container-img"
             src="./img/whatsapp.png"
-            alt="logotipo colorido do Whatsapp">
+            alt="logotipo colorido do WhatsApp">
             <a class="midias-sociais__container-link"
             href="https://api.whatsapp.com/send?phone=5571993202386&text=Obrigada+pelo+seu+contato.+Logo+em+breve+retornaremos.">
         Whatsapp</a> 
-        <p class="midias-sociais__container-paragrafo">Jaqueline de Almeida</p>    
+        <p class="midias-sociais__container-paragrafo">/Jaqueline de Almeida</p>    
         </div>
     </section>
-     
-
+    </main>
     <footer class="rodape">
         <div class="container">
             <p class="rodape__paragrafo"> Feito com <strong>Amor</strong> em meio a sangue, suor
-                 e muita risada por <strong>Jaqueline de Almeida</strong>
+                 e muita risada por <strong>Jaqueline de Almeida</strong> para o Reprograma.
                 
             </p>
         </div>
-    </footer>
-
-    </main>
+    </footer> 
 </body>
 </html>
