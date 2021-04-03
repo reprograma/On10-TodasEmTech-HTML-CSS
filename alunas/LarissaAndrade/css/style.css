@@ -29,7 +29,7 @@ body {
     align-items: center;
     text-decoration: none;
     padding: 0.9rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;    
 }
 .route:hover {
@@ -59,7 +59,7 @@ header {
     
 }
 img {
-    max-width: 40%;
+    max-width: 100%;
 }
 .im{
     width: 20%;
@@ -77,12 +77,11 @@ img:hover{
     height: auto;
     max-height: 9rem;
     text-align: center;
-    padding: 0.5rem 5rem;
+    padding: 1.5rem 0rem;
     cursor:unset;
 }
 
 .main {
-    margin: 1rem;
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -93,7 +92,7 @@ img:hover{
     border: var(--gray-color) 3px solid;
     width: 40%;
     height: 25rem;
-    margin: 2rem;
+    margin-top: 2rem;
     transition: all 1.2s;
     cursor:unset;
     
@@ -109,6 +108,10 @@ img:hover{
     cursor:unset;
 
 }
+.img {
+    width: 50%;
+    
+}
 
 a {
     text-decoration: none;
@@ -118,21 +121,26 @@ a {
 .mainText{
     margin: 0.1rem 1.5rem;
     position:absolute;
-    width: 33%;
+    width: 35%;
     max-width: 35%;
     max-height: 16rem;
     color: var(--black-color);
-    line-height: 24px;
+    line-height: 1.7rem;
     overflow-y: auto;
     align-items: center;
     justify-content: center;
 }
-.img {
+.mainImg{
     display: flex;
+    overflow-y: auto;
     align-items: center;
     justify-content: center;
-    
+    margin: 0.1rem 0rem;
+    width: 100%;
+    max-width: 100%;
+    max-height: 16rem;
 }
+
 .mainSubtitle:hover{
     -webkit-transform: scale(0.5);
     transform: scale(1.05);
@@ -187,7 +195,6 @@ a {
 }
 
 textarea{
-    width: 100%;
     height: 8rem;
     border-radius: 1rem;
     padding: 1rem;
@@ -200,3 +207,70 @@ button {
     cursor:pointer;
     background-color: var(--gray-color);
 }
+
+@media (max-width: 800px) { 
+    .title{
+        font-size: 0.75rem;
+    }
+    section{
+    justify-content: center;
+    }
+    .route {
+    font-size: 0.75rem;
+   }
+   .mainSubtitle{
+    font-size: 0.75rem;
+   }
+   .mainText {
+    font-size: 0.65rem;
+    max-width: 60%;
+    width: 60%;
+    max-height: 12rem;
+   }
+   .mainBox{
+       width: 70%;
+       justify-content: center;
+       height: 18rem;
+   }
+   .footer {
+       font-size: 0.75rem;
+   }
+   .form {
+       font-size:0.9rem ;
+       margin: 1.5rem;
+   }
+
+   
+  }
+  @media (max-width: 350px) { 
+    .title{
+        font-size: 0.55rem;
+    }
+    section{
+    justify-content: center;
+    }
+    .route {
+    font-size: 0.55rem;
+   }
+   .mainSubtitle{
+    font-size: 0.55rem;
+   }
+   .mainText {
+    font-size: 0.55rem;
+    max-width: 60%;
+    width: 60%;
+    max-height: 10rem;
+   }
+   .mainBox{
+       width: 70%;
+       justify-content: center;
+       height: 16rem;
+   }
+   .footer {
+       font-size: 0.7rem;
+   }
+   .form {
+       font-size:0.8rem ;
+   }
+
+  }
