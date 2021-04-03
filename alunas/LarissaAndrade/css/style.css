@@ -138,7 +138,7 @@ a {
     margin: 0.1rem 0rem;
     width: 100%;
     max-width: 100%;
-    max-height: 16rem;
+    max-height: 12rem;
 }
 
 .mainSubtitle:hover{
@@ -152,6 +152,7 @@ a {
     padding: 1.5rem 0rem;
     background-color: var(--gray-color); 
     text-align: center;
+    padding: 0.4rem;
     
 }
 .redesImg {
