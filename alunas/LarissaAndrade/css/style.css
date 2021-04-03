@@ -179,9 +179,13 @@ a {
 .reprograma {
     color: rgb(60, 17, 110);
 }
+.titleForm{
+    color: var(--black-color);
+    text-align: center;
+}
 .form {
     text-align: center;
-    margin: 5rem;
+    margin: 2rem;
     color: var(--black-color);
     flex-direction: column;
     display: flex;
