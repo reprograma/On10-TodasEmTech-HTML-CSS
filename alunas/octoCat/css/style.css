@@ -25,8 +25,7 @@
   right: 10;
   margin-right: 1em;
   color: #fff;
-  font-size: 70px;
-  font-weight: 400;
+  
 }
 
 .section-content {
@@ -48,4 +47,83 @@
 
 .section-content p {
   margin: .8em 1em
+}
+
+.section__playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.section__playlist-videos{
+ 
+}
+
+.section__playlist-title-subtitle {
+  margin: 5em;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
+iframe {
+  margin: 1em;
+}
+
+@media screen and (max-width: 425px) {
+  .header__content{
+    height: 30vh;
+    justify-content: center;
+  }
+
+  .header__content > h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .section-content {
+    margin: 1em .5em;
+  }
+
+  .section-content h2{
+    font-size: 30px;
+  }
+
+  .section-content h3 {
+    font-size: 20px;
+  }
+
+  .section-content h4 {
+    font-size: 20px;
+  }
+
+  .section__playlist {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  iframe {
+    margin: .5em;
+  }
+
+  .section__playlist-title-subtitle {
+    margin: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section__playlist {
+    flex-direction: column;
+  }
+
+  .section__playlist-videos {
+    margin: auto;
+  }
+
+  .section-content {
+    margin: .8em;
+  }
 }
