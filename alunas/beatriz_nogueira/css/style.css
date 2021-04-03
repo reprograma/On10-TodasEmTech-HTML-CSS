@@ -2,47 +2,47 @@ body {
     background: url(../img2/fundo\ roxo.png);
     margin: 0;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-
-    
+    width: 100%;
 }
-
-
-
 .desenhoimg{
+    display: block;
 
-height: 289px;
-width: 291px;
+height: 300px;
+
+max-width: 300px;
 border-radius: 20px; 
-left: 400px;
-
-
-
     
 }
 
-.musica
-{
-    position: absolute;
-    top: 548px;
-    left: 700px;
+.categorias-section {
+    display: flex; 
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 2rem;
+    margin: 50px 10%;
+   
+    
+ }
 
-    display: inline-block;
+.musica{
+  
+   width: 500px;
+  
+
+    display: block;
 
     font-size: 4rem;
-    width: 100%;
+    
     color: rgb(255, 4, 192);
-
 }
+
 .falademusica{
 
-   
-    position: absolute;
-    top: 660px;
-    left: 700px;
+    display: block;
     font-size: 2rem;
-    
+    width: 300px;
    
-
+ 
 }
 
 .clique{
@@ -60,7 +60,6 @@ left: 400px;
 
     height: 289px;
     width: 291px;
-
 }
 
 .agata{
@@ -70,73 +69,49 @@ width: 291px;
 font-size: 4rem;
 color: #f104b6;
 }
-.agata2{
-    font-size: 2rem;
-    width: 40%;
-    display: inline-block;
-    
-    
 
+.agata2{
+    display: block;
+    font-size: 2rem;
+    width: 300px;
+    color: black;
 }
 
 .videodeagata{
-
-    position: absolute;
-    top: 1416px;
-    left: 117px;
+    display: block;
+    height: 311px;
     border-radius: 20px;
-    height: 300px;
-    padding-top: 7px;
+    margin-top: 49px;
 }
 
 .viagem{
-    position: absolute;
-    top: 1160px;
-    left: 700px;
-
-    display: inline-block;
-
+    width: 291px;
     font-size: 4rem;
-    width: 100%;
-    color: rgb(255, 4, 192);
-
+    color: #f104b6;
 }
 
 .comofoi{
-
+    display: block;
     font-size: 2rem;
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    top: 1280px;
-    left: 700px;
-    
-   
-
+    width: 300px;
+    color: black;
 }
 
-
 .fotoviagem{
-  
-    position: absolute;
-    top: 1415px;
-    left: 700px;
+   
+    
     border-radius: 20px;
     height: 289px;
     width: 291px;
-    padding-top: 5px;
-  
+    display: block;
+    
 }
 
 .boneca{
+    margin: 0%;
 
-    position: absolute;
-    top: 5px;
-    left: 530px;
     border-radius: 20px;
-    height: 289px;
-    width: 291px;
-    
+    height: 289px 
 }
 
 .videofinal{
@@ -146,37 +121,34 @@ color: #f104b6;
     top: 9000px;
 }
 
-
 .final{
 margin-left: 100px;
-
 }
+
 .banner{
-    background: url(../img2/tela1.png) center no-repeat;
-    height: 388px; 
+    background: url(../img2/tela1.png);
+    height: 480px; 
+    width: 100%;
     text-align: center; 
-    padding-top: 10rem;
+    
     background-size: cover;
     position: relative;
 }
 
 .banner-titulo {
-    
-    top: 250px;
-    position: absolute;
     font-size: 5rem;
-    width: 100%;
     color: rgb(44, 217, 248);
-   
+}
+
+.div-titulo{
+    margin: 3%;
 }
 
 .banner-subtitulo {
-    top: 380px;
-    left: 395px;
-    position: absolute;
     font-size: 2.3rem;
     color: rgb(253, 242, 86);
 }
+
 
 .btn {
     border-radius: 3rem;
@@ -207,11 +179,35 @@ a {
     list-style: 1.5;
 }
 
+.playlist-categoria{    
+    display: block;
+    max-width: 200px;
+}
+
+.desenhos-categoria{    
+    display: block;
+
+}
+
+.playlist-img{    
+    display: block;
+    height: 311px;
+    border-radius: 20px;
+    margin-top: 49px;
+}
+
+.desenho-img{    
+    display: block;
+    max-width: 200px;
+}
+
 .sobre-descricao-destaque,
 .sobre-descricao-texto,
 .sobre-habilidades-titulo {
+    display: block;
     font-size: 2rem;
-}
+    width: 300px
+} 
 
 .u-margin-bottom-peq {
     margin-bottom: 2rem;
@@ -249,9 +245,9 @@ p {
 }
 
 .container {
-    max-width: 1080px;
+    /* max-width: 1080px;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 10rem; */
 }
 
 .sobre-padding-left {
