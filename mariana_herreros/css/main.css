@@ -1,0 +1,287 @@
+body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+}
+
+h1 {
+        position: relative;
+        left: 23%;
+}
+
+.menu-principal {
+        width: 100%;
+        background-color: #4DD0E1;
+        height: 6.875rem;
+}
+
+main, .content {
+        margin: 0 auto;
+        width: 980px;
+        float: left;
+        position: absolute;
+}
+
+.logo {
+        width: 80%;
+        float: left;
+}
+
+.redes-sociais ul li {
+        margin-left: 1.438rem;
+        display: block;
+        float: left;
+        list-style: none;
+        margin: 1.875 1.875 2.5 3.125rem;
+        padding: 0;
+}
+
+.header-1 {
+        position: left;
+        display: inline;
+        margin: 0 0 0 0.938rem;
+}
+
+ul {
+        position: 0;
+        margin: 0;
+        top: 6.875rem;
+        right: 0rem;
+        padding: O!important;
+}
+
+nav li {
+        display: inline;
+        margin: 0 0 0 0.938rem;
+}
+
+.header-2 {
+        width: 980px;
+        margin: 0 auto;
+        padding: 1rem;
+}
+
+.menu-urls {
+        height: 6.875rem;
+}
+
+.menu ul li {
+        display: inline-block;
+        color: #212121;
+        margin-left: 0.938rem;
+        height: 3.125rem;
+}
+
+.menu ul li a {
+        display: inline-block;
+        color: #212121;
+        text-decoration: none;
+        font-size: 1.875rem;
+        text-transform: uppercase;
+}
+
+.menu ul li:hover {
+        color: #0ca6b1;
+        border-bottom: 0.063rem solid #0ca6b1;
+}
+
+.menu ul li a:hover {
+        color: #0ca6b1;
+}
+
+.menu {
+        width: 70%;
+        float: left;
+}
+
+.busca {
+        width: 30%;
+        float: right;
+        text-align: center;
+}
+
+.busca input {
+        background-image: url('../img/search.png');
+        background-repeat: no-repeat;
+        background-position: 96%;
+        margin-top: 0.313rem;
+        margin-bottom: 0.313rem;
+        height: 1.25rem;
+        padding: 0.75rem;
+        width: 11.875rem;
+        border: 0.063rem solid #d6d6d6;
+}
+
+.col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+        border-bottom: 0.188rem solid #B0BEC5;
+        background-color: #EEEEEE;
+}
+
+.col {
+        width: 100%;
+        float: left;
+        position: relative;
+}
+
+button.slick-prev {
+        font-size: 0;
+        border: none;
+        width: 7.5rem;
+        height: 7.5rem;
+        z-index: 9;
+        background-color: transparent;
+        background-image: url('../img/left-arrow.png');
+        position: absolute;
+        top: 40%;
+        left: 14%;
+}
+
+button.slick-next {
+        font-size: 0;
+        border: none;
+        width: 7.5rem;
+        height: 7.5rem;
+        z-index: 9;
+        background-color: transparent;
+        background-image: url('../img/right-arrow.png');
+        position: absolute;
+        top: 40%;
+        right: 14%;
+}
+
+.slick-list {
+        width: 100%!important;
+}
+
+.slider-principal {
+        width: 100%!important;
+}
+
+.slick-dots li button {
+        font-size: 0;
+        border: 0.188rem solid #ffffff;
+        border-radius: 50%;
+        width: 1.625rem;
+        height: 1.625rem;
+        background-color: #00bac6;
+        background: transparent;
+        cursor: pointer;
+}
+
+.slick-dots {
+        margin: 0 auto;
+        width: 50%;
+        position: absolute;
+        left: 40%;
+        top: 90%;
+}
+
+.slick-dots li {
+        display: inline-block;
+}
+
+.slick-dots li button {
+        font-size: 0px;
+        border: 0.438rem solid #ffffff;
+        margin-left: 0.625rem;
+}
+
+li.slick-active button {
+        background: #00bac6;
+}
+
+.foto img {
+        border-radius: 50%;
+        display: flex;
+        position: relative;
+        left: 44%;
+        margin-top: 3.125rem;
+}
+
+.content-texto-destaque {
+        justify-content: space-around;
+        margin-left: 1.25rem;
+        margin-right: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.563rem;
+        text-align: justify
+}
+
+@media screen and (max-width: 650px) {
+        * {
+                font-size: 0.9375rem;
+        }
+        .logo img {
+                width: 90%;
+                margin-top: 0.625rem;
+                margin-left: 0.625rem;
+        }
+        nav img {
+                display: flex;
+                width: 5%;
+                height: 5%;
+                display: inline-block;
+        }
+        .menu-principal {
+                height: 5rem;
+                width: 100%;
+        }
+        .menu ul li a {
+                font-size: 1.25rem;
+        }
+        .menu ul li {
+                margin: 0rem;
+                justify-content: right;
+                margin-left: 3rem;
+                margin-bottom: 0rem;
+                margin-right: 0rem;
+        }
+        .header-2 {
+                display: flex;
+                margin-top: 0.5rem;
+                margin-bottom: 0rem;
+                padding: 0rem;
+                display: inline-block;
+                align-items: right;
+        }
+        .busca {
+                display: flex;
+                display: inline-block;
+                width: 100%;
+                align-items: center;
+        }
+        button.slick-prev {
+                max-width: 30rem;
+                width: 8rem;
+                height: 8rem;
+                position: absolute;
+                top: 25%;
+                right: 30%;
+        }
+        button.slick-next {
+                max-width: 30rem;
+                width: 8.5rem;
+                height: 8rem;
+                position: absolute;
+                top: 25%;
+                left: 65%;
+        }
+        .slick-dots li {
+                position: relative;
+                right: 15%;
+        }
+        h1 {
+                position: relative;
+                left: 35%;
+        }
+        .foto {
+                position: relative;
+                right: 5%;
+        }
+
+}
