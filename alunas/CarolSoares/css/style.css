@@ -1,0 +1,349 @@
+
+/* formas de valores para cor:
+    1 - nome da cor em inglês;
+    2 - hexadecimal #00000 #ffffff 
+    3 - rgb () - */
+
+/*especifidades
+id#
+classes .
+elementos:
+  header >p
+  tags da filha para mae
+  p
+  body
+  * - seletor universal - reset
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin top: 2;
+    margin: 0; 
+    padding: 2;
+    *text-align:left;
+    border-radius: 3px;
+
+   
+
+}
+
+
+p{ 
+color: #ffffff;
+font-size: 25px;
+line-height: 1,5;
+padding: 20px;
+}
+  
+img{
+    width: 50%;
+} 
+
+
+section {
+    
+    margin-top: 5px;
+    padding: 20px;
+    display: block;
+    
+}
+section.section {
+    text-align: center;
+
+}
+
+.strong-black {
+color: black;
+font-style:italic;
+font-style: oblique;}
+
+body {
+    /*height: 100%;*/
+    /*margin: 0;*/
+    background-color: #0000000
+    color: rgb(36, 34, 34);
+    font-family:'Roboto light', sans-serif;
+}
+
+strong {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Roboto condensend', sans-serif;
+    
+    padding: 25px;
+   
+}
+ul > li{
+    list-style:none;
+}
+
+header {
+   background-image: url(../img/cidade_topo_3.jpg);
+   box-sizing: cover;
+   /*height: 730px;*/
+   /*display; block-size: inherit;*/
+   -webkit-background-size: cover;
+   position: relative;
+   -moz-background-clip: content-box;
+    background-repeat: no-repeat;
+   /*background-size: 1320px;*/
+   /*background-position:absolute;*/
+   width: 100%;
+   /*height: 50vh;*/
+   left: 0;
+   top: 0;
+   /*text-align: center;*/
+   font-family: 'Roboto', sans-serif;
+   font-style: initial;
+   padding-top: 65px;
+
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 3px;
+
+
+}
+
+button {
+    padding:10px;
+    background-color: ;
+    border-radius: 3px;
+}
+
+.titulo {
+    
+    text-align:center;
+    font-size:36px ;
+    padding: inline 5px;
+
+
+} 
+
+.cabecalho__titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff
+    padding: 55px;
+    text-align: center;
+}
+
+
+.cabecalho__conteudo {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 98px;
+    margin: 0 auto;
+    color:#fdfdfd;
+    text-align: center;
+    padding: 75px;
+
+}
+
+
+
+.artigo__sobreMim {
+display: flex;
+padding:20px;
+align-items: center;
+justify-content: center;
+flex-direction: row-reverse;
+}
+
+.conteudo__sobreMim {
+ width: 650px;   
+ text-align: left
+}
+
+
+.listas {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.exemploDisplay {
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    margin: 5px 5px 0 0;
+    /*display: inline-block;*/
+}
+
+.gray{
+    background-color: lightslategrey;
+
+}
+.lista div {
+    width: 400px;
+    display:flex;
+}
+
+
+/*
+.p {    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #070707;
+    font-size: 16px;
+   /* -moz-background-inline-policy: 100px;
+    padding: 15px;
+    justify-content
+    text-align: center;
+
+
+ }
+
+ p{
+     background-color: rgba(63, 147, 180, 0.603);
+     padding: 10px;
+  */   
+ }
+
+
+ .p1 {
+    color: #070707;
+    font-size: 26px;
+    text-align: left;
+    padding: 20px;
+
+    
+ }
+
+h2 {
+    
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+    /*margin-block-start: 0.83em;*/
+    margin: block end 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+h3 {
+    display: block;
+    font-family:'Roboto-light', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    padding-inline-start: 20px;
+}
+
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 4px;
+    padding-inline-start: 20px;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+.displaySection{
+    margin: 0 20%;
+    background-color: rgba(206, 206, 206, 0.788);
+
+}
+  
+.inlineBlock {
+    display: inline-block;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+
+.red{
+    background-color: red;
+
+}
+.gray{
+    background-color: gray;
+
+}
+.blue{
+    background-color: blue;
+
+}
+
+.formulario {
+    text-align:center;
+    padding: 100px;
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    
+    margin: auto;
+
+    
+
+}
+
+.formulario > div {
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    border-bottom: lightskyblue;
+}
+
+.rotulo--block{
+    display: block;
+    padding: bottom 5px;
+}
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer{
+border-style: solid;
+border-color: rgba(0,0,0,.1);
+border-width: 10px;
+padding-top: 23px;
+padding-bottom: 23px;
+display:inline-block
+}
+
+
