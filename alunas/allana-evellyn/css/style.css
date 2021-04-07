@@ -24,6 +24,7 @@ footer{
     max-width: 100%;
     background-image: url(../img/Design\ sem\ nome\(12\).png);
     background-size: 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
     color: #3c4499;
@@ -105,4 +106,24 @@ footer{
     text-align: justify;
     color: #3c4499;
     text-decoration: none;
+}
+/* responsividade */
+@media (max-width: 600px) {
+    .cabecalho{
+        background-repeat: no-repeat;
+    }
+    .fotos__pessoais{
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos__pessoais img{
+        max-width: 70%;
+    }
+    .display__favoritos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    }
 }
