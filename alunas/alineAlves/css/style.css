@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body {
+    background-color: #e8e0eb;
+    color: rgb(12, 11, 11);
+    font-family: 'Roboto Slab', serif;
+    min-width: 100vw;
+}
+
+header {
+    background-image: url(../img/10392490_727276447329914_8336474293075674140_n.jpeg);
+    width: auto;
+    height: 23vh;
+    background-color: rgb(80, 37, 89);
+    text-align: center;
+    background-size: contain; 
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+main{
+  margin-left: 5%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+h1 {
+    color: #7d497d;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 2rem;
+}
+
+ a{
+    color: #613772;
+    font-weight: 700;
+  }
+
+
+  /*.btn{
+    position: relative;
+    display: inline-block;
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+    border: 1px solid transparent;
+    
+    background: chocolate;
+
+    width:10%;
+    height:8%; 
+  }*/
+  
+  h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 30px;
+    height: 100px;
+    margin-right: 35px;
+    top: -80px;
+  }
+
+  .sobre-mim{
+    border:1px solid transparent; 
+    padding: 1px;
+    text-align:justify;
+    width: 60%;
+  }
+
+  .sobre-mim ul{
+  list-style-type: none;
+  line-height: 2;
+}
+
+  .hobby{
+    border:1px solid transparent; 
+    padding: 1px;
+    text-align:justify;
+    width: 60%;
+   
+  }
+
+  .habilidades{
+    border:1px solid transparent; 
+    padding: 1px;
+    text-align:justify;
+    width: 60%;
+   
+  }
+  
+  footer {
+    text-align: center;
+    color: #7d497d ;
+    margin-top: 47px;
+}
