@@ -1,0 +1,357 @@
+
+
+/*imagem da criança digitando*/
+
+* { 
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0rem;
+
+}
+  /*texto criança digitando*/
+body {
+    background-color: #f8edeb;
+    color: #0a0a0a;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: justify;
+   
+}
+  
+ul > li {
+    list-style: none;
+}
+
+textarea{
+    width: 200px;
+    height: 200px;
+}  
+header {
+      background-image: url(../img/annie-spratt-4-4WPFLVhAY-unsplash\ \(1\).jpg);
+      background-position: 50%;
+      background-size: 78%;
+      width: 100%;
+      height: 80vh;
+      background-color: #ffbe0b;
+      text-align:left;    
+}
+
+.navegacao {
+    background-color: #7e459b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#f3eee3;
+    width: 50%;
+    height: 50px;
+    position:relative
+    
+}
+
+
+
+.navegacao__lista {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.titulo {
+    text-align: center;
+    color: rgb(18, 82, 60);
+    font-size: 36px;
+    padding: 10px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+  
+.cabecalho__titulo {
+    color: #eed7d4;
+    text-align: left;
+    font-size: 68px;
+}
+
+.subtitulo {
+    color: #f3eee3;
+    text-align: left;
+    margin-left:10px;
+    font-size: 50px;
+}
+  
+  
+.cabecalho__conteudo {
+    padding: 75px;
+}
+  
+.section {
+    padding: 50px;
+}
+  
+/*Artigo*/
+
+.titulo_artigo{
+    text-align: center;
+    font-size: 36px;
+    color:rgb(18, 82, 60)
+
+}
+
+.artigo__site {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    margin: 0%;
+       
+}
+  
+.conteudo__site {
+    width:40%;
+    padding: 2%;
+}
+  
+ /* Display Section*/ 
+ 
+.displaySection {
+    margin: 0 20%;
+   
+}
+
+.exemploDisplay {
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    margin: 5px 5px 0 0 ;
+}
+
+.livros_link {
+    display: inline-block;
+    width: 20%;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: rgb(15, 14, 14)
+}
+/* Listas*/ 
+
+.textolista {
+    text-align: center;
+}
+
+
+.listas {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 20%;
+    
+  }
+
+.titulo2 {
+    text-align: left;
+    font-size: 24px;
+   
+}
+  
+  /* Sobre mim*/
+
+.sobremim {
+    text-align:center;
+    margin-top: 5%;
+    background-position: 50%;
+    background-size: 78%;
+    width: 100%;
+    height: 70vh;
+
+}
+.redes-sociais{
+    display:list-item;
+    text-align: left;
+    color: rgb(12, 12, 12)
+     
+}
+
+.info {
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* FOOTER*/
+
+.formulário {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+.footer_copyright {
+    text-align: center;
+
+}
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 10rem;
+    padding: 2rem;
+    
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* TABLET / CELULAR */
+
+/* condição até 600px */
+@media (max-width: 600px) { 
+    .navegacao {
+        align-items: center;
+        justify-content:space-evenly;
+        width: 100%;
+        height: 75px;
+    }
+    .cabecalho__titulo {
+        font-size: 60px;
+        text-align: center;
+
+    }
+    .subtitulo {
+        font-size: 48px;
+        text-align: justify;
+    }
+    .artigo__site {
+        display:inline;
+        text-align: justify;
+       
+    }
+    .conteudo__site {
+        width:100%;
+          
+    }
+
+    .displaySection {
+        width: 30%;
+        text-align: justify;
+        display: block;
+    }
+    
+    .exemploDisplay {
+       width: 30%;
+       
+    }
+    .livros_link {
+        display: block;
+        width: 20%;
+        padding: 2rem 0;
+        margin: 0 1rem;
+        text-align: center;
+    }    
+}
+  /* condição a partir de 900px */
+@media (min-width: 900px) { 
+    .navegacao {
+        align-items: center;
+        justify-content:space-between;
+        width: 100%;
+        height: 75px;
+    }
+
+    .displaySection {
+        width: 30%;
+        text-align: center;
+        display: inline;
+
+    }
+
+    .exemploDisplay {
+        width: 30%;
+   
+    }   
+    .livros_link {
+    display: inline;
+    width: 20%;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+
+    }
+}
+/* condição a partir de 600px até 900px */
+  @media (min-width: 600px) and (max-width: 900px) { 
+    .navegacao {
+        align-items: center;
+        justify-content:space-evenly;
+        width: 100%;
+        height: 75px;
+    }
+    .cabecalho__titulo {
+        font-size: 60px;
+        text-align: center;
+
+    }
+    .subtitulo {
+        font-size: 48px;
+        text-align: justify;
+    }
+    .artigo__site {
+        display:inline;
+        text-align: justify;
+       
+    }
+    .conteudo__site {
+        width:100%;
+          
+    }
+
+    .displaySection {
+        width: 30%;
+        text-align: justify;
+        display: block;
+    }
+    
+    .exemploDisplay {
+       width: 30%;
+       
+    }
+    .livros_link {
+        display: block;
+        width: 20%;
+        padding: 2rem 0;
+        margin: 0 1rem;
+        text-align: center;
+    }    
+}
+  /* condição a partir de 900px */
+@media (min-width: 900px) { 
+    .navegacao {
+        align-items: center;
+        justify-content:space-between;
+        width: 100%;
+        height: 75px;
+    }
+
+    .displaySection {
+        width: 30%;
+        text-align: center;
+        display: inline;
+
+    }
+
+    .exemploDisplay {
+        width: 30%;
+   
+    }   
+    .livros_link {
+    display: inline-block;
+    width: 20%;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+
+    }
+  }
