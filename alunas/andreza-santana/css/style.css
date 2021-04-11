@@ -1,0 +1,236 @@
+/*Reset*/
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+/*formatação comum*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Header*/
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position:bottom;
+}
+.hello {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+}
+.title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+.button-about {
+    width: 220px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #5C4E4E;
+    background-color: #EED6D3;
+    text-align: center;
+    font-weight: bold;
+}
+.button-about:hover{
+    background-color: #E8B4B8;
+}
+
+/*Main*/
+section {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #F9F1F0;
+}
+.title-section {
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 4px;
+    color: #5C4E4E;
+    border-style: dashed;
+    border-color: #E8B4B8;
+    text-align: center;
+}
+
+/*Sobre*/
+.text-sobre {
+    font-size: 20px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
+}
+
+/*Hobbies*/
+.hobbies {
+    display: flex; 
+}
+.img-hobbies {
+    width: 300px;
+    height: 220px;
+    border-radius: 6px;
+}
+.title-hobbies {
+    font-size: 20px;
+    color: #67595E;
+    text-align: center;
+}
+.text-hobbies {
+    font-size: 18px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
+}
+.hobbie-gato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbie-bolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbie-croche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Carreira */
+.text-carreira {
+    font-size: 20px;
+    margin: 4px;
+    padding: 8px;
+    text-align: justify;
+    color: #67595E;
+}
+
+/* Quer saber mais */
+.redes-sociais {
+    text-align: center;
+}
+.redes-sociais-link { 
+    display: inline-flex;   
+    border-radius: 8px;
+    padding: 14px;
+    margin: 0 1rem;
+    background-color: #E8B4B8;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+        height: 50vh;
+    }
+    .img-hobbies {
+        width: 200px;
+        height: 120px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+        height: 50vh;
+    }
+    .button-about {
+        max-height: 20px;
+    }
+    .redes-sociais-link {
+        width: 60px;
+        height: 60px;
+        display: inline-flex;  
+    }
+    .title-section {
+        font-size: 24px;
+        text-align: center;
+    }
+    .text-sobre {
+        font-size: 16px;
+    }
+    .img-hobbies {
+        max-width: 180px;
+        max-height: 120px;
+    }
+    .text-hobbies {
+        font-size: 16px;
+        text-align: left;
+    }
+    .text-carreira {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        height: 50vh;
+    }
+    .title {
+       font-size: 20px;
+    }
+    .button-about {
+        font-size: 16px;
+        padding: 0;
+    }
+    .title-section {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text-sobre {
+        font-size: 14px;
+    }
+    .img-hobbies {
+        display: none;
+    }
+    .text-hobbies {
+        font-size: 14px;
+        text-align: left;
+    }
+    .text-carreira {
+        font-size: 14px;
+    }
+    .redes-sociais-link {
+        max-width: 30px;
+        max-height: 30px;
+        padding: 6px;
+    }
+}
