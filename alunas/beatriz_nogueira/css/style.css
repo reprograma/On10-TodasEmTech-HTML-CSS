@@ -1,0 +1,280 @@
+body {
+    background: url(../img2/fundo\ roxo.png);
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.desenhoimg{
+    display: block;
+
+height: 300px;
+
+max-width: 300px;
+border-radius: 20px; 
+    
+}
+
+.categorias-section {
+    display: flex; 
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 2rem;
+    margin: 50px 10%;
+   
+    
+ }
+
+.musica{
+  
+   width: 500px;
+  
+
+    display: block;
+
+    font-size: 4rem;
+    
+    color: rgb(255, 4, 192);
+}
+
+.falademusica{
+
+    display: block;
+    font-size: 2rem;
+    width: 300px;
+   
+ 
+}
+
+.clique{
+    position: absolute;
+    top: 740px;
+    left: 760px;
+}
+
+.mymusic{
+    
+    position: absolute;
+    top: 799px;
+    left: 700px;
+    border-radius: 20px;
+
+    height: 289px;
+    width: 291px;
+}
+
+.agata{
+
+
+width: 291px;
+font-size: 4rem;
+color: #f104b6;
+}
+
+.agata2{
+    display: block;
+    font-size: 2rem;
+    width: 300px;
+    color: black;
+}
+
+.videodeagata{
+    display: block;
+    height: 311px;
+    border-radius: 20px;
+    margin-top: 49px;
+}
+
+.viagem{
+    width: 291px;
+    font-size: 4rem;
+    color: #f104b6;
+}
+
+.comofoi{
+    display: block;
+    font-size: 2rem;
+    width: 300px;
+    color: black;
+}
+
+.fotoviagem{
+   
+    
+    border-radius: 20px;
+    height: 289px;
+    width: 291px;
+    display: block;
+   
+    
+}
+
+.boneca{
+    margin: 0%;
+
+    border-radius: 20px;
+    height: 289px 
+}
+
+.videofinal{
+    margin-top: 400px;
+    width: 1820px;
+    height: 285px;
+    top: 9000px;
+}
+
+.final{
+margin-left: 100px;
+}
+
+.banner{
+    background: url(../img2/tela1.png);
+    height: 600px; 
+    width: 100%;
+    text-align: center; 
+    
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.banner-titulo {
+    font-size: 5rem;
+    color: rgb(44, 217, 248);
+}
+
+.div-titulo{
+    margin: 3%;
+}
+
+.banner-subtitulo {
+    font-size: 2.3rem;
+    color: rgb(253, 242, 86);
+}
+
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: #7E459B;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sobre-titulo {
+    font-size: 4rem;
+    color: #f104b6;
+}
+
+.sobre-descricao,
+.sobre-habilidades {
+    width: 40%;
+    display: inline-block;
+    list-style: 1.5;
+}
+
+.playlist-categoria{    
+    display: block;
+    max-width: 200px;
+}
+
+.desenhos-categoria{    
+    display: block;
+
+}
+
+.playlist-img{    
+    display: block;
+    height: 311px;
+    border-radius: 20px;
+    margin-top: 49px;
+}
+
+.desenho-img{    
+    display: block;
+    max-width: 200px;
+}
+
+.sobre-descricao-destaque,
+.sobre-descricao-texto,
+.sobre-habilidades-titulo {
+    display: block;
+    font-size: 2rem;
+    width: 300px
+} 
+
+.u-margin-bottom-peq {
+    margin-bottom: 2rem;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+.sobre-habilidades-lista {
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+.sobre-padding-left{
+    padding-left: 10rem;
+    position: absolute;
+    top: 130;
+}
+
+
+
+html {
+    font-size: 10px;
+    /* faz o reset do rem */
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.container {
+    /* max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem; */
+}
+
+.sobre-padding-left {
+    padding-left: 10rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* .redes-sociais{
+
+} */
+
+.redes-sociais-link {
+    display: inline-block;
+    width: 200px;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+}
