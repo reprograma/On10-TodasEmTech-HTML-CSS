@@ -1,0 +1,86 @@
+html {
+  box-sizing:border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #e2d5d5;
+  display: inline;
+  margin: 0;
+  height: 100%;
+  font-family: 'Coda', sans-serif;
+  font-size: 18px;
+  }
+  
+  .container {
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+  }   
+ 
+  .section-container {
+    display: flex;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    flex-flow: wrap;
+    justify-content: center; 
+  }
+  p {
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(15, 78, 43);
+ }
+ 
+  h1 {
+    text-align: center;
+      padding: 32px;
+      margin: 0 0 3em;
+      color: rgb(15, 78, 43); 
+ }
+  
+  h2 {
+    text-align: center;
+    color:rgb(33, 82, 55);
+ }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 78, 43); 
+  }
+
+  li {
+    font-family:sans-serif;
+    color:rgb(199, 93, 17)
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; 
+}
+
+.caixa-header {
+  display: inline
+  align-items: center;
+  background-image: url('../img/foto\ cosmica1.jpg');
+  font-size: 23px;
+  min-height: 200px; 
+}
+
+.parag {
+  padding: 1em;
+}
+
+
+
+    
+
