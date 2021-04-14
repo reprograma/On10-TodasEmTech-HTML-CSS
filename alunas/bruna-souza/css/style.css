@@ -1,0 +1,381 @@
+.body {
+    background-color: rgb(223, 240, 243);
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .cabecalho {
+    background: url('../img/eu--edit.png') no-repeat center center;
+   padding: 50px;
+   background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   flex-direction: column;
+  }
+  
+  .titulo-principal {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 65px;
+    color: white;
+    height: 80vh;
+    padding: 80px;
+    
+  }
+  
+  .sobre-mim {
+    text-align: center;
+    color: black;
+    padding: 30px;
+    font-size: 25px;
+  }
+  
+  .titulo-um-pouco-sobre-mim {
+    font-size: 45px;
+  }
+  
+  .texto-sobre-mim{
+  /*  display: flex;
+    width: auto;
+    text-align: justify;
+    padding: 80px;
+    line-height: 28px;
+    font-size: 26px;
+    font-weight: 300; */
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke-color: #000;
+  }
+  
+  .artigo_sobreMim {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  
+  }
+  
+      .listas {
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+      }
+  
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+  
+    .galeria-imagens {
+        display: flex;
+        text-align: center;
+    }
+  
+    .titulo-galeria {
+        text-align: center;
+        font-size: 45px;
+    }
+  
+    .fotos {
+    background-color: rgb(148, 164, 212);
+       margin: 1.6rem;
+       margin-top: 6rem;
+       margin-bottom: 6rem;
+       border-radius: 3%;
+    }
+  
+    .fotos-img {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        padding: 1.5rem;
+    }
+  
+    .frase {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1cm;
+    }
+  
+    .footer {
+        height: 5rem;
+        text-align: center;
+        background-color: skyblue;
+        color: black;
+        width: 100%;
+    }
+  
+    .footer p {
+        text-align: center;
+        font-size: 20px;
+        padding: 30px;
+        align-items: center;
+        color: black;
+    
+    }
+  
+    .navegacao {
+       /* height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        background-color: #8be3f3;
+        position: fixed;
+        padding-left: 50px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 75px;
+        border-bottom: 2px solid white;
+    }
+  
+    .navegacao__lista {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+  
+    .logo-img {
+        height: 50px;
+        margin: 20px;
+    }
+  
+    .titulo-listas {
+        text-align: center;
+        font-size: 45px;
+    }
+  
+    .minha-foto {
+   /* border-radius: 50%;
+    display: inline-flexbox;
+    position: relative;
+    max-width: 220px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 3rem; */
+    display: flex;
+    width: 300px;
+    border-radius: 25%;
+    padding: 10px;
+    margin-right: 20px;
+    align-items: center;
+    }
+  
+    .titulo-galeria {
+        margin-top: 10px;
+    }
+  
+  .titulo--secundario {
+    padding: 30px;
+    font-size: 35px;
+  }
+  
+   .formulario {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: none;
+        background-color: rgb(2, 18, 73);
+        color: cornsilk;
+   }
+  
+   .estilo_input {
+    width: 30%;
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-left: 35%;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .rotulo--block {
+    display: block;
+    padding-bottom: 1rem;
+    padding: 15px;
+  }
+  
+  .radio {
+    margin: 15px;
+  }
+  
+  .mensagem-para-mim {
+    padding: 15px;
+    display: block;
+  }
+  .formulario > div {
+    padding: 2rem;
+  }
+  
+  label {
+    font-size: 1.6rem;
+  }
+  
+  textarea {
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    min-width: 150px;
+    font-size: 1.6rem;
+    margin-top: 15px;
+  
+  }
+  
+  .red{
+    background-color: red;
+  }
+  
+  .green{
+    background-color: green;
+  }
+  
+  a:hover , button:hover {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 1.2rem;
+  }
+  
+  main a {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  li {
+    font-size: 1.2rem;
+  }
+  
+  ul > li {
+    list-style: none;
+   
+  }
+  
+  @media screen and (max-width: 840px) {
+    .galeria-imagens {
+      margin: 10px;
+      display: block;
+      justify-content: center;
+    
+    }
+  
+    .fotos {
+      background-color: rgb(148, 164, 212);
+         margin: 12.6rem;
+         margin-top: 5rem;
+         margin-bottom: 6rem;
+         border-radius: 3%;
+    }
+
+    .titulo-principal {
+        font-size: 15px;
+        padding: 1rem;
+        margin-block-start: 8px;
+        margin-top: 60%;
+      
+      }
+  }
+  
+  @media screen and (max-width: 650px) {
+    * {
+      font-size: 8px;
+    }
+  
+    .listas {
+      justify-content: center;
+      display: block;
+    }
+  
+    .lista {
+      margin-bottom: 50px;
+    }
+    .formulario {
+      padding: 10%;
+    }
+  
+  .galeria-imagens {
+    margin: 10px;
+    display: block;
+    justify-content: center;
+  }
+  
+  .cabecalho {
+    height: 40vh;
+    width: 100%;
+  
+  }
+  
+  .titulo-principal {
+    font-size: 15px;
+    padding: 1rem;
+    margin-block-start: 8px;
+    margin-top: 60%;
+  
+  }
+  
+  .texto-sobre-mim {
+  display: block;
+  }
+  
+  .artigo_sobreMim {
+    display: block;
+  }
+  
+  
+  .minha-foto {
+    width: 100px;
+    align-items: center;
+    display: inline;
+  
+  }
+  
+  .titulo-um-pouco-sobre-mim {
+    font-size: 25px;
+  }
+  
+  .navegacao {
+    justify-content: space-around;
+  }
+  
+  .footer {
+    max-width: 100rem;
+    height: max-content;
+  }
+  
+  .navegacao__lista {
+    justify-content: space-evenly;
+    width: 300px;
+  }
+  
+  .titulo-listas {
+    font-size: 25px;
+  }
+  
+  .titulo-galeria {
+    font-size: 25px;
+  }
+  
+  }
