@@ -17,326 +17,557 @@ elementos:
 
 
 *{
-    box-sizing: border-box;
-    margin top: 2;
-    margin: 0; 
-    padding: 2;
-    *text-align:left;
-    border-radius: 3px;
+  box-sizing: border-box;
+  margin top: 0;
+  margin: 0; 
+  padding: 0;
+  *text-align:left;
+ /* border-radius: 3px;*/
 
-   
+ 
 
-}
-
-
-p{ 
-color: #ffffff;
-font-size: 25px;
-line-height: 1,5;
-padding: 20px;
-}
-  
-img{
-    width: 50%;
-} 
-
-
-section {
-    
-    margin-top: 5px;
-    padding: 20px;
-    display: block;
-    
-}
-section.section {
-    text-align: center;
-
-}
-
-.strong-black {
-color: black;
-font-style:italic;
-font-style: oblique;}
-
-body {
-    /*height: 100%;*/
-    /*margin: 0;*/
-    background-color: #0000000
-    color: rgb(36, 34, 34);
-    font-family:'Roboto light', sans-serif;
 }
 
 strong {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-family: 'Roboto condensend', sans-serif;
-    
-    padding: 25px;
-   
+  /* font-size: 40px; */
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-ul > li{
-    list-style:none;
+
+body{
+background-image: url("../../CarolSoares/img/BG_1.png");
+color: #596164 ;
+font-family: 'Roboto', sans-serif;
+}
+
+p{color: #ffffff;font-size: 25px;line-height: 1,5;/* padding: 20px; */}
+
+a {
+ text-decoration: none;
+  color: #b0e0e6;
+  font-size: 0.875rem;
+  font-weight: bolder;
+}
+
+main a {
+  color: #333;
+}
+
+a:hover , button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li {
+  font-size: 26px;
+}
+
+ul > li {
+  list-style: none;
+ 
+}
+
+ol > li {
+ text-align: left;
+ padding: 15px;
+ margin-left: 30px;
+}
+
+ol{
+
 }
 
 header {
-   background-image: url(../img/cidade_topo_3.jpg);
-   box-sizing: cover;
-   /*height: 730px;*/
-   /*display; block-size: inherit;*/
-   -webkit-background-size: cover;
-   position: relative;
-   -moz-background-clip: content-box;
-    background-repeat: no-repeat;
-   /*background-size: 1320px;*/
-   /*background-position:absolute;*/
-   width: 100%;
-   /*height: 50vh;*/
-   left: 0;
-   top: 0;
-   /*text-align: center;*/
-   font-family: 'Roboto', sans-serif;
-   font-style: initial;
-   padding-top: 65px;
+      background-image: url(../img/cidade_topo_3.jpg);
+      box-sizing: cover;
+      /*height: 730px;*/
+      /*display; block-size: inherit;*/
+      -webkit-background-size: cover;
+      position: relative;
+      -moz-background-clip: content-box;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 50vh;
+      font-family: 'Roboto', sans-serif;
+      font-style: initial;
+      padding-top: 65px;
+   
+   }
 
+  
+label {
+  font-size: 0.875rem;
 }
 
-h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-}
 
 textarea {
-    width: 300px;
-    height: 100px;
-    border-radius: 3px;
-
-
+max-width: 300px;
+min-width: 180px;
+width: 100%;
+height: 150px;
+border-color:#303030;
+/*min-width: 180px;*/
+border-radius: 3px;
+font-size: 14px;
+padding: 8px;
+margin-top: 5px;
 }
 
+  
 button {
-    padding:10px;
-    background-color: ;
-    border-radius: 3px;
+padding:10px;
+color:#202020;
+min-width:150px;
+border-radius: 3px;
+font-size: 0.875rem;
+     
+  
 }
 
-.titulo {
-    
-    text-align:center;
-    font-size:36px ;
-    padding: inline 5px;
+footer {
+height: auto;
+background-color: #303030;
+color: powderblue;
+color: powderblue;
+text-align: center;
+padding: 20px;
+padding-bottom: 23px;
+       
+}
 
+.navegacao{
+  background-color: #303030;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  }
+  
+
+
+/*.icon {
+  width: 40px;
+  height: 40px;*/
+
+.navegacao__lista {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.imagemMenu {
+  width: 50px;
+  margin-right: 20px;
+  display: none;
 
 } 
 
+.navegacao__lista--menu {
+  display: none;
+}
+
+
+.titulo {
+  
+text-align:center;
+  
+font-size: 36px;
+  
+padding: 10px;
+}
+
+h2#SobreMim {
+font-size: 50px;
+}
+
+h1.cabecalho_titulo.titulo {
+  font-size: 50px;
+} 
+
+.titulo--secundario {
+  font-size: 28px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border:3px dotted rgb(48, 45, 45)
+
+
+}
+
 .cabecalho__titulo {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #fff
-    padding: 55px;
-    text-align: center;
+ 
+font-size: 48px;
+font-family: 'Roboto Condensed', sans-serif;
+  color: #fff
+  padding: 55px;
+  text-align: center;
+}  
+
+.cabecalho__titulo, .navegacao{
+  color: #fff;
 }
 
 
-.cabecalho__conteudo {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 98px;
-    margin: 0 auto;
-    color:#fdfdfd;
-    text-align: center;
-    padding: 75px;
-
+.section {
+margin-top: 5px;
+padding: 20px;
+display: block;
+  
 }
-
-
 
 .artigo__sobreMim {
-display: flex;
-padding:20px;
-align-items: center;
-justify-content: center;
-flex-direction: row-reverse;
-}
 
-.conteudo__sobreMim {
- width: 650px;   
- text-align: left
-}
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap:wrap;
+  }
+  
+  .conteudo__sobreMim {
+   width: 700px;   
+   text-align: left
+  }
+  
 
-
-.listas {
-    padding: 50px;
+  .listaMusicas {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    
+    justify-content: space-between;
+    flex-wrap:wrap;
+  
+  }
+
+  .listaMusicas__item {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    /*flex-wrap:wrap;*/
+    padding: 10px;
+    padding-bottom:inherit;
+    border: 2px dashed black; 
+    border-radius: 5%;
+    margin: 10px;
+  
+  }
+  
+  .listaMusicas__item > img {
+    max-width: 300px;
+    width:100%;
+    height: 250px;
+  
+  }
+  
+  .displaySection{
+      margin: 0 20%;
+      
+  }
+  span{
+    text-align: center;
+  }
+  
+
+section.section {
+  text-align: left;
+
 }
+ 
+
+
+
+body {
+  height: 100%;
+  /*margin: 0;*/
+  background-color: #0000000
+  color: rgb(36, 34, 34);
+  font-family:'Roboto light', sans-serif;
+  background: rgb(253,251,251);
+  background: -moz-linear-gradient(180deg, rgba(253,251,251,1) 0%, rgba(225,228,230,1) 97%, rgba(85,90,92,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(253,251,251,1) 0%, rgba(225,228,230,1) 97%, rgba(85,90,92,1) 100%);
+  background: linear-gradient(180deg, rgba(253,251,251,1) 0%, rgba(225,228,230,1) 97%, rgba(85,90,92,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdfbfb",endColorstr="#555a5c",GradientType=1);
+}
+}
+
+
+strong {
+font-weight: bold;
+font-size: 50px;
+}
+
+
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+}
+
+input{
+font-size: 0.813rem;
+padding: 3px;
+max-width: 300px;
+min-width: 180px;
+margin: 5px;
+text-rendering: auto;
+color: -internal-light-dark(#b0e0e633, 133, 133), #b0e0e6);
+letter-spacing: normal;
+word-spacing: normal;
+text-shadow: lightblue;
+display: inline-block;
+text-align: start;
+appearance: auto;
+background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+-webkit-rtl-ordering: logical;
+cursor: text;
+margin: 2px;
+font: message-box;
+padding: 1px 2px;
+border-width: 2px;
+border-style: inset;
+border-color: -internal-light-dark(#b0e0e6, #b0e0e6);
+border-image: initial;
+
+
+
+
+
+}
+
+.cabecalho__conteudo {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 98px;
+  margin: 0 auto;
+  color:#fdfdfd;
+  text-align: center;
+  padding: 75px;
+  font-size: 48px;
+}
+
+
+
+
+
+/*.listas {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;*/
+  
+.lista div {
+width: 400px;
+display:flex;
+}
+
+
 
 .exemploDisplay {
-    width: 75px;
-    height: 75px;
-    color: #fff;
-    margin: 5px 5px 0 0;
-    /*display: inline-block;*/
+  width: 75px;
+  height: 75px;
+  color: #fff;
+  margin: 5px 5px 0 0;
+  /*display: inline-block;*/
 }
 
 .gray{
-    background-color: lightslategrey;
-
-}
-.lista div {
-    width: 400px;
-    display:flex;
-}
+  background-color: lightslategrey;
 
 
 /*
 .p {    
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #070707;
-    font-size: 16px;
-   /* -moz-background-inline-policy: 100px;
-    padding: 15px;
-    justify-content
-    text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #070707;
+  font-size: 16px;
+ /* -moz-background-inline-policy: 100px;
+  padding: 15px;
+  justify-content
+  text-align: center;
 
 
- }
+}
 
- p{
-     background-color: rgba(63, 147, 180, 0.603);
-     padding: 10px;
-  */   
- }
+p{
+   background-color: rgba(63, 147, 180, 0.603);
+   padding: 10px;
+*/   
+}
 
 
- .p1 {
-    color: #070707;
-    font-size: 26px;
-    text-align: left;
-    padding: 20px;
+.p1 {
+  color: #070707;
+  font-size: 26px;
+  text-align: center;
+  padding: 20px;
+  max-width: 350px;
+ min-width: 350px;
+  
+}
 
-    
- }
+h4{
+   text-align: center;
+
+   
+}
+
+
 
 h2 {
-    
-    font-size: 36px;
-    font-family: 'Roboto Condensed', sans-serif;
-    /*margin-block-start: 0.83em;*/
-    margin: block end 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    
-    
+  
+  font-size: 36px;
+  font-family: 'Roboto Condensed', sans-serif;
+  /*margin-block-start: 0.83em;*/
+  margin: block end 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+  
+  
 }
 
 h3 {
-    display: block;
-    font-family:'Roboto-light', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    padding-top: 20px;
-    
+  display: block;
+  font-family:'Roboto-light', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px;
 }
+
 ul {
-    display: block;
-    list-style-type: none;
-    margin-block-start: 10px;
-    margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 40px;
-    padding-inline-start: 20px;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 10px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 40px;
+  padding-inline-start: 20px;
 }
 
 
 ol {
-    display: block;
-    list-style-type: decimal;
-    margin-block-start: 10px;
-    margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 4px;
-    padding-inline-start: 20px;
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  display: inline-block;
+
 }
 
 .flex-item {
-    background: tomato;
-    padding: 5px;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    
-    line-height: 100px;
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-  }
-
-.displaySection{
-    margin: 0 20%;
-    background-color: rgba(206, 206, 206, 0.788);
-
-}
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
   
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+
 .inlineBlock {
-    display: inline-block;
+  display: inline-block;
 }
 .inline {
-    display: inline;
+  display: inline;
 }
 .block {
-    display: block;
+  display: block;
+  align-items: center;
 }
 
 .red{
-    background-color: red;
+  background-color: red;
 
 }
 .gray{
-    background-color: gray;
+  background-color: gray;
 
 }
 .blue{
-    background-color: blue;
+  background-color: blue;
 
 }
+
+/*.formulario {
+  text-align:center;
+  padding: 100px;
+  display:inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3px;
+  
+  margin: auto;
+
+  
+
+}*/
+
 
 .formulario {
-    text-align:center;
-    padding: 100px;
-    display:inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 3px;
-    
-    margin: auto;
-
-    
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 180px;
 
 }
 
+
 .formulario > div {
-    padding: 50px;
-    display: flex;
-    text-align: center;
-    margin: 20px;
-    border-bottom: lightskyblue;
+  padding: 50px;
+  /*display: block;
+  text-align: center;
+  margin: 20px;
+  border-bottom: lightskyblue;
+  min-width:180px;
+  max-width: 350px;*/
 }
 
 .rotulo--block{
-    display: block;
-    padding: bottom 5px;
+  display: block;
+  padding: bottom 10px;
+  max-width: 350px;
+  width:100%;
+  min-width:150px;
 }
+
+.displayformulário {
+  margin: auto;
+  background-color: #0000001a;
+  display: block;
+  max-width: 300px;
+  min-width:180px;
+  /* width: 100%; */
+  align-items: center;
+  padding: 25px;
+
+}
+
+}
+
+
 .content {
-  padding: 20px;
-  min-height: 100%;
-  margin: 0 auto -50px;
+padding: 20px;
+min-height: 100%;
+margin: 0 auto -50px;
 }
+
+
 .footer{
 border-style: solid;
 border-color: rgba(0,0,0,.1);
@@ -347,3 +578,198 @@ display:inline-block
 }
 
 
+
+.formulario > div {
+  padding: 2rem;
+}
+
+.formularioRotulos {
+  width: 450px;
+
+}
+
+.formularioRotulos > div {
+  margin-right: 2px;
+}
+
+.rotulo--block {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+/* tamanho de tela 650px faça isso - do computador > pro celular */  :-moz-any(4[]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]hjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-05666666666666666666213´5)
+@media screen and (max-width: 650px) {
+  * {
+    font-size: 18px;
+  }
+
+  .listaMusicas {
+    justify-content: center;
+  }
+
+  .formulario {
+    padding: 10%;
+  }
+  .navegacao__lista {
+    display: none;
+  }
+
+  .maeDoMenu {
+    position: relative;
+  }
+
+  .imagemMenu {
+    cursor: pointer;
+    display: block;
+  }
+  .imagemMenu:hover {
+    display: block;
+  }
+
+  .navegacao__lista--menu {
+    position: absolute;
+  }
+
+  .navegacao__lista--menu > li {
+    width:  100%;
+    background-color: black;
+  }
+
+}
+
+/* tamanho de tela com no minimo 650 px faça isso - do celular > pro computador */
+@media (min-width: 650px) {
+
+}
