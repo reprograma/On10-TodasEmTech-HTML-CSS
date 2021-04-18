@@ -1,0 +1,276 @@
+/* formas de valores para cor::after
+1 - nome da cor em inglês
+2 - hexadecimal #000000 - preto
+3 - rgb () - rgb(0,0,0) - preto rgb(255, 255, 255) - branco
+*/
+
+/*especificidade:
+id #
+classes .
+elementos:
+  header > p
+  tags da filha pra mãe
+  p
+  body
+  * - seletor universal - reset da página
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FDE8E9; 
+
+}
+
+.caixa-header {
+display: flex;
+justify-content: center;
+background-image: url('../img/Background.png');
+background-size: cover;
+background-repeat: no-repeat;
+color: #FDE8E9;
+height: 47vh;
+position: relative;
+}
+
+.caixa-header .bg-opacity{
+    background: rgba(122, 61, 122, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5E4064;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    color: #5E4064;
+    font-family:'Mali', cursive;   
+}
+
+.foto_de_perfil{
+    border-radius: 100px;
+    float:right;
+    margin: 2px 4px 0 0;
+    padding: 4px;
+    background-color:#5E4064;
+    border: 1px solid #dbdbdb;
+}
+
+.cabecalho__conteudo {
+    padding-top: 100px;
+    text-align: center;
+    color: #FDE8E9;
+    font-family:'Mali', cursive;
+    font-size: 25px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.sobreMim section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.artigo__sobreMim {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.conteudo__sobreMim {
+    width: 500px;
+    padding-left: 5%;
+    text-align: justify;
+    color: #77507b;
+}
+
+.listas{
+    margin:auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mali', cursive;
+    color: #5E4064;
+    padding: 30px;
+}
+
+.listas ul{
+      list-style-type: none;
+      padding-left: 0;
+}
+
+.listas ul li{
+      margin-top: 7px;
+
+}
+
+.listas ol{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.listas ol li{
+      margin-top: 7px;
+}
+
+.caixa-mae-rede-social{
+      padding: 20px;
+
+}
+
+.caixa-item-rede-social{
+    padding: 20px;
+    text-align: center;
+    background-color:#5E4064;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+}
+
+.linkedin{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/in.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.facebook{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/facebook.png');
+    background-size: 54%;
+    background-repeat: no-repeat;
+    background-position: center;
+   margin: 0 auto;
+}
+
+.github{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/github.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.instagram{
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/instagram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+  
+.link-rede-social{
+    color: white;
+}
+  
+.caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: -40px;
+}
+  
+footer{
+    text-align: center;
+    color: #9d72a1;
+    padding: 30px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+.conteudo-principal{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+.cabecalho__conteudo{
+        width: 600PX;
+        height: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -300PX;
+        margin-top: -130px;
+        text-align: center;
+        padding: 30px;
+    }
+
+img {
+        max-width: 200%;
+    }
+
+h1{
+        word-wrap: break-word;
+    }
+
+.sobreMim{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 25px 40px;
+    }
+
+.conteudo__sobreMim{
+        width: 600px;
+    }
+
+.listas{
+        display: inline;
+    }
+
+.caixa-mae-rede-social {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+.caixa-item-rede-social{
+        padding: 20px;
+        text-align: center;
+        background-color: #770d77;
+        width: 100%;
+        height: 180px;
+        margin-right: 0px;
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+    }
+}
+    
+
+
