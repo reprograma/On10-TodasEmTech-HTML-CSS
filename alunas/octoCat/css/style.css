@@ -14,12 +14,13 @@
     p
     body
     * - seletor universal - reset da página
-*/ 
+*/
+
+
 /* atalhos 
 alt + cima ou baixo - movimenta a linha
 
-*/ 
-
+*/
 
 * {
   box-sizing: border-box;
@@ -29,9 +30,9 @@ alt + cima ou baixo - movimenta a linha
 }
 
 body {
-  background-color: #f9dbbd;
-  color: darkslategray;
-  font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f9dbbd;
+    color: darkslategray;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 p {
@@ -67,7 +68,7 @@ header {
     width: 100%;
     height: 40vh;
     background-color: #fff;
-    text-align: center;    
+    text-align: center;
 }
 
 label {
@@ -129,7 +130,6 @@ footer {
   color: #fff;
 }
 
-
 .cabecalho__conteudo {
     padding: 7.5rem;
 }
@@ -148,7 +148,7 @@ footer {
 }
 
 .conteudo__sobreMim {
-  width: 450px;
+    width: 450px;
 }
 
 .listaMusicas {
@@ -171,30 +171,35 @@ footer {
 }
 
 .displaySection {
-  margin: 0 20%;
+    margin: 0 20%;
 }
 
 .exemploDisplay {
-  width: 75px;
-  height: 75px;
-  color: #fff;
-  margin: 5px 5px 0 0 ;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    margin: 5px 5px 0 0;
 }
+
 .inlineBlock {
-  display: inline-block;
+    display: inline-flex;
+    ;
 }
+
 .inline {
-  display: inline;
+    display: inline;
 }
+
 .block {
   display: block;
 }n
 
-.red{
-  background-color: red;
+.red {
+    background-color: red;
 }
+
 .blue {
-  background-color: blue;
+    background-color: blue;
 }
 .green{
   background-color: green;

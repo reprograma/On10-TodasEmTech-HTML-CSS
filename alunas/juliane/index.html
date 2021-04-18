@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../juliane/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+    <title>Meu Octocat - Juliane Andrade</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navegacao">
+            <a href="/index.html">
+                <img src="../../img-home/logo-reprograma.png" alt="reprograma" />
+            </a>
+            <ul class="navegacao__lista">
+                <li><a href="#sobre_mim_titulo"> Sobre mim </a></li>
+                <li><a href="#trajetoria"> trajetoria </a></li>
+                <li><a href="#faleConosco"> Fale Conosco </a></li>
+            </ul>
+        </nav>
+        <div class="cabecalho">
+            <div class="cabecalho_img">
+                <img class="img_juliane" src="./img/Minha_foto.jpg" onmouseover="this.src='./img/juli.jpg'" onmouseout="this.src='./img/Minha_foto.jpg'">
+            </div>
+            <div class="cabecalho_saudacao">
+                <h1>Hi, girl!!</h1>
+                <h2>Seja bem-vinda!!!</h2>
+                <h3>Sou a Juliane Andrade, e quero contar um pouquinho sobre mim.</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section_sobremim">
+            <h1 id="sobre_mim_titulo"> Quem sou eu?</h1>
+            <article class="article_sobre_mim ">
+                <div class="sobre_mim">
+
+                    <p>Olá!! Eu me chamo Juliane Andrade, mas pode me chamar de Jú. Tenho 26 anos de idade. Sou formada em Ciências Contábeis, e sou amante da tecnologia. Sou uma Pernambucana sonhadora. Sonho bem alto mesmooooo!! Até porque sonhar alto ou
+                        baixo dá o mesmo trabalho, concorda? Mas, não basta ficar só sonhando, temos que que transformar esses sonhos em metas e objetivos e ir atrás de os realizar. E é por cada um dos meus sonhos que eu batalho todos os dias. </p>
+                    <img class="img_meu_octocat" src="./img/my-octocat.png" alt="Foto Octocat">
+                </div>
+            </article>
+        </section>
+        <section id="trajetoria">
+            <h2> Minha trajetória</h2>
+            <article>
+                <p class="minha_trajetoria">Aos 19 anos de idade, passei no vestibular no curso de Ciências contábeis na UFPB, então me mudei para João Pessoa para morar e estudar lá. Foi nessa cidade onde morei durante 6 anos.</p>
+                <p class="minha_trajetoria"> No finalzinho dente período, fui fazer um intercâmbio acadêmico em Lisboa, onde morei durante 6 meses.</p>
+                <p class="minha_trajetoria"> Após estes 6 meses retornei para Paraíba para concluir o meu curso. Mas, confesso: Portugal ganhou meu coração, e um dos meus maiores sonhos é voltar a morar lá!!</p>
+                <p class="minha_trajetoria">Hoje, tento aprender, cada dia mais, um pouco da área da programação, para que futuramente eu consiga migrar de área.</p>
+            </article>
+        </section>
+        <section class="mais_sobre_mim">
+            <h2>Um pouco mais sobre mim</h2>
+            <div class="sonhos_gostos">
+                <div class="sonhos">
+                    <h3>Sonhos e objetivos</h3>
+                    <ul>
+                        <li>Morar fora do país;</li>
+                        <li>Ser uma profissional competente e valorizada no mercado;</li>
+                        <li>Conhecer o mundo;</li>
+                        <li>Ter uma vida longa e com muita saúde.</li>
+                    </ul>
+                </div>
+                <div class="musicas">
+                    <h3>Músicas que mais gosto</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=on7BjvGtsDk" target="_blank">Leandro Borges - Deus e Eu</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=pE-7PnL8dUc" target="_blank">Fernanda Brum - Espírito Santo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=mfqeloc0IO0" target="_blank">Priscilla Alcântara - Girassol</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=ngIImp0twCA" target="_blank">Chico Cesar - Deus me proteja de mim</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=sWhy1VcvvgY" target="_blank">Ana Vilela - Trem-bala</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comidas">
+                    <h3>Comidas Favoritas</h3>
+                    <ul>
+                        <li>Cuscuz</li>
+                        <li>Lasanha</li>
+                        <li>coxinha</li>
+                        <li>Hambúrguer</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <form id="faleConosco" class="formulario">
+                <h1 class="formTitulo">Tem alguma dúvida ou pergunta sobre mim? Me envia!!</h1>
+                <img src="./img/message.png">
+                <div class="formCampos">
+                    <label for="nome"> Seu nome completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui" required>
+                </div>
+                <div class="formCampos">
+                    <label for="idade">Qual a sua idade?</label>
+                    <input type="number" id="idade" name="idade" min="0" placeholder="Informe a sua idade" required>
+                </div>
+                <div class="formCampos">
+                    <label for="email">Qual o seu e-mail?</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui" required>
+                </div>
+                <div class="formCampos">
+                    <label for="telefone">Qual o seu telefone?</label>
+                    <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div class="container-preferencia formCampos">
+                    <label for="preferencia">Você prefere me contactar via e-mail ou whatsapp?</label>
+                    <div class="preferencia">
+                        <div class="opcao_preferencia">
+                            <input type="radio" id="whatsapp" name="preferencia" value="whatsapp">
+                            <label for="whatsapp">Whatsapp</label>
+                        </div>
+                        <div class="opcao_preferencia">
+                            <input type="radio" id="email1" name="preferencia" value="email1">
+                            <label for="email1">E-mail</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-area">
+                    <label for="textarea">Me envie sua dúvida ou pergunta</label>
+                    <textarea></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit" class="green">Enviar</button>
+                    <button type="reset" class="red">Cancelar</button>
+                </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="redes_sociais">
+            <h2>Vem me conhecer melhor nas minhas redes sociais</h2>
+            <div class="redes_sociais_img">
+                <a href="https://www.linkedin.com/in/juliane-andrade-837a05113/" target="_blank" class="redes-sociais__link">
+                    <img class="redes-sociais__img" src="img/in.png" alt="Ícone do Linkedin">
+                    <h3 class="redes-sociais__titulo">Linkedin</h3>
+                </a>
+
+                <a href="https://github.com/julianesas" target="_blank" class="redes-sociais__link">
+                    <img class="redes-sociais__img" src="img/github.png" alt="Ícone do GitHub">
+                    <h3 class="redes-sociais__titulo">GitHub</h3>
+                </a>
+
+                <a href="https://www.instagram.com/julle_andrade/" target="_blank" class="redes-sociais__link">
+                    <img class="redes-sociais__img" src="img/instagram.png" alt="Ícone do Instragram">
+                    <h3 class="redes-sociais__titulo">Instagram</h3>
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copy-texto"> Copyright © Juliane 2021 </p>
+            </div>
+    </footer>
+</body>
+
+</html>
