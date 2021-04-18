@@ -11,8 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <!-- formas de pôr estilo tag <style>, atributo style="", usando <link> externo -->
     <style>
       header p {
@@ -30,14 +28,6 @@
         <li><a href="#comidas"> Comidas </a></li>
         <li><a href="#faleConosco"> Fale Conosco </a></li>
       </ul>
-      <div class="maeDoMenu">
-        <img class="imagemMenu" src="./img/menu.png" alt="menu" />
-        <ul class="navegacao__lista--menu">
-          <li><a href="#sobreMim"> Sobre mim </a></li>
-          <li><a href="#comidas"> Comidas </a></li>
-          <li><a href="#faleConosco"> Fale Conosco </a></li>
-        </ul>
-      </div>
     </nav>
     <header>
       <div class="cabecalho__conteudo">
@@ -73,8 +63,8 @@
         <section >
           <div>
             <h3 class="titulo--secundario">Músicas que gosto:</h3>
-            <div class="listaMusicas">
-              <div class="listaMusicas__item">
+            <ul class="listaMusicas">
+              <li class="listaMusicas__item">
                 <img src="./img/gloria-groove.jpeg" alt="gloria groove" />
                 <p>
                   <a
@@ -83,8 +73,8 @@
                     >gloria grove</a
                   >
                 </p>
-              </div>
-              <div class="listaMusicas__item">
+              </li>
+              <li class="listaMusicas__item">
                 <img src="./img/anavitoria.jpeg" alt="ana e vitoria rindo" />
                 <p>
                   <a
@@ -94,8 +84,8 @@
                     ana vitória</a
                   >
                 </p>
-              </div>
-              <div class="listaMusicas__item">
+              </li>
+              <li class="listaMusicas__item">
                 <img src="./img/megadeath.jpg" alt="imagem da banda">
                 <p>
                   <a
@@ -105,8 +95,8 @@
                     megadeath
                   </a>
                 </p>
-              </div>
-              <div class="listaMusicas__item">
+              </li>
+              <li class="listaMusicas__item">
                 <img src="./img/u2.jpeg" alt="banda aperece com todos fazendo cara de mal">
                 <p>
                   <a
@@ -116,8 +106,8 @@
                     u2
                   </a>
                 </p>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
           <div id="comidas">
             <h3 class="titulo--secundario"> Comidas favoritas (da melhor a menor:)</h3>
@@ -158,27 +148,21 @@
             <label for="email">Email</label>
             <input type="email" required />
           </div>
-          <div class="formularioRotulos">
+          <div>
             <label class="rotulo--block" for="preferencia"
               >Você gosta mais de gatas ou de polvas?</label
             >
-            <div>
-              <input type="radio" id="gatas" name="preferencia" value="gatas" />
-              <label for="gatas">Gatas</label>
-            </div>
-            <div>
-              <input type="radio" id="polvas" name="preferencia" value="polvas" />
-              <label for="polvas">Polvas</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="nenhuma"
-                name="preferencia"
-                value="nenhuma"
-              />
-              <label for="nenhuma">Nenhuma</label>
-            </div>
+            <input type="radio" id="gatas" name="preferencia" value="gatas" />
+            <label for="gatas">Gatas</label>
+            <input type="radio" id="polvas" name="preferencia" value="polvas" />
+            <label for="polvas">Polvas</label>
+            <input
+              type="radio"
+              id="nenhuma"
+              name="preferencia"
+              value="nenhuma"
+            />
+            <label for="nenhuma">Nenhuma</label>
           </div>
           <div>
             <label class="rotulo--block" for="textarea"
