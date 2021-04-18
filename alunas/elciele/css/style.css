@@ -69,7 +69,7 @@ body {
 }
 
 .caixa-header {
-  display: inline
+  display: inline;
   align-items: center;
   background-image: url('../img/foto\ cosmica1.jpg');
   font-size: 23px;

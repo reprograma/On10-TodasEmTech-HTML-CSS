@@ -28,6 +28,7 @@ alt + cima ou baixo - movimenta a linha
 }
 
 body {
+<<<<<<< HEAD:alunas/octoCat/css/style.css
   background-color: #f9dbbd;
   color: darkslategray;
   font-family: 'Noto Sans JP', sans-serif;
@@ -296,3 +297,7 @@ footer {
 @media (min-width: 650px) {
 
 }
+=======
+    background-color: rgb(238, 238, 238);
+}
+>>>>>>> 62422acd4330655b911e1284148702a94db66ddf:alunas/CarolSoares/img/style.css
