@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;    
+}
+
+body{
+    background-color: #D97EC0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+a:hoover, button{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+ul > li{
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+header{
+    background-image: url(../img/ladygaga-header.jpg);
+    background-position-y: 30%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-color: #0F0E12;
+    text align: center;    
+}
+
+img{
+    border-radius: 70px;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    font-size: 1.6rem;
+}
+
+h1{
+    color: #0000;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 1.6rem;
+}
+
+textarea{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #3F2D59;
+}
+
+h3{
+    text-align: center;
+    color: #3F2D59;
+    
+}
+
+h4{
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    min-width: 150px;
+    font-size: 1.6rem;
+    background-color: #3F2D59;
+}
+
+footer{
+    height: 75px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.navegacao{
+    background-color: #3F2D59;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    width: 100%;
+    height: 75px;
+    position: fixed;    
+    bottom: 0;
+}
+.navegacao__lista{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 75px;
+    padding-right: 50px;
+    font-size: 1.6rem;
+    padding-top: 30px;  
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;    
+}
+
+.caixa__musicasefilmes > {
+    font-size: 1.6rem;
+}
+
+.titulo--secundario{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.cabecalho__titulo, .navegacao{
+    color: #fff;
+
+}
+
+.cabecalho__conteudo{
+    padding: 7.5rem;
+}
+
+.section1{
+    padding: 5rem;
+}
+
+.artigo__sobremim{
+    display: flex;
+    padding: 3rem;    
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.conteudo__sobremim{
+    width: 500px;
+    justify-content: space-around;
+    background-color: #F2C9EB;
+    border-radius: 40px;
+    padding: 3rem;
+}
+
+.listaMusicas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+
+}
+
+.listas__Musicaitem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+.listas__Musicaitem > img{
+    max-width: 200px;
+    width: 100%;
+}
+.listas__Musicaitem > p{
+    font-size: 2rem;
+   
+}
+
+.redeslink{
+    justify-content: center;
+    
+}
+.redes-sociais__link {
+    display: inline-block;  
+    justify-content: center; 
+    width: 10%;
+    padding: 1rem 1rem;
+    margin: 4rem 2rem 4rem auto;
+    text-align: center;
+    color: white;
+    border-radius: 4rem;
+}
+.redes-sociais{ 
+    justify-content: center; 
+    text-align: center;    
+}
+
+.formulario{
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+.formulario > div {
+    padding: 2rem;
+}
+.rotulo--block{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 650px){
+    *{
+        font-size: 8px;        
+    }
+
+    .listaMusicas{
+        justify-content: center;
+    }
+
+    .formulario{
+        padding: 20%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 650px){
+    .redes-sociais__link{
+        justify-content: space-around; 
+        padding: 5rem 5rem;
+        margin: 6rem 3rem 6rem auto;
+    }
+
+}
