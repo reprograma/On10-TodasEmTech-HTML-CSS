@@ -1,0 +1,103 @@
+body { 
+    background-color: rgb(196, 241, 245);
+}
+
+
+@media (orientation: landscape) {
+    
+    body { 
+        flex-direction: row;
+    }
+
+}
+
+@media (orientation: portrait)  {
+
+    body { 
+        flex-direction: column;
+    }
+}
+ 
+  a { 
+      text-decoration: none;
+      color: blue;
+  }
+  
+  .titulo {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 300%;
+      text-align: center;
+  }
+  
+  
+  .imagem {
+  
+      width: 30%;
+      height: 30%;
+      padding-right: 3%;
+      margin-left: 33%;
+  
+  }
+  
+  .titulo_descricao {
+      font-family: Georgia, Times, 'Times New Roman', serif;
+      font-size: 220%;
+      text-align: center;
+      column-width: 50%;
+  
+  }
+  
+  .titulo-lista {
+      font-size: 140%;
+  }
+  .curiosidade {
+      font-size: 140%;
+      columns: 2;
+      text-align: justify;  
+  }
+  
+  .musicas { 
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 1%;
+    flex-wrap: wrap;
+  }
+  
+  .item { 
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border: 2px solid rgb(32, 145, 251);
+    border-radius: 5%;
+  }
+  
+  .movie {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 2px solid rgb(32, 145, 251); 
+    border-radius: 5%;
+  }
+  
+  .filmes{ 
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
