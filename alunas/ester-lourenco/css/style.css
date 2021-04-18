@@ -15,7 +15,7 @@ body {
   background: var(--amarela);
 }
 .banner {
-  background: url(./img/natureza.png) center no-repeat;
+  background: url(../img/natureza.png) center no-repeat;
   height: 90vh;
   text-align: center;
   padding-top: 10rem;
