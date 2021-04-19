@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    background-color:#D7D5F0;
+    color: #900C3F;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  header {
+    background-image:url(../img/456a67cc-154b-4a82-ae1f-297290ed3720.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 40vh;
+    background-color: #ffff;
+    text-align: center;    
+  }
+
+  header p {
+    color: rgb(255, 225, 225);
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+  }
+  
+  .cabecalho__titulo {
+    color: rgb(255,255,255);
+
+  }
+  
+  
+  .cabecalho__conteudo {
+    color: aqua;
+    padding: 75px;
+  }
+  
+  .section {
+    padding: 3%;
+  }
+  
+  /*.artigo__sobreMim{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }*/
+  
+  .conteudo__sobreMim {
+    width: 60%;
+    display: flex;
+    padding: 5%;
+    margin-top: -20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    color: #900C3F;
+  }
+
+  
+  .bancos ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: #C70039;
+  }
+
+  .economia li{
+    padding-top: 2px;
+  }
+
+  .listas {
+    padding: 10%;
+    display: flex;
+    justify-content:space-between;
+  }
+  .listas h3{
+     margin-bottom: 2%;
+  }
+
+  
+  .footer p{
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+    margin:-3%;
+  }  
+
+  @media screen and (max-width: 902px) {
+    .titulo{
+      font-size:30px;
+    }
+    
+    .section > .listas{
+      flex-wrap: wrap;
+    }
+
+    .bancos{
+      margin-left:30%;
+      margin-bottom: 2%;
+    }
+    
+    
+  }
+
+  
+  .gallery-container {
+    display: flex;  
+    width: 30%;
+    position: relative;
+    /*margin: 0,5%;*/
+    
+  background: #333;
+    padding: 2px;
+  }
+    @media (min-width: 380px) {
+        .gallery-container {
+          width: 380px;
+          margin-left: 60%;
+        }
+    }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.1);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .imgslide {
+    width: 100%;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  @media (max-width: 768px) {
+    .numbertext {
+      top: 15px;
+    }
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}}
+
+  
+
+
