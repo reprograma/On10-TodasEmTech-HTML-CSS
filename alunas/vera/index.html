@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>octoCat!</title>
+  <link href="./css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <div class="header__content">
+        <h1>Nunca desista</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-content">
+          <div class="section-content__about-me">
+            <h2>Sobre mim</h2>
+
+            <p>Me chamo Vera, sou de Manaus, capital do estado do Amazonas, nasci no dia 02 de abril de 1993. Tenho uma
+              filha chamada Bianca, nascida no dia 25 de dezembro de 2019, o maior tesouro da minha vida. Cheguei a
+              refazer esse texto algumas vezes, pois foi uma semana difícil, mas a mensagem principal que quero passar
+              aqui, é nunca desistir.</p>
+
+            <h3>Por que não desistir quando isso parece ser a solução mais fácil?</h3>
+            <p>Depois de todas as dificuldades que passamos, quando olhamos para trás e notamos o quanto a gente já
+              avançou, a sensação é muito boa. Nunca se compare com seu ou sua colega que aprendeu mais rápido ou
+              consegue entregar os exercícios e atividades antes que você. Só você sabe sua realidade, só você sabe onde
+              seu sapato aperta. Se ame mais, note que em comparação ao início da jornada, você sabia menos do que sabe
+              hoje. Vá a passos de tartaruga, de formiga, mas vá. Se você acordou e é um daqueles dias que já é uma
+              vitória levantar da cama, pegue leve consigo mesma. Escute sua música favorita, ou aquela música que te
+              faz sorrir, ou veja vídeos de gatinhos e cachorrinhos brincando. Cercar seu dia com coisas e notícias
+              felizes, leves. Mas se quiser chorar, chore, chore até se sentir mais leve, ou até sentir que não há mais
+              lágrimas para chorar. Se permita, mas sempre erga a cabeça no final, pois você é a pessoa mais importante
+              do seu mundo. Se ame infinitamente.</p>
+            <h4>No final, tudo vale a pena e o orgulho pelo o que a gente se torna é ainda maior</h4>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section__playlist">
+
+          <div class="section__playlist-title-subtitle">
+            <h1>Playlist</h1>
+            <p>Essa playlist foi feita em conjunto com algumas das mulheres da turma 10 de Front End da Reprograma.
+              Perguntei sobre músicas que as faziam se sentir bem para que pudesse colocar aqui</p>
+          </div>
+          <div class="section__playlist-videos">
+            <iframe width="200" height="130" src="https://www.youtube.com/embed/nbXgHAzUWB0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+            <iframe width="200" height="130" src="https://www.youtube.com/embed/Wmc8bQoL-J0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+            <iframe width="200" height="130" src="https://www.youtube.com/embed/J91ti_MpdHA"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+            <iframe width="200" height="130" src="https://www.youtube.com/embed/PTDgP3BDPIU"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+              <iframe width="200" height="130" src="https://www.youtube.com/embed/BNMKGYiJpvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe width="200" height="130" src="https://www.youtube.com/embed/D67lR7Qy_wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      <section>
+        <form id="faleConosco" class="formulario">
+          <h2 class="titulo--secundario">Fale comigo humana</h2>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="inputNome" placeholder="nome" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" required />
+          </div>
+          <div>
+            <label class="rotulo--block" for="preferencia"
+              >Você gosta mais de gatas ou de polvas?</label
+            >
+            <input type="radio" id="gatas" name="preferencia" value="gatas" />
+            <label for="gatas">Gatas</label>
+            <input type="radio" id="polvas" name="preferencia" value="polvas" />
+            <label for="polvas">Polvas</label>
+            <input
+              type="radio"
+              id="nenhuma"
+              name="preferencia"
+              value="nenhuma"
+            />
+            <label for="nenhuma">Nenhuma</label>
+          </div>
+          <div>
+            <label class="rotulo--block" for="textarea"
+              >Deixe uma mensagem para mim :)</label
+            >
+            <textarea></textarea>
+          </div>
+          <div>
+            <button type="submit" class="green">Enviar</button>
+            <button type="reset" class="red">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+
+</html>
