@@ -1,0 +1,439 @@
+*{
+  box-sizing: border-box; /*OK*/
+  margin: 0; /*OK*/
+  padding: 0; /*OK*/
+  font-size: 10px; /*RESPONSIVIDADE*/
+}
+a {
+  text-decoration: none; /*OK*/
+  font-size: 1.6rem; /*OK*/
+}
+body{
+  font-family: 'Inter', sans-serif; /*OK*/
+  background-color:#9ACFDD; /*OK*/
+}
+
+p { 
+  font-size: 1.6rem; /*OK*/
+}
+li {
+  font-size: 1.6rem; /*OK*/
+}
+
+/*-------MENU-------*/
+.header{
+  align-items: center;
+  background-color:#9ACFDD;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 15vh; 
+}
+.menuNormal{
+  display: flex;
+}
+.menuNormal li{
+  margin-left: 20px; 
+}
+.menuNormal li a{
+  display: block;
+  padding: 10px;
+  color:white;
+}
+.menu-lista{
+  margin-top: 18px;
+}
+.reprograma{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-top: 0 
+}
+.github{
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+.reprograma:hover,
+.github:hover,
+button:hover {
+  transform: translate( 0, -10px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*----- TEST , BANNER-----*/
+
+.flex-banner{
+  background-image: url(../img/night-Copia.jpg);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px; /* 100% fica do mesmo jeito*/
+  margin: 0 auto;
+  height: 70vh; 
+}
+.flex-banner > div{
+flex: 1 1 200px;
+margin: 10px;
+align-items: center;
+}
+
+/*-----TEST, FILMES*/
+
+.flex-filmes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px; 
+  margin: 0 auto;
+  
+}
+.flex-filmes > div{
+flex: 1 1 200px;
+margin: 10px;
+
+}
+
+.section-filmes{
+  background-color: #FAF566;
+}
+
+/*----- BANNER-----*/
+.banner{
+  background-image: url(../img/night-3078326.jpg);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;  
+  width: 100%;
+
+
+}
+.titulo__principal{
+  height: 300px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+}
+h1{
+  margin-top: 50px;
+  font-size: 2.8em;
+  color: black;
+  
+  
+}
+.paragrafo-principal{
+  font-size: 2.2em;
+ 
+}
+
+.section1{
+background-color: #FAF566;
+}
+
+/*-----TEST, QUEM SOU EU*/
+
+.flex-quemSou{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px; 
+  margin: 0 auto;
+  
+}
+.flex-quemSou > div{
+flex: 1 1 200px;
+margin: 10px;
+ 
+}
+.img-cacto{
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.img-fotinha{
+  border-radius: 50px;
+}
+.paragrafo-sobreMim{
+  text-align: justify;
+  margin: 2px;
+  
+}
+.destaque{
+  font-size: 1.4em; 
+}
+
+
+
+
+/*----- SOBRE MIM -----*/
+.section__sobre-mim{
+  background-color: #FAF566;
+}
+.sobre-mim{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.texto__sobre-mim{
+  text-align: justify;
+  padding: 45px;
+  font-size: 1.4em;
+}
+.img__perfil{
+  border-radius: 1000px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.titulo__sobre-mim{
+  text-align: center;
+  padding: 35px;
+  font-size: 2em;
+  background-color:#9ACFDD;
+}
+.img__fundo{
+  width: 220px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+/*----- O que gosto?, FAZER -----*/
+.meus-gostos{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #FAF566;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.titulo__meu-gosto{
+  text-align: center;
+  padding: 35px;
+  font-size: 1.5em;
+  background-color:#9ACFDD;
+}
+.lista__fazer{
+  padding: 15px ;
+}
+
+/*----- O que gosto?, MUSICAS -----*/
+
+a:hover {
+  background-color:#9ACFDD;
+  text-decoration: underline;
+}
+ a:visited { 
+   color: purple 
+}
+
+/*----- O que gosto, FILMES  -----*/
+.filmes-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #FAF566;
+  padding: 20px;
+  grid-auto-flow: column;
+}
+.filmes{
+  border:#9ACFDD groove; 
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  color: purple ;
+  font-size: large;
+}
+.filmes__img{
+  width: 200px;
+  margin-top: 20px ;
+  border-radius: 10px;
+}
+.filme2,
+.filme6 {
+  height: 250px;
+}
+
+ /*----- GALERIA  -----*/
+.galeria-container{
+  display: grid;
+  grid-template-columns: 500px 450px 50px;
+}
+.galeria__img{
+  width: 500px;
+  height: 400px;
+  border: 20px inset#FAF566;
+}
+.galeria3{
+  width: 399px;
+  height: 400px;
+}
+.fala{
+  background-color: #D90B1C;
+}
+
+
+/*----- TEST, GALERIA-----*/
+.flex-galeria{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.flex-galeria > div{
+/*flex: 350px 200px 200px;*/
+margin: 10px
+}
+.section-galeria{
+  background-color: #FAF566;
+}
+
+.galeria__img-ajuste{
+  border: 10px inset#9ACFDD;
+}
+
+.fami1, 
+.fami2{
+  width: 250px;
+  height: 200px;
+}
+.fami4{
+  width: 250px;
+  height: 180px;
+}
+
+
+
+
+/*----- FORMULÁRIO -----*/
+
+.formulario {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FAF566;
+}
+.caixa-form{
+  border: 3px dotted #D90B1C;
+  height: 100%;
+}
+input{
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #9ACFDD;
+  min-width: 150px;
+  font-size: 1.6rem;
+  margin: 20px;
+}
+.btn1{
+  background-color: #21ED42;
+  color: #262626;
+}
+
+.btn2{
+  background-color: tomato;
+}
+
+/*----- CONTATO -----*/
+
+.img__redes{
+  width: 200px;
+  height: 200px;
+  
+}
+.midias-sociais{
+  background-color: #FAF566;
+}
+.midias-sociais__container{
+  display: flex;
+  justify-content: space-between;
+}
+.midias-sociais__container-link{
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+/*-------CORPO - FLEXBOX------*/
+.flex-contato{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+
+}
+.flex-contato > div{
+
+margin: 10px;
+}
+
+
+/*------- GIF ------*/
+
+.vou-indo{
+  width: 100%;
+  background-color:#9ACFDD;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3em;
+  font-family: 'Dela Gothic One', cursive;
+}
+.artigo__gif{
+  width: 200px;
+  height: 200px;
+}
+
+/*----- FOOTER -----*/
+footer {
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+  }
+  footer .endereco,
+  .endereco p {
+    color: #262626;
+    font-size: 0.9em;
+    text-align: center;
+  }
+ 
+/*-----RESPONSIVIDADE -----*/
+
+@media (max-width: 650px) {
+  * {
+    font-size: 8px;
+  }
+
+  .listaMusicas {
+    justify-content: center;
+  }
+
+  .formulario {
+    padding: 10%;
+  }
+}
+
+/*----------------------------------------------------*/
+
