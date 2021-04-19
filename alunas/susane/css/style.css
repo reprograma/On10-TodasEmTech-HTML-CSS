@@ -1,0 +1,175 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #79b0cf; 
+  color: darkslategray;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul > li {
+  list-style: none;
+}
+
+header {
+    background: url(../img/signo-gemeos.jpg);
+    background-size: contain;
+    width:100%;
+    height: 40vh;
+    background-color: #fff;
+    text-align: center;    
+}
+
+h1 {
+  
+  color:rgb(100, 50, 255);
+
+}
+s
+.titulo {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.cabecalho__titulo {
+  color: #fff;
+  text-align-last: auto;
+}
+
+
+.cabecalho__conteudo {
+    padding: 75px;
+}
+
+.section {
+  padding: 50px;
+}
+
+.artigo__sobreMim{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.conteudo__sobreMim {
+  max-width: 640px;
+  width: 450px;
+  text-align:auto;
+}
+
+.listas {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align-last: auto;
+}
+
+.displaySection {
+  margin: 0 20%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.redes-sociais__link {
+    display: inline-table;
+    width: auto;
+    background-color: #f54251;
+    padding: 2rem 0;
+    margin: 0px 2rem;
+    text-align: center;
+    color: rgb(236, 227, 227);
+}
+
+.redes-sociais_img, .redes-sociais_titulo {
+  margin-bottom: .5rem;
+}
+
+.footer__copy-texto {
+  color: #e25353;
+  font-weight: lighter;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+/*Responsividade*/
+
+@media
+   (max-width:800px){
+    .listas{
+    text-align:center;
+    display:flex; 
+    flex-direction:column;
+    }
+
+    .Comidas {
+      margin-top:2rem;
+    }
+
+    .paragrafo_sobreMim{
+    padding-left: 70px;
+    padding-right: 40px;
+    }
+
+    header {
+      background: url(../img/signo-gemeos.jpg);
+      background-size: contain;
+      width:100%;
+      height: 40vh;
+      background-color: #fff;
+      text-align: center;    
+    }
+
+   }
+@media 
+  (max-width: 640px){ss
+  .menu {
+     width: 100%;
+     padding: 3px;
+  }
+  
+  .menu ul {
+     float: left;
+     font-size: 0.8em;
+  }
+  
+  .artigo__sobreMim{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  .menu li:first-child {
+     margin-left: 0;
+  }
+
+  img {
+    max-width: 100%;
+    padding: 3px;
+  }
+
+  .navegacaolista{
+    display: flex
+ 
+  }
+
+  .paragrafo_sobreMim{
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+
+  header {
+    background: url(../img/signo-gemeos.jpg);
+    background-size: contain;
+    width: auto;
+    margin-left: 40px; 
+  }
+
+  }
