@@ -57,6 +57,28 @@ li {
   font-size: 1.6rem;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+main a {
+  color: #333;
+}
+
+a:hover , button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+li {
+  font-size: 1.6rem;
+}
+
 ul > li {
   list-style: none;
  
