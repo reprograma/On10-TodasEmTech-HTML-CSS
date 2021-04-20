@@ -1,147 +1,159 @@
 /* resetando o comportamento padrão */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    transition: 0.8s;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.8s;
 }
 
 a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 ul li {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    background: #7E459B;
+  background: #7e459b;
 }
- /* barra de navegação */
+/* barra de navegação */
 .navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7E459B;
-    height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7e459b;
+  height: 75px;
 }
 
 .NavBar__img {
-    display: block;
-    max-height: 50px;
-    margin: 0 3rem;
-    transition: 0.8s;
+  display: block;
+  max-height: 50px;
+  margin: 0 3rem;
+  transition: 0.8s;
 }
 
 .NavBar__img:hover {
-    max-height: 55px ;
+  max-height: 55px;
 }
 
 .navBar__lista {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navBar__itemLista {
-    max-height: 100%;
-    color: #ffffff;
-    font-size: 21px;
-    padding: 20px;
+  max-height: 100%;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 20px;
 }
 
- /* header ou cabeçalho da página */
- .cabecalho {
-    background: url(https://media.giphy.com/media/Qs1pr8WtDWb5t3uULI/giphy.gif) no-repeat center;
-    background-color: #fff;
-    background-size: contain;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    border-bottom: 10px solid #000;
- }
+/* header ou cabeçalho da página */
+.cabecalho {
+    background: url(../alunas/talitacarvalho/img/arvore-da-inclusao.jpg) top right, url(../alunas/jaqueline/img/mar.jpg)
+ center top , url(../alunas/vera/img/girassol.jpg) bottom left, url(../alunas/dandarasousa/img/banner-bg-2.png) bottom right, url(../alunas/joseane/img/garotasreprograma.png) top left;
+  background-color:  #aab1b8; 
+  background-size: 15%, 45%, 45%, 60%, 20%;
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid #000;
+}
 
- .cabecalho__titulo {
-    color:#892d9c;
-    text-align: center;
- }
+.cabecalho__titulo {
+  color: #000;
+  text-align: center;
+  font-size: 45px;
+}
 
- /* sessão de alunas */
- .alunasSection {
-    display: flex; 
-    justify-content: space-around;
-    flex-flow: row wrap;
-    padding: 2rem;
-    margin: 50px 10%;
-    background: #ffffffbb;
-    border-radius: 10px;
-    border: 2px solid black;
- }
+/* sessão de alunas */
+.alunasSection {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 2rem;
+  margin: 50px 10%;
+  background: #ffffffbb;
+  border-radius: 10px;
+  border: 2px solid black;
+}
 
- .alunaBox {
-    padding: 20px;
- }
- 
+.alunaBox {
+  padding: 20px;
+}
 
- .alunaImg {
-    display: block;
-    border-radius: 5px;
-    max-width: 200px;
-    transition: 0.5s;
- }
- .alunaImg:hover {
-    max-width: 210px;
- }
+.alunaImg {
+  display: block;
+  border-radius: 5px;
+  max-width: 200px;
+  transition: 0.5s;
+}
+.alunaImg:hover {
+  max-width: 210px;
+}
 
- .alunaName {
-    text-align: center;
-    font-size: 1.3rem;
+.alunaName {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+  color: #892d9c;
+}
+
+/* footer ou rodapé da página */
+.rodape {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: white;
+}
+
+.rodape-span {
+  font-size: 1.1rem;
+}
+
+.rodape-span:hover {
+  font-size: 1.3rem;
+  color: #7e459b;
+}
+
+@media screen and (max-width: 700px) {
+  .navBar__itemLista {
+    padding: 0;
+  }
+
+  .alunasSection {
+    margin: 50px 1%;
+    padding: 1rem;
+  }
+
+  .alunaBox {
     padding: 10px;
-    color:#892d9c;
- }
+  }
 
-  /* footer ou rodapé da página */
- .rodape {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
-    color: white;
- }
+  .alunaImg {
+    max-width: 130px;
+  }
 
- .rodape-span {
-    font-size: 1.1rem;
- }
+  .cabecalho {
+    background-size: 0, 100%, 100%, 100%, 0%;
+    height: 50vh;
+  }
+  .cabecalho__titulo {
+      font-size: 28px;
+  }
+}
 
- .rodape-span:hover {
-    font-size: 1.3rem;
-    color: #7E459B;
- }
 
- @media screen and (max-width: 700px) {
-    .navBar__itemLista {
-        padding: 0;
-    }
-
-    .alunasSection {
-        margin: 50px 1%;
-        padding: 1rem;
-    }
-
-    .alunaBox {
-        padding: 10px;
-    }
-
-    .alunaImg {
-        max-width: 130px;
-    }
- }
