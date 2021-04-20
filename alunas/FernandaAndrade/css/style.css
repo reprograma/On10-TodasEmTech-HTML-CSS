@@ -1,0 +1,28 @@
+body{
+    background-color:#023047 ;
+    display: block;
+    font-family: 'Concert One', cursive;
+}
+
+header{
+    background-image: url(../img/yellowbanner.jpg);
+    background-size: contain;
+    background-color: #FFE8D6;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    color: #023047;
+
+}
+
+p{
+    color: white;
+}
+.cabecalho__conteudo{
+    padding: 70px;
+    margin: 0 auto;
+    
+
+}
