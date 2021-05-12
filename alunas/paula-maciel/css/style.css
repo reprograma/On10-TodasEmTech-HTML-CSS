@@ -1,59 +1,54 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0 ;
-  }
-  
-  html {
+}
+html {
     height: 100%;
-  }
-
-  h1 {
-
+}
+h1 {
     color: transparent;
     font-size: 0%;
     
-  }
-
-  h3 {
-
+}
+h3 {
     text-align: center;
     font-size: 32px;
     background-color: #EB4FD2;
     margin: 10px;
-  }
-  .image-sidebar{
-      margin-bottom: 0px;
-  }
-  a{
+}
+a{
     text-decoration: none;
-  }
-  
-  .caixa-header {
-    align-items: center;
+}
+
+/*====== MOBILE FIRST ======*/
+@media screen and (min-width: 320px) {
+
+.caixa-header {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-around;
     background-image: url('../img/capa-bg-padumaciel.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    color: #f2a2c4;
-    height: 80vh;
-  }
-  
-  .btn-branco{
+    height: 8em;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.btn-branco{
     background-color: #F08514;
     color: white;
+    font-size: 8px;
     text-align: center;
-    font-weight: bold;
-    padding: 15px;
-    width: 180px;
-    border-radius: 80px;
-  }
+    padding: 3px;
+    width: 60px;
+    border-radius: 40px;
+}
+
 .efeito{ 
     border: none;
     color: white;
@@ -74,66 +69,65 @@
 .efeito-1:hover{
     background: #f2a2c4
 }
+
 /*====== SECAO DE CONTEUDO ======*/
 
 h2 {
-    font-size: 32px;
+    font-size: 14px;
     background-color: #5D00AF;
     color: #f2a2c4;
-    width: 675px;
     text-align: center;
-    padding: 5px;
-    margin: 0px 0px;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 0em 1.5em;
 
 }
 .caixa-secao-conteudo{
-margin-top: 40px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+margin-top: 10px;
+display: relative;
 }
 .sobre-mim-sidebar{
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
+    margin-top: 1px;
 }
 .classe-somente-conteudo{
+    display: relative;
+}
+.btn {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .btn-roxo{
-    padding: 15px;
+    padding: 0.7em;
     width: 190px;
-    border-radius: 80px;
+    border-radius: 50px;
     color: white;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 .caixa-sidebar{
-    margin-bottom: 50px;
+    margin: 0.1em 1.5em 0.5em 1.5em;
     padding: 25px;
     border-radius: 10px;
     background-color: #F08514;
-    width: 300px;
     color: white;
 }
+.image-sidebar {
+    background-image: url("../img/imagem-sidebar.png");
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    background-repeat: no-repeat;
+}
 .caixa-sobre-mim{
-    width: 50%;
+    width: 100%;
 }
 .caixa-texto-sobre-mim{
-    margin-bottom: 40px;
-    display: flex;
-    align-items: initial;
+    padding: 0.3em 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
 }
-.caixa-lista-sobre-mim{
-    width: 20%;
-    margin-left: 60px;
-    color: #770d77;
-}
-.caixa-lista-sobre-mim-2{
-    width: 20%;
-    margin-left: 10px;
-    color: #770d77;
-}
-
 .container {
     height: 25px;
     background-color: #FFFFFF;
@@ -141,14 +135,13 @@ justify-content: center;
     position: relative;
 }
 .container .progress-bar{
-   position: absolute;
-   height: 100%;
-   background-color: #f2a2c4;
-   margin-bottom: 5px;
-   border-radius: 13px;
-   width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #f2a2c4;
+    margin-bottom: 5px;
+    border-radius: 13px;
+    width: 100%;
 }
-
 .container-50 {
     height: 25px;
     background-color: #FFFFFF;
@@ -156,44 +149,281 @@ justify-content: center;
     position: relative;
 }
 .container-50 .progress-bar-50{
-   position: absolute;
-   height: 100%;
-   background-color: #f2a2c4;
-   margin-bottom: 5px;
-   border-radius: 13px;
-   width: 50%;
+    position: absolute;
+    height: 100%;
+    background-color: #f2a2c4;
+    margin-bottom: 5px;
+    border-radius: 13px;
+    width: 50%;
 }
-
 .skills {
     text-align: center;
     font-weight: bold;
 }
-
-/* ==== redes sociais ==== */
-
-.caixa-item-rede-social{
-    text-align: center;
-    background-color: #770d77;
-    width: 180px;
-    height: 180px;
-    margin-right: 40px;
-    padding: 20px;
-    margin-top: 50px;
-}
-.lista-habilidades{
-    color: white;
-}
-.caixa-mae-rede-social{
-    display: flex;
-    justify-content: center;
-}
-.link-rede-social{
-    color: white;
-}
-footer{
+footer {
     text-align: center;
     color: white;
     background-color: #5D00AF;
-    padding: 50px;
+    padding: 25px;
     margin-top: 25px;
+}
+}
+
+/*====== TABLET ======*/
+
+@media screen and (min-width: 768px) {
+
+.caixa-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/capa-bg-padumaciel.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15em;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+.btn-branco{
+    background-color: #F08514;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    padding: 3px;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.efeito{ 
+    border: none;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 80px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+.efeito-1{
+    background: #5D00AF;
+    color: white;
+}
+.efeito-1:hover{
+    background: #f2a2c4
+}
+
+/*====== SECAO DE CONTEUDO ======*/
+h2 {
+    font-size: 14px;
+    background-color: #5D00AF;
+    color: #f2a2c4;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 0em 1.5em;
+}
+.caixa-secao-conteudo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sobre-mim-sidebar{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+}
+h3 {
+    text-align: center;    
+    font-size: 22px;
+    background-color: #EB4FD2;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+.classe-somente-conteudo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn-roxo{
+    padding: 0.7em;
+    width: 190px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.caixa-sidebar{
+    margin: 0.1em 1.5em 0.5em 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F08514;
+    color: white;
+    width: 15em;
+}
+.image-sidebar {
+    background-image: url("../img/imagem-sidebar.png");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.caixa-sobre-mim{
+    width: 70%;
+}
+.caixa-texto-sobre-mim{
+    padding: 0.3em 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+.container {
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    position: relative;
+}
+.container .progress-bar{
+    position: absolute;
+    height: 100%;
+    background-color: #f2a2c4;
+    margin-bottom: 5px;
+    border-radius: 13px;
+    width: 100%;
+}
+.container-50 {
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    position: relative;
+}
+.container-50 .progress-bar-50{
+    position: absolute;
+    height: 100%;
+    background-color: #f2a2c4;
+    margin-bottom: 5px;
+    border-radius: 13px;
+    width: 50%;
+}
+.skills {
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #5D00AF;
+    padding: 25px;
+    margin-top: 25px;
+}
+}
+
+/*====== DESKTOP ======*/
+
+@media screen and (min-width: 1280px) {
+
+.caixa-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/capa-bg-padumaciel.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25em;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    margin-bottom: 3em;
+}
+
+.btn-branco{
+    background-color: #F08514;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    border-radius: 40px;
+}
+
+/*====== SECAO DE CONTEUDO ======*/
+
+h2 {
+    font-size: 14px;
+    background-color: #5D00AF;
+    color: #f2a2c4;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 0em 1.5em;
+}
+.caixa-secao-conteudo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sobre-mim-sidebar{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+}
+h3 {
+    text-align: center;    
+    font-size: 22px;
+    background-color: #EB4FD2;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+.classe-somente-conteudo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn-roxo{
+    padding: 0.7em;
+    width: 190px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.caixa-sidebar{
+    margin: 0.1em 1.5em 0.5em 0em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F08514;
+    color: white;
+    width: 18em;
+}
+.image-sidebar {
+    background-image: url("../img/imagem-sidebar.png");
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.caixa-sobre-mim{
+    width: 60%;
+}
+.caixa-texto-sobre-mim{
+    padding: 0.3em 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
 }
